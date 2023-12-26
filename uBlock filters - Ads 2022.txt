@@ -7616,7 +7616,12 @@ trxking.xyz##+js(set, blurred, false)
 ||dcs-mcdn.mp.lura.live/prod/*$xhr,3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15259
+!#if cap_html_filtering
+google.com##^[data-profile-url-path^="/localservices"]:has-text(/google screened/i)
+google.com$$[data-profile-url-path^="/localservices"]:has-text(/google screened/i)
+!#endif
 google.com##[data-profile-url-path^="/localservices"]:has-text(/google screened/i)
+
 
 ! https://github.com/uBlockOrigin/uAssets/issues/15275
 cryptofenz.xyz##+js(aeld, load, adblock)

@@ -19061,7 +19061,12 @@ rome2rio.com$$#alert-banner
 !#endif
 rome2rio.com###alert-banner
 
+!#if cap_html_filtering
+youtube.com##^#alert-banner > .ytd-browse > .yt-alert-with-actions-renderer
+youtube.com$$#alert-banner > .ytd-browse > .yt-alert-with-actions-renderer
+!#endif
 youtube.com###alert-banner > .ytd-browse > .yt-alert-with-actions-renderer
+
 !#if cap_html_filtering
 supermicro.com##^#alert-container
 supermicro.com$$#alert-container
@@ -20850,7 +20855,12 @@ pacesuite.com$$#notification-cont
 !#endif
 pacesuite.com###notification-cont
 
+!#if cap_html_filtering
+youtube.com##^#notification-footer
+youtube.com$$#notification-footer
+!#endif
 youtube.com###notification-footer
+
 !#if cap_html_filtering
 cnn.com##^#notification-legal
 cnn.com$$#notification-legal
@@ -20893,7 +20903,12 @@ adverts.ie,boards.ie,dailyedge.ie,did.ie,the42.ie,thejournal.ie$$#notify-contain
 !#endif
 adverts.ie,boards.ie,dailyedge.ie,did.ie,the42.ie,thejournal.ie###notify-container
 
+!#if cap_html_filtering
+twitch.tv##^#noty_bottomCenter_layout_container
+twitch.tv$$#noty_bottomCenter_layout_container
+!#endif
 twitch.tv###noty_bottomCenter_layout_container
+
 !#if cap_html_filtering
 international-friends.net##^#noty_bottom_layout_container
 international-friends.net$$#noty_bottom_layout_container
@@ -21770,7 +21785,12 @@ tatsubuilder.com$$#tatsu-header-container
 !#endif
 tatsubuilder.com###tatsu-header-container
 
+!#if cap_html_filtering
+google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##^#taw > div > [data-ved]
+google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk$$#taw > div > [data-ved]
+!#endif
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###taw > div > [data-ved]
+
 !#if cap_html_filtering
 kaec.net,thelawpages.com##^#terms
 kaec.net,thelawpages.com$$#terms
@@ -22911,7 +22931,12 @@ pixiv.net$$._gdpr-notify-header
 !#endif
 pixiv.net##._gdpr-notify-header
 
+!#if cap_html_filtering
+instagram.com##^._he402
+instagram.com$$._he402
+!#endif
 instagram.com##._he402
+
 !#if cap_html_filtering
 my.macpaw.com##^._notification_qpb1z_1
 my.macpaw.com$$._notification_qpb1z_1
@@ -27592,7 +27617,12 @@ campfirewriting.com$$.lDcxu
 !#endif
 campfirewriting.com##.lDcxu
 
+!#if cap_html_filtering
+instagram.com##^.lOPC8
+instagram.com$$.lOPC8
+!#endif
 instagram.com##.lOPC8
+
 !#if cap_html_filtering
 inoreader.com##^.landing_promo_banner_top
 inoreader.com$$.landing_promo_banner_top
@@ -29555,7 +29585,12 @@ creality3dofficial.com,creality3dofficial.eu$$.pub-tip
 !#endif
 creality3dofficial.com,creality3dofficial.eu##.pub-tip
 
+!#if cap_html_filtering
+mega.nz##^.public-service-anouncement
+mega.nz$$.public-service-anouncement
+!#endif
 mega.nz##.public-service-anouncement
+
 !#if cap_html_filtering
 bbc.co.uk##^.pulse-banner
 bbc.co.uk$$.pulse-banner
@@ -30534,7 +30569,12 @@ odeoncinemasgroup.smg.com$$.toast-info
 !#endif
 odeoncinemasgroup.smg.com##.toast-info
 
+!#if cap_html_filtering
+twitch.tv##^.toast-manager__container
+twitch.tv$$.toast-manager__container
+!#endif
 twitch.tv##.toast-manager__container
+
 !#if cap_html_filtering
 mobilbahis49.com##^.toast-wrapper
 mobilbahis49.com$$.toast-wrapper
@@ -31195,7 +31235,12 @@ dideo.ir$$.youtube-terms-banner
 !#endif
 dideo.ir##.youtube-terms-banner
 
+!#if cap_html_filtering
+youtube.com##^.yt-consent
+youtube.com$$.yt-consent
+!#endif
 youtube.com##.yt-consent
+
 !#if cap_html_filtering
 gitconnected.com##^.yu.yt.ys.gi.u.od
 gitconnected.com$$.yu.yt.ys.gi.u.od
@@ -31664,7 +31709,12 @@ goodboy.ninja$$body > div > .card
 !#endif
 goodboy.ninja##body > div > .card
 
+!#if cap_html_filtering
+facebook.com##^body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-banner"]
+facebook.com$$body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-banner"]
+!#endif
 facebook.com##body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-banner"]
+
 !#if cap_html_filtering
 success.trendmicro.com##^c-dcx-cookie
 success.trendmicro.com$$c-dcx-cookie
@@ -31923,7 +31973,12 @@ coin360.com$$div[class^="styles_cookiesBanner_"]
 !#endif
 coin360.com##div[class^="styles_cookiesBanner_"]
 
+!#if cap_html_filtering
+youtube.com##^div[class^="ytd-consent"]
+youtube.com$$div[class^="ytd-consent"]
+!#endif
 youtube.com##div[class^="ytd-consent"]
+
 !#if cap_html_filtering
 gitpod.io##^div[data-analytics*="cookie"]
 gitpod.io$$div[data-analytics*="cookie"]
@@ -33230,7 +33285,12 @@ bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engin
 bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,pictogrammers.com,prezly.com,print24.com,scmagazine.com,sierranevada.es,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
 
 !! .consent-banner
+!#if cap_html_filtering
+twitch.tv##^.consent-banner
+twitch.tv$$.consent-banner
+!#endif
 twitch.tv##.consent-banner
+
 !! .dialog-lightbox-message
 !#if cap_html_filtering
 1800runaway.org,aceprensa.com,ak-asya.com.tr,alivia.org.pl,almeidastextile.pt,ancon.io,caltex.co.za,cerre.eu,cofense.com,cronycle.com,direct-carpets.com,experiorfinancial.com,fermedelinciaux.be,fft.mt,getspace.us,gilmoreglobal.com,ingeniamc.com,janninebarron.com,lsisoftware.pl,lucerna-chem.ch,luukku.com,lwab.se,maltaconsulting.mt,marathonhr.com,marshfieldpre-school.co.uk,medyascope.tv,mitreprinting.co.uk,realvnc.com,ritchy.com,rwi.se,shotam.info,smackcoders.com,takeoff.org.mt,terracreta.gr,terveyskauneus.fi,tvpop.com.br,tzumi.com,vrxdb.com,webdesignspecialistamsterdam.nl,webdesignspecialistdenhaag.nl,whatcounts.com##^.dialog-lightbox-message
@@ -34670,15 +34730,55 @@ gcds.com,great.gov.uk,make.org,oralb.ca,swapcard.com,tommy.com##.ReactModal__Ove
 123comparer.fr,abcz.org.br,adams-music.cz,adequate.pl,advancedinstaller.com,agenttravel.es,agro-xardin.com,agrointel.ro,ah-me.com,alergia-allegra.pl,alltube.tv,amilian.de,anpost.ie,antagonist.nl,any.run,apotheekzorg.nl,aquariumforums.co.uk,aquedah.com,aquila.pl,arag.com,arctest.fi,arlestourisme.com,asauto.ro,aspias.net,asta-yachting.hr,astillerosamado.com,ataudesgallego.com,atemfito.com,atleticodemadrid.com,auberge-maison-rouge.com,auchan.pl,autoampel.de,autopitonline.ro,awilux.cz,ayraviation.com,bagoasdomar.com,bakker-repair.nl,bakkersliedrecht.com,bankmillennium.pl,baromfiudvar.hu,bazar.club,bimyou.es,bioliq.pl,bl.uk,blockfloete.eu,bnext.es,boardstar.cz,bockleder.de,boettcher-fahrraeder.de,bta.bg,caminodosar.com,campleaders.com,canadiansolar.com,carbonicaslandeira.com,caribbeanjobs.com,celulares.com,cext.es,chineame.com,cifas.org.uk,cityhotel-muenster.de,citylets.co.uk,claveweb.com,climaprecios.com,clinicaconcheiro.com,clublablanca.com,co-x.at,coinsofhope.eu,complia.es,composteladigital.com,conan-kolekcja.pl,coreixample.com,cork1point.com,crcinfrared.com,crmorrow.com,cuerosnoroeste.com,cw.com.tw,cyfrowe.pl,czytio.pl,delkom.pl,desgphoto.com,designsociety.org,devriesinvestmentservices.nl,digitel.sk,dobreprogramy.pl,doorstore.co.uk,dosilmaronas.com,dzieje.pl,educalingo.com,eimenuts.com,eitb.eus,ekino-tv.pl,elegant.be,elenplast.com,eliteracingclub.co.uk,eltesan.com.tr,emiko.de,emtype.net,emunewz.net,enmark2.com,eporner.com,eska.tv,espais360.com,espectaculospereira.com,esquelasdeasturias.com,essenjet.com,estiber.com,exfopino.com,f5auto.ro,factoriadeproyectos.com,fbhvc.co.uk,feyenoord.com,fidelidade.pt,fidelitypensionmanagers.com,film-news.co.uk,filman.cc,filmboxextra.pl,filmladder.nl,firma5.com,fitnessclubs4.pl,fokus.tv,forbiddenplanet.co.uk,freemeteo.by,freemeteo.ch,freemeteo.com,freemeteo.gr,freemeteo.hu,freemeteo.nl,freemeteo.rs,fresgestin.com,fulltilt.com,garciasabate.com,gastro-muenster.de,gaygo.tv,geilemaedchen.com,generali.pl,gestalylopez.com,ghetaldus.hr,globalgolf.com,globalpetrolprices.com,gourmibox.com,gov.hu,gov.pl,gpstraining.co.uk,grupapartner.pl,grupodom.es,gta5grand.com,guntin.net,gupy.fr,harper-adams.ac.uk,hautarzt-perchtoldsdorf.at,hepsor.ee,hepsor.lv,heuristic.pl,hi-tec.com.pl,history.bnpparibas,hoewilikstrakswonen.nl,holmesmill.co.uk,homecinemachoice.com,hostisoft.com,hotel-baud.com,hotel-continental.com.ve,hudebnishop.cz,humbersideairport.com,ibeesoft.com,icex.es,igorsicinski.com,ikar-centrum.pl,illiquidx.com,imperiaonline.org,implantoloski-center.si,improven.com,inmobi.com,intercon.systems,interfaceconcept.com,intur.com,iplogger.org,irishjobs.ie,iso-chemie.eu,istac.at,itc-pa.pl,itpstudio.pl,izikart.co.uk,jcea.agr.hr,jenox-akumulatory.pl,jomast.co.uk,josilq.pl,justice.bg,kasystefczyka.pl,keesvanderspek.nl,kj.de,kosmiczni.pl,ladel.sk,lamuscle.it,lebenundtod.com,lemmon.es,lenceriaintimabonet.com,lexika.hu,lloydsbankinggroup.com,lolabrause.ch,loqueleo.com,lordicon.com,luckyshepherd.com,luluteveiculos.com.br,lupopornohd.it,luxury-spa.cz,maderasornanda.com,magnadijital.com.tr,marcodaspias.com,mardeesteiro.com,mareespeche.com,mccarthyisuzu.co.za,mediamaratonvitoriagasteiz.com,mediasetitalia.com,megateh.eu,membean.com,mercatdesantantoni.com,merceariabio.pt,mervynstewart.com,metbiocat.eu,mfa.bg,minfin.bg,mitino-center.ru,mittonhallhotel.co.uk,moistureguard.cz,monaditas.com,monebrosdiy.co.uk,moviles.com,movistarriders.gg,mplgrandouest.org,multicare.pt,muzo.fm,my-meteo.com,myfitnessplace.pl,myjob.mu,mzbouw.nl,nasze-kino.tv,newberry.cz,newsweek.pl,ni-host.com,nocilla.es,nocujmy.pl,noisli.com,nowa.tv,nuriabello.com,obrasgnovoa.com,okteleseguros.pt,okz.hr,onauto.ro,ondevio.com,onlinecsapagy.hu,ordineavvocati.bari.it,oriffpl-cn.fr,ormandygroup.com,os3ti.com,osetrovatelstvo.eu,ottisoftware.com,oxastredeanos.com,paczkawruchu.pl,pamasat.es,panfurware.com,pb.edu.pl,pcase.it,pharmalot.nl,phillipsvolkswagen.co.uk,phoenixproject.at,phonearena.com,phphulp.nl,piaseczno.eu,picload.org,piese-auto-oradea.ro,pilkanozna.pl,pkpsa.pl,plantflags.com,play.pl,playclassic.games,playretrogames.net,pokernews.com,police.uk,polloslaino.com,polotv.pl,polsat.pl,polskiprzemysl.com.pl,portal.seg-social.gob.es,portalnaval.com.br,praguerealestate.cz,prazskereality.cz,premiumcredit.co.uk,primecomputer.co,priv.pl,private.com,privatecastings.com,procuradoresensantiago.com,profmetkol.pl,propetan.com,proteum.co.uk,psimarta.com,puromarketing.com,q2shop.co.uk,q2shop.com,q2shop.fr,q2shop.it,q2shop.pt,ra-ktp.de,radiocaroline.co.uk,raffaeleinghilterra.it,rdnester.eu,realdevelopment.pl,realmadryt.pl,ren.pt,resortleaders.com,restaurant-lamaryllis.com,restauranteapedra.com,retraitesdeletat.gouv.fr,ricardoazkue.com,rockserwis.fm,rotterdam.info,sachdelnoroeste.es,safetica.com,saint-gobain.co.uk,samcook.eu,samorzad.pap.pl,santmartieix.com,saudedosorriso.com,saurclient.fr,sawauto.ro,sc17.it,schuller.es,scl.org,scm-handball.de,sector04.com,separacionydivorcio.es,servigest.info,sikana.tv,sjdavidsonmotors.co.uk,smallerearth.com,so-mad.fr,sofiamosquera.com,solidas.be,solutions-numeriques.com,spa24bergerac.org,spreadthequote.com,stalderag.ch,starcool.com.tr,station-orange.com,structo.ee,studentski.net,sunporno.com,suomentivoli.fi,supermolon.com,support.tonies.com,svetratanu.cz,sync.me,t-es-qui.com,tablademareas.com,tech-review.de,tellows-au.com,tellows-fi.com,tellows-ng.com,tellows-tr.com,tellows.asia,tellows.at,tellows.be,tellows.co,tellows.co.nz,tellows.co.uk,tellows.co.za,tellows.com,tellows.com.br,tellows.cz,tellows.de,tellows.dk,tellows.es,tellows.fr,tellows.gr,tellows.hu,tellows.in,tellows.it,tellows.jp,tellows.mx,tellows.net,tellows.nl,tellows.org,tellows.pl,tellows.pt,tellows.ru,tellows.se,tellows.tw,telspy.org,the-storyteller.eu,the-tls.co.uk,theatre-news.com,theburlingtonfiles.org,thefilmclub.it,theglobaleconomy.com,theodora.com,tnpetroleo.com.br,toquedeletra.com.br,torunskiefirmy.pl,traegerwerk-thueringen.de,tranny.one,trasteroselpato.com,tripolo.pl,triton-reagents.de,tsb.co.uk,tugramy.pl,tupornogratis.xxx,tv4.pl,tv6.com.pl,twsd-ag.de,twsd-sa.de,ukrainianinpoland.pl,uni-muenster.de,va90c-online.de,valfre.es,vcssoluciones.com,venen-ordination.at,verema.com,veremasolidaria.org,vest-auto.ro,viveirosgastrar.com,vizjer.pl,voxmusic.tv,vypocitejto.cz,wearemarketing.com,wilsonsofrathkenny.co.uk,woekomat.de,wroc.pl,wsws.org,wszczecinie.pl,xioci.com,xn--diseowebames-dhb.com,xn--diseowebengalicia-ixb.com,xn--diseowebmilladoiro-q0b.com,xn--diseowebsantiagodecompostela-0xc.com,xnostars.com,yesvids.com,yoo-ci.com,zdrofit.pl,zdrofitzdrowemiejsce.pl,zkl.hr,zlatydul.cz,zonexecutive.com###cookies
 
 ! (formerly known as mobile.twitter.com)
+!#if cap_html_filtering
+twitter.com##^#react-root > div > div > .rn-gvpnoh
+twitter.com$$#react-root > div > div > .rn-gvpnoh
+!#endif
 twitter.com###react-root > div > div > .rn-gvpnoh
+
+!#if cap_html_filtering
+twitter.com##^[data-reactroot] > [class] + [class]:last-child
+twitter.com$$[data-reactroot] > [class] + [class]:last-child
+!#endif
 twitter.com##[data-reactroot] > [class] + [class]:last-child
+
 ! twitter.com##.r-13qz1uu.r-tvv088.css-1dbjc4n
+!#if cap_html_filtering
+twitter.com##^.css-1dbjc4n.r-12vffkv > .r-12vffkv > .css-1dbjc4n[data-testid="BottomBar"] > .css-1dbjc4n.r-1awozwy.r-1sw30gj.r-15ce4ve
+twitter.com$$.css-1dbjc4n.r-12vffkv > .r-12vffkv > .css-1dbjc4n[data-testid="BottomBar"] > .css-1dbjc4n.r-1awozwy.r-1sw30gj.r-15ce4ve
+!#endif
 twitter.com##.css-1dbjc4n.r-12vffkv > .r-12vffkv > .css-1dbjc4n[data-testid="BottomBar"] > .css-1dbjc4n.r-1awozwy.r-1sw30gj.r-15ce4ve
+
+!#if cap_html_filtering
+twitter.com##^.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-15ce4ve.r-1sw30gj.r-1awozwy.css-1dbjc4n
+twitter.com$$.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-15ce4ve.r-1sw30gj.r-1awozwy.css-1dbjc4n
+!#endif
 twitter.com##.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-15ce4ve.r-1sw30gj.r-1awozwy.css-1dbjc4n
+
+!#if cap_html_filtering
+twitter.com##^.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-9hvr93.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+twitter.com$$.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-9hvr93.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+!#endif
 twitter.com##.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-9hvr93.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+
+!#if cap_html_filtering
+twitter.com##^.r-13qz1uu.r-tvv088.r-d9fdf6.r-1d7fvdj.r-18u37iz.r-1upvrn0.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+twitter.com$$.r-13qz1uu.r-tvv088.r-d9fdf6.r-1d7fvdj.r-18u37iz.r-1upvrn0.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+!#endif
 twitter.com##.r-13qz1uu.r-tvv088.r-d9fdf6.r-1d7fvdj.r-18u37iz.r-1upvrn0.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+
+!#if cap_html_filtering
+twitter.com##^.r-13qz1uu.r-tvv088.r-d9fdf6.r-1d7fvdj.r-18u37iz.r-qo02w8.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+twitter.com$$.r-13qz1uu.r-tvv088.r-d9fdf6.r-1d7fvdj.r-18u37iz.r-qo02w8.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+!#endif
 twitter.com##.r-13qz1uu.r-tvv088.r-d9fdf6.r-1d7fvdj.r-18u37iz.r-qo02w8.r-1m3jxhj.r-1awozwy.css-1dbjc4n
+
+!#if cap_html_filtering
+twitter.com##^.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
+twitter.com$$.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
+!#endif
 twitter.com##.rn-gvpnoh.rn-eps6nq.rn-13qz1uu
+
 ! Custom Filters
 istockphoto.com#?#.warning:-abp-has([data-cookie-type])
 moebelix.at#?#body > div > div:-abp-has(#jentis_consent)
@@ -34716,7 +34816,12 @@ support.github.com$$#consent-banner
 !#endif
 support.github.com###consent-banner
 
+!#if cap_html_filtering
+google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk##^#consent-bump
+google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk$$#consent-bump
+!#endif
 google.ae,google.at,google.be,google.bg,google.by,google.ca,google.ch,google.cl,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.nz,google.co.th,google.co.uk,google.co.ve,google.co.za,google.com,google.com.ar,google.com.au,google.com.br,google.com.co,google.com.ec,google.com.eg,google.com.hk,google.com.mx,google.com.my,google.com.pe,google.com.ph,google.com.pk,google.com.py,google.com.sa,google.com.sg,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vn,google.cz,google.de,google.dk,google.dz,google.ee,google.es,google.fi,google.fr,google.gr,google.hr,google.hu,google.ie,google.it,google.lt,google.lv,google.nl,google.no,google.pl,google.pt,google.ro,google.rs,google.ru,google.se,google.sk###consent-bump
+
 !#if cap_html_filtering
 smallseotools.com##^#cookie-bar
 smallseotools.com$$#cookie-bar
@@ -34962,8 +35067,18 @@ gsk-gebro.at,voltadol.at###app:style(overflow: auto !important;)
 mtvuutiset.fi###onetrust-consent-sdk:style(display: none)
 intersport.es,intersport.nl###wrapper:style(overflow: auto !important;)
 mtvuutiset.fi##.container:has(.consent-blocking-embed-message) ~ #onetrust-consent-sdk:style(display: block !important)
+!#if cap_html_filtering
+mega.io,mega.nz##^.cookie-dialog.mega-dialog
+mega.io,mega.nz$$.cookie-dialog.mega-dialog
+!#endif
 mega.io,mega.nz##.cookie-dialog.mega-dialog
+
+!#if cap_html_filtering
+mega.io,mega.nz##^.fm-dialog-overlay
+mega.io,mega.nz$$.fm-dialog-overlay
+!#endif
 mega.io,mega.nz##.fm-dialog-overlay
+
 wetter.at##.full.blured:style(filter: none !important;)
 voas.fi##body:style(position: static !important)
 bosch-easycontrol.com##.modal-open:style(overflow: auto !important; padding-right: 0 !important;)
@@ -39151,7 +39266,12 @@ cunardcruceros.com##.prtltmmc-popup
 
 cunardcruceros.com##body:style(overflow: auto !important; position: initial !important;)
 ! pubg.com
+!#if cap_html_filtering
+pubg.com##^.has-dimmed-bg
+pubg.com$$.has-dimmed-bg
+!#endif
 pubg.com##.has-dimmed-bg
+
 pubg.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! technikum-wien.at
 !#if cap_html_filtering

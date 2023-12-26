@@ -4247,7 +4247,12 @@ gayfor.us##+js(aopr, popns)
 watchthat70show.net##+js(aopr, AaDetector)
 
 ! https://github.com/uBlockOrigin/uAssets/discussions/17566#discussioncomment-5862931
+!#if cap_html_filtering
+outlook.live.com##^.Ogt7j
+outlook.live.com$$.Ogt7j
+!#endif
 outlook.live.com##.Ogt7j
+
 
 ! https://forums.lanik.us/viewtopic.php?t=48111-nydus-org
 cryptstream.de,nydus.org##+js(nostif, ab)
@@ -7472,7 +7477,12 @@ footstockings.com##+js(set, flashvars.video_click_url, '')
 footstockings.com##+js(set, flashvars.popunder_url, '')
 
 ! google. com sponsored ad
+!#if cap_html_filtering
+google.com##^.D1fz0e
+google.com$$.D1fz0e
+!#endif
 google.com##.D1fz0e
+
 
 ! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-7094584
 fc-lc.xyz##+js(no-fetch-if, adsbygoogle)
