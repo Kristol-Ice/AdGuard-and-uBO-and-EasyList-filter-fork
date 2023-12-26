@@ -1,0 +1,311 @@
+! URL: https://github.com/uBlockOrigin/uAssets/raw/master/filters/filters-mobile.txt
+! Title: uBlock filters – Mobile
+! Last modified: %timestamp%
+! Description: Filters optimized for uBlock, to be used along EasyList
+! Homepage: https://github.com/uBlockOrigin/uAssets
+! License: https://github.com/uBlockOrigin/uAssets/blob/master/LICENSE
+!
+! GitHub issues: https://github.com/uBlockOrigin/uAssets/issues
+! GitHub pull requests: https://github.com/uBlockOrigin/uAssets/pulls
+
+!----- 2020 -----
+! https://github.com/uBlockOrigin/uBlock-discussions/discussions/310
+! https://github.com/AdguardTeam/AdguardFilters/issues/75829
+! https://github.com/AdguardTeam/AdguardFilters/issues/85997
+! https://github.com/AdguardTeam/AdguardFilters/issues/87085
+*##.ad-block
+*##.ad-center
+*##.ad-slot:not(.adsbox):not(.adsbygoogle)
+~lamire.jp,*##.ad-unit:not(.text-ad):not(.textads)
+*##.ad-wrapper
+*##.ad_container
+*##.ads-wrapper
+*##.dfp-ad
+*##.ezoic-ad
+*##.top-ad-container
+*##AMP-AD
+*##div[id*="ScriptRoot"]
+*##ins.adsbygoogle
+*##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+!#if cap_html_filtering
+xnxx.com,xvideos.com##^#ad-header-mobile
+xnxx.com,xvideos.com$$#ad-header-mobile
+!#endif
+xnxx.com,xvideos.com###ad-header-mobile
+
+!#if cap_html_filtering
+jprime.jp##^.ad-overlay
+jprime.jp$$.ad-overlay
+!#endif
+jprime.jp##.ad-overlay
+
+!#if cap_html_filtering
+apkdone.com##^.adplaceholder-top
+apkdone.com$$.adplaceholder-top
+!#endif
+apkdone.com##.adplaceholder-top
+
+!#if cap_html_filtering
+cyclehack.jp,gogo-miyagi.com,izuhack.akao-hotel.co.jp,nap-camp.com,runhack.jp,tsurihack.com,yamahack.com##^#ad-overlay
+cyclehack.jp,gogo-miyagi.com,izuhack.akao-hotel.co.jp,nap-camp.com,runhack.jp,tsurihack.com,yamahack.com$$#ad-overlay
+!#endif
+cyclehack.jp,gogo-miyagi.com,izuhack.akao-hotel.co.jp,nap-camp.com,runhack.jp,tsurihack.com,yamahack.com###ad-overlay
+
+!#if cap_html_filtering
+m.washingtontimes.com##^.mrf-adv__wrapper
+m.washingtontimes.com$$.mrf-adv__wrapper
+!#endif
+m.washingtontimes.com##.mrf-adv__wrapper
+
+!#if cap_html_filtering
+fortune.com##^.amp-ad-wrapper
+fortune.com$$.amp-ad-wrapper
+!#endif
+fortune.com##.amp-ad-wrapper
+
+!#if cap_html_filtering
+fortune.com##^.amp-ad-wrapper-dianomi
+fortune.com$$.amp-ad-wrapper-dianomi
+!#endif
+fortune.com##.amp-ad-wrapper-dianomi
+
+!#if cap_html_filtering
+wallpaperbetter.com##^.lst_ads
+wallpaperbetter.com$$.lst_ads
+!#endif
+wallpaperbetter.com##.lst_ads
+
+!#if cap_html_filtering
+variety.com##^.admz
+variety.com$$.admz
+!#endif
+variety.com##.admz
+
+!#if cap_html_filtering
+bakusai.com##^.adSection
+bakusai.com$$.adSection
+!#endif
+bakusai.com##.adSection
+
+!#if cap_html_filtering
+gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se##^#ad_topScroller
+gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se$$#ad_topScroller
+!#endif
+gamereactor.asia,gamereactor.cn,gamereactor.cz,gamereactor.de,gamereactor.dk,gamereactor.es,gamereactor.eu,gamereactor.fi,gamereactor.fr,gamereactor.it,gamereactor.jp,gamereactor.kr,gamereactor.nl,gamereactor.no,gamereactor.pl,gamereactor.pt,gamereactor.se###ad_topScroller
+
+! player on clipx.tv
+!#if cap_html_filtering
+xxxporns.org##^.adBlock
+xxxporns.org$$.adBlock
+!#endif
+xxxporns.org##.adBlock
+
+! https://github.com/AdguardTeam/AdguardFilters/commit/b2cba1f3abcd98699eac26bab83b89d0eed75370
+!#if cap_html_filtering
+a-eroland.net,hhmanga.com,nyahentai.re##^.__isboostReturnAd
+a-eroland.net,hhmanga.com,nyahentai.re$$.__isboostReturnAd
+!#endif
+a-eroland.net,hhmanga.com,nyahentai.re##.__isboostReturnAd
+
+! https://github.com/uBlockOrigin/uAssets/issues/8343
+! https://www.reddit.com/r/uBlockOrigin/comments/15p0gvq/empty_ads_on_mobile/
+! https://github.com/uBlockOrigin/uAssets/issues/20681#issuecomment-1842744953
+!#if cap_html_filtering
+gamerant.com,howtogeek.com,makeuseof.com,screenrant.com,xda-developers.com##^.adsninja-ad-zone
+gamerant.com,howtogeek.com,makeuseof.com,screenrant.com,xda-developers.com$$.adsninja-ad-zone
+!#endif
+gamerant.com,howtogeek.com,makeuseof.com,screenrant.com,xda-developers.com##.adsninja-ad-zone
+
+
+!----- 2023 -----
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3):has(+ :is(.bg-s2, .bg-s3) + :is(.bg-s2, .bg-s3):has(> .m > .m .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"])):has-text(/(Sponsored|Gesponsert|Sponsorlu|Sponsorowane|Ispoonsara godhameera|Geborg|Bersponsor|Ditaja|Disponsori|Giisponsoran|Sponzorováno|Sponsoreret|Publicidad|May Sponsor|Sponsorisée|Oipytyvôva|Ɗaukar Nayin|Sponzorirano|Uterwa inkunga|Sponsorizzato|Imedhaminiwa|Hirdetés|Misy Mpiantoka|Gesponsord|Sponset|Patrocinado|Patrocinado|Sponsorizat|Sponzorované|Sponsoroitu|Sponsrat|Được tài trợ|Χορηγούμενη|Спонсорирано|Спонзорирано|Ивээн тэтгэсэн|Реклама|Спонзорисано|במימון|سپانسرڈ|دارای پشتیبانی مالی|ስፖንሰር የተደረገ|प्रायोजित|ተደረገ|प|प्रायोजित|স্পনসর্ড|ਪ੍ਰਯੋਜਿਤ|પ્રાયોજિત|ପ୍ରାୟୋଜିତ|செய்யப்பட்ட செய்யப்பட்ட|చేయబడినది చేయబడినది|ಪ್ರಾಯೋಜಿಸಲಾಗಿದೆ|ചെയ്‌തത് ചെയ്‌തത്|ලද ලද ලද|สนับสนุน สนับสนุน รับ สนับสนุน สนับสนุน|ကြော်ငြာ ကြော်ငြာ|ឧបត្ថម្ភ ឧបត្ថម្ភ ឧបត្ថម្ភ|광고|贊助|赞助内容|広告|സ്‌പോൺസർ ചെയ്‌തത്)/)
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3):has(+ :is(.bg-s2, .bg-s3):has(> .m > .m .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"])):has(div[data-mcomponent$="TextArea"]:not(:empty))
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(4)
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(4) + .m:not(:has(.m:empty))
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(4) + .m:not(:has(.m:empty)) + .m:has(div[data-mcomponent$="TextArea"]:not(:empty))
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(5)
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(5) + .m:not(:has(.m:empty))
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(5) + .m:not(:has(.m:empty)) + .m:has(div[data-mcomponent$="TextArea"]:not(:empty))
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(6)
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(6) + .m:not(:has(.m:empty))
+facebook.com##.m[data-type="vscroller"] > :is(.bg-s2, .bg-s3) > .m > .m > .m > .m > .nb[style*="inset(0"] > [style*="margin-top:1px;"][style*="margin-left:1px;"]:upward(6) + .m:not(:has(.m:empty)) + .m:has(div[data-mcomponent$="TextArea"]:not(:empty))
+
+! https://github.com/uBlockOrigin/uAssets/issues/17817
+!#if cap_html_filtering
+lookmovie2.to##^div[class^="native-ad-"]
+lookmovie2.to$$div[class^="native-ad-"]
+!#endif
+lookmovie2.to##div[class^="native-ad-"]
+
+
+! https://github.com/uBlockOrigin/uAssets/issues/17905
+!#if cap_html_filtering
+m.timesofindia.com##^[href*="app.goo.gl"]
+m.timesofindia.com$$[href*="app.goo.gl"]
+!#endif
+m.timesofindia.com##[href*="app.goo.gl"]
+
+
+! https://github.com/uBlockOrigin/uAssets/issues/16340
+!#if cap_html_filtering
+xda-developers.com##^.ad-current
+xda-developers.com$$.ad-current
+!#endif
+xda-developers.com##.ad-current
+
+!#if cap_html_filtering
+forum.xda-developers.com##^#xdadevelopers_leaderboard_atf
+forum.xda-developers.com$$#xdadevelopers_leaderboard_atf
+!#endif
+forum.xda-developers.com###xdadevelopers_leaderboard_atf
+
+!#if cap_html_filtering
+xe.com##^.advertSlot
+xe.com$$.advertSlot
+!#endif
+xe.com##.advertSlot
+
+!#if cap_html_filtering
+investing.com##^[class^="ad_ad-sticky_"]
+investing.com$$[class^="ad_ad-sticky_"]
+!#endif
+investing.com##[class^="ad_ad-sticky_"]
+
+
+! https://www.zdnet.com/ placeholder
+!#if cap_html_filtering
+zdnet.com##^.c-adDisplay_container
+zdnet.com$$.c-adDisplay_container
+!#endif
+zdnet.com##.c-adDisplay_container
+
+!#if cap_html_filtering
+zdnet.com##^.c-adSkyBox
+zdnet.com$$.c-adSkyBox
+!#endif
+zdnet.com##.c-adSkyBox
+
+
+! https://www.nytimes.com/2006/10/09/business/09cnd-deal.html
+!#if cap_html_filtering
+nytimes.com##^#acm-wrapper
+nytimes.com$$#acm-wrapper
+!#endif
+nytimes.com###acm-wrapper
+
+
+! https://github.com/uBlockOrigin/uAssets/issues/18325
+*##.ads_all > .ads_w
+
+! https://github.com/uBlockOrigin/uAssets/issues/18397
+!#if cap_html_filtering
+liquipedia.net##^.mobile-sticky-ad
+liquipedia.net$$.mobile-sticky-ad
+!#endif
+liquipedia.net##.mobile-sticky-ad
+
+liquipedia.net##body.mobile-sticky-ad-is-active:style(padding: 3.125rem 0 0 0 !important;)
+liquipedia.net##body.mobile-sticky-ad-is-active .main-nav:style(top: 0 !important;)
+liquipedia.net##body.mobile-sticky-ad-is-active .main-nav .brand-menu:style(top: 3.125rem !important;)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/1495nei/
+m.dcinside.com,upload.dcinside.com##+js(set-cookie, _ga, OK, , reload, 1)
+
+! https://www.reddit.com/r/uBlockOrigin/comments/14bvy9r/
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=thedailybeast.com
+thedailybeast.com##^html > head > meta[name="template"]:not([content="cheat"]):upward(1) > script[src*="doubleclick"]
+
+! interstitial if views >= interstitial.counter
+pornhub.com##+js(set-cookie, views, 1)
+
+! Ignore generic cosmetic filters mitigation
+!#if cap_html_filtering
+apnews.com##^.SovrnAd
+apnews.com$$.SovrnAd
+!#endif
+apnews.com##.SovrnAd
+
+!#if cap_html_filtering
+zaim.net##^.ad-footer
+zaim.net$$.ad-footer
+!#endif
+zaim.net##.ad-footer
+
+!#if cap_html_filtering
+avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##^#splashy-ad-container-top
+avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com$$#splashy-ad-container-top
+!#endif
+avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,qz.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com###splashy-ad-container-top
+
+!#if cap_html_filtering
+huffpost.com,huffingtonpost.jp##^.advertisement-holder
+huffpost.com,huffingtonpost.jp$$.advertisement-holder
+!#endif
+huffpost.com,huffingtonpost.jp##.advertisement-holder
+
+!#if cap_html_filtering
+4wank.com##^#pause-ads
+4wank.com$$#pause-ads
+!#endif
+4wank.com###pause-ads
+
+!#if cap_html_filtering
+javpop.link##^[href^="https://rapidgator.net/article/premium/ref/"]
+javpop.link$$[href^="https://rapidgator.net/article/premium/ref/"]
+!#endif
+javpop.link##[href^="https://rapidgator.net/article/premium/ref/"]
+
+!#if cap_html_filtering
+senzuri.tube##^.video-page__adv
+senzuri.tube$$.video-page__adv
+!#endif
+senzuri.tube##.video-page__adv
+
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/156544
+tr.ign.com##.articleBody:style(margin-top: 80px !important;)
+
+! https://github.com/uBlockOrigin/uAssets/issues/19520
+!#if cap_html_filtering
+m.apkpure.com##^.ad-adsense.js-ad-slot
+m.apkpure.com$$.ad-adsense.js-ad-slot
+!#endif
+m.apkpure.com##.ad-adsense.js-ad-slot
+
+!#if cap_html_filtering
+fxstreet.com##^.fxs_stickyAd-mobile
+fxstreet.com$$.fxs_stickyAd-mobile
+!#endif
+fxstreet.com##.fxs_stickyAd-mobile
+
+!#if cap_html_filtering
+apkpure.com##^.ad-box-auto
+apkpure.com$$.ad-box-auto
+!#endif
+apkpure.com##.ad-box-auto
+
+
+! https://www.reddit.com/r/uBlockOrigin/comments/16y31qu/ezvid_ads_not_blocked_in_ublock_origin_for/
+*##.ez-video-wrap
+
+! https://github.com/uBlockOrigin/uAssets/issues/19721#issuecomment-1864681386
+!#if cap_html_filtering
+correiobraziliense.com.br##^.publi
+correiobraziliense.com.br$$.publi
+!#endif
+correiobraziliense.com.br##.publi
+
+!#if cap_html_filtering
+poder360.com.br##^.box-advertising
+poder360.com.br$$.box-advertising
+!#endif
+poder360.com.br##.box-advertising
+
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/169090
+!#if cap_html_filtering
+4hu.tv##^.wrap > #btmBox
+4hu.tv$$.wrap > #btmBox
+!#endif
+4hu.tv##.wrap > #btmBox
+
