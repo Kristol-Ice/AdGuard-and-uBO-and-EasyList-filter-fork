@@ -1,5 +1,5 @@
 # AdGuard-and-uBO-and-EasyList-filter-fork
-just AdGuard-and-uBO-and-EasyList-filter-fork for myself with some modified to use all features that env offers.
+just AdGuard-and-uBO-and-EasyList-filter-fork for myself with some modified for try to use html filtering of uBO in Firefox (Gecko base browser) and AdGuard app.
 
 # All filter urls
 ```
