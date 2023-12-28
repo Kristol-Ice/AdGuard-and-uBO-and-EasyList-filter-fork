@@ -1,5 +1,7 @@
 # AdGuard-and-uBO-and-EasyList-filter-fork
-just AdGuard-and-uBO-and-EasyList-filter-fork for myself with some modified for try to use html filtering of uBO in Firefox (Gecko base browser) and AdGuard app.
+just AdGuard-and-uBO-and-EasyList-filter-fork for myself with some modifications to try using HTML filtering if possible.
+
+> P.S. HTML filtering works in uBO Firefox (Gecko based browser) and AdGuard app. See more at [uBO wiki](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters) or [AdGuard wiki](https://adguard.com/kb/general/ad-filtering/create-own-filters/#html-filtering-rules)
 
 # All filter urls
 ```
@@ -14,5 +16,6 @@ https://raw.githubusercontent.com/Kristol-Ice/AdGuard-and-uBO-and-EasyList-filte
 https://raw.githubusercontent.com/Kristol-Ice/AdGuard-and-uBO-and-EasyList-filter-fork/main/uBlock%20filters%20-%20Ads%202023.txt
 https://raw.githubusercontent.com/Kristol-Ice/AdGuard-and-uBO-and-EasyList-filter-fork/main/uBlock%20filters%20-%20Ads%20Mobile.txt
 https://raw.githubusercontent.com/Kristol-Ice/AdGuard-and-uBO-and-EasyList-filter-fork/main/uBlock%20filters%20-%20Ads.txt
+https://raw.githubusercontent.com/Kristol-Ice/AdGuard-and-uBO-and-EasyList-filter-fork/main/AdGuard%20-%20Other%20Annoyances.txt
 ```
-## This repository is automatically daily update.
+> This repository is automatic daily update.
