@@ -1,7 +1,7 @@
 # AdGuard-and-uBO-and-EasyList-filter-fork
 just AdGuard-and-uBO-and-EasyList-filter-fork for myself with some modifications to try using HTML filtering if possible.
 
-> P.S. HTML filtering works in uBO Firefox (Gecko based browser) and AdGuard app. See more at [uBO wiki](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters) or [AdGuard wiki](https://adguard.com/kb/general/ad-filtering/create-own-filters/#html-filtering-rules)
+> P.S. HTML filtering works in uBO and AdGuard extension of 'Gecko based browser' and also stand alone AdGuard app. See more at [uBO wiki](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters) or [AdGuard wiki](https://adguard.com/kb/general/ad-filtering/create-own-filters/#html-filtering-rules)
 
 # All filter urls
 ```
