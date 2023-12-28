@@ -1,11 +1,11 @@
 ! URL: https://filters.adtidy.org/extension/ublock/filters/19.txt
 ![Adblock Plus 2.0]
-! Checksum: 7YCF8+lM8CkFJX/RnIFrUA
-! Diff-Path: ../patches/19/19-s-1703774167-3600.patch
+! Checksum: +RWOn7sCCMY0njXls4GOFA
+! Diff-Path: ../patches/19/19-s-1703781360-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation.
-! Version: 2.0.29.17
-! TimeUpdated: 2023-12-28T14:32:02+00:00
+! Version: 2.0.29.18
+! TimeUpdated: 2023-12-28T16:31:40+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -38968,10 +38968,10 @@ lepoint.fr,lpnt.fr,kriptokoin.com,laodong.vn,ajanstekirdag.com,enyenimedya.com,n
 
 ! ##.google-news
 !#if cap_html_filtering
-dirilispostasi.com,aydinhedef.com.tr,akcakocatv.com,yenibakis.com.tr,teknodiot.com,haber46.com.tr,haberdenizli.com,orduyorum.com,sakaryagazetesi.com.tr,esgazete.com,akdenizgercek.com.tr,sehrivangazetesi.com,diyanethaber.com.tr,trhaber.com,aydinpost.com,fanatik.com.tr,plo.vn,glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl,laodong.vn,wanhaber.com,kazete.com.tr,kanalmaras.com,haber61.net,tv100.com,iscihaber.net,eskisehirhaber.com,elinformador.com.co,emlak365.com,ensonhaber.com,edehaber.com.tr,gazeteyenigun.com.tr,gazetevan.com,tv5.com.tr,kamugundemi.com,playtech.ro,birgun.net,sosyaltv.com.tr,tamindir.com,engelli.com,medyafaresi.com,haberlobi.com,kamudanhaber.net,habervakti.com,ntv.com.tr,ntvspor.net,haberglobal.com.tr,cumhuriyet.com.tr,kyiv.media##^.google-news
-dirilispostasi.com,aydinhedef.com.tr,akcakocatv.com,yenibakis.com.tr,teknodiot.com,haber46.com.tr,haberdenizli.com,orduyorum.com,sakaryagazetesi.com.tr,esgazete.com,akdenizgercek.com.tr,sehrivangazetesi.com,diyanethaber.com.tr,trhaber.com,aydinpost.com,fanatik.com.tr,plo.vn,glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl,laodong.vn,wanhaber.com,kazete.com.tr,kanalmaras.com,haber61.net,tv100.com,iscihaber.net,eskisehirhaber.com,elinformador.com.co,emlak365.com,ensonhaber.com,edehaber.com.tr,gazeteyenigun.com.tr,gazetevan.com,tv5.com.tr,kamugundemi.com,playtech.ro,birgun.net,sosyaltv.com.tr,tamindir.com,engelli.com,medyafaresi.com,haberlobi.com,kamudanhaber.net,habervakti.com,ntv.com.tr,ntvspor.net,haberglobal.com.tr,cumhuriyet.com.tr,kyiv.media$$.google-news
+habervitrini.com,dirilispostasi.com,aydinhedef.com.tr,akcakocatv.com,yenibakis.com.tr,teknodiot.com,haber46.com.tr,haberdenizli.com,orduyorum.com,sakaryagazetesi.com.tr,esgazete.com,akdenizgercek.com.tr,sehrivangazetesi.com,diyanethaber.com.tr,trhaber.com,aydinpost.com,fanatik.com.tr,plo.vn,glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl,laodong.vn,wanhaber.com,kazete.com.tr,kanalmaras.com,haber61.net,tv100.com,iscihaber.net,eskisehirhaber.com,elinformador.com.co,emlak365.com,ensonhaber.com,edehaber.com.tr,gazeteyenigun.com.tr,gazetevan.com,tv5.com.tr,kamugundemi.com,playtech.ro,birgun.net,sosyaltv.com.tr,tamindir.com,engelli.com,medyafaresi.com,haberlobi.com,kamudanhaber.net,habervakti.com,ntv.com.tr,ntvspor.net,haberglobal.com.tr,cumhuriyet.com.tr,kyiv.media##^.google-news
+habervitrini.com,dirilispostasi.com,aydinhedef.com.tr,akcakocatv.com,yenibakis.com.tr,teknodiot.com,haber46.com.tr,haberdenizli.com,orduyorum.com,sakaryagazetesi.com.tr,esgazete.com,akdenizgercek.com.tr,sehrivangazetesi.com,diyanethaber.com.tr,trhaber.com,aydinpost.com,fanatik.com.tr,plo.vn,glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl,laodong.vn,wanhaber.com,kazete.com.tr,kanalmaras.com,haber61.net,tv100.com,iscihaber.net,eskisehirhaber.com,elinformador.com.co,emlak365.com,ensonhaber.com,edehaber.com.tr,gazeteyenigun.com.tr,gazetevan.com,tv5.com.tr,kamugundemi.com,playtech.ro,birgun.net,sosyaltv.com.tr,tamindir.com,engelli.com,medyafaresi.com,haberlobi.com,kamudanhaber.net,habervakti.com,ntv.com.tr,ntvspor.net,haberglobal.com.tr,cumhuriyet.com.tr,kyiv.media$$.google-news
 !#endif
-dirilispostasi.com,aydinhedef.com.tr,akcakocatv.com,yenibakis.com.tr,teknodiot.com,haber46.com.tr,haberdenizli.com,orduyorum.com,sakaryagazetesi.com.tr,esgazete.com,akdenizgercek.com.tr,sehrivangazetesi.com,diyanethaber.com.tr,trhaber.com,aydinpost.com,fanatik.com.tr,plo.vn,glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl,laodong.vn,wanhaber.com,kazete.com.tr,kanalmaras.com,haber61.net,tv100.com,iscihaber.net,eskisehirhaber.com,elinformador.com.co,emlak365.com,ensonhaber.com,edehaber.com.tr,gazeteyenigun.com.tr,gazetevan.com,tv5.com.tr,kamugundemi.com,playtech.ro,birgun.net,sosyaltv.com.tr,tamindir.com,engelli.com,medyafaresi.com,haberlobi.com,kamudanhaber.net,habervakti.com,ntv.com.tr,ntvspor.net,haberglobal.com.tr,cumhuriyet.com.tr,kyiv.media##.google-news
+habervitrini.com,dirilispostasi.com,aydinhedef.com.tr,akcakocatv.com,yenibakis.com.tr,teknodiot.com,haber46.com.tr,haberdenizli.com,orduyorum.com,sakaryagazetesi.com.tr,esgazete.com,akdenizgercek.com.tr,sehrivangazetesi.com,diyanethaber.com.tr,trhaber.com,aydinpost.com,fanatik.com.tr,plo.vn,glivice.pl,slazag.pl,bytomski.pl,piekary.info,twojknurow.pl,nowinytyskie.pl,ngs24.pl,24kato.pl,rudzianin.pl,zabrzenews.pl,chorzowski.pl,tarnowskiegory.info,24zaglebie.pl,laodong.vn,wanhaber.com,kazete.com.tr,kanalmaras.com,haber61.net,tv100.com,iscihaber.net,eskisehirhaber.com,elinformador.com.co,emlak365.com,ensonhaber.com,edehaber.com.tr,gazeteyenigun.com.tr,gazetevan.com,tv5.com.tr,kamugundemi.com,playtech.ro,birgun.net,sosyaltv.com.tr,tamindir.com,engelli.com,medyafaresi.com,haberlobi.com,kamudanhaber.net,habervakti.com,ntv.com.tr,ntvspor.net,haberglobal.com.tr,cumhuriyet.com.tr,kyiv.media##.google-news
 
 ! ##.google-news-button
 !#if cap_html_filtering
@@ -40917,7 +40917,6 @@ tv.anime1.best##^pjsdiv[style^="position: absolute; left: 502px;"]
 tv.anime1.best$$pjsdiv[style^="position: absolute; left: 502px;"]
 !#endif
 tv.anime1.best##pjsdiv[style^="position: absolute; left: 502px;"]
-
 
 !#if cap_html_filtering
 tv.anime1.best##^pjsdiv[style^="position: absolute; left: 382px;"]
@@ -43954,7 +43953,6 @@ semafor.com$$div[class^="styles_newsletterWrapper"]
 !#endif
 semafor.com##div[class^="styles_newsletterWrapper"]
 
-
 kontur-extern.ru#$?#body > div[class^="lightbox"]:has(> div.lightbox-window > div.lightbox-window__inner > div.lightbox-window__content > div#subscription-popup-block) { display: none !important; }
 !#if cap_html_filtering
 kontur-extern.ru#$##^lightbox-veil { display: none !important; }
@@ -44092,7 +44090,6 @@ diag.pl##^.diag-newsletter
 diag.pl$$.diag-newsletter
 !#endif
 diag.pl##.diag-newsletter
-
 
 tennismajors.com#?#.pt-8.max-w-screen-lg:has(img[alt="newsletter"])
 !#if cap_html_filtering
@@ -44967,6 +44964,7 @@ blog.alexellis.io##.gh-subscribe
 
 forbes.ru#?#footer div[class] > div[class^="_"]:has(> div:contains(Рассылка))
 forbes.ru#?#footer > div[class]:has(> div[class] > button:contains(Подписаться))
+
 forbes.ru#?#footer > div[class]:has(> div[class] > div[class] > a:contains(Подписаться))
 !#if cap_html_filtering
 comments.ua##^.conteres > p[style="font-weight: 700!important;padding-top: 10px;padding-bottom: 10px;background: aliceblue;text-align: center;"]
@@ -45874,7 +45872,6 @@ canonical.com#?$$main-content > article > section > .row > .col-4 > div > .p-car
 !#endif
 canonical.com#?##main-content > article > section > .row > .col-4 > div > .p-card--muted:has(> .p-card__content > form[id^="mktoForm_"][onsubmit*="Newsletter"])
 
-
 alisale.by#?#div[id^="modal_mypopup_"]:has( a[href^="https://t.me/alisale_by"])
 !#if cap_html_filtering
 alisale.by##^.telega-block
@@ -45936,6 +45933,7 @@ ubitennis.com$$#mvp-side-wrap > section[id^="mc4wp_form_widget"]
 ubitennis.com###mvp-side-wrap > section[id^="mc4wp_form_widget"]
 
 maxicours.com##+js(set-session-storage-item, popup-closed, true)
+
 ||s69.wdc.center^$domain=kitantik.com|hibya.com
 !#if cap_html_filtering
 thebell.io##^h3[id^="etot-material-"]
@@ -47260,7 +47258,6 @@ codingdeft.com$$div[class^="SubscribeFormstyles_"]
 !#endif
 codingdeft.com##div[class^="SubscribeFormstyles_"]
 
-
 !#if cap_html_filtering
 moderndiplomacy.eu##^#mvp-side-wrap a[href="https://moderndiplomacy.eu/md-premium/"] > img
 moderndiplomacy.eu$$#mvp-side-wrap a[href="https://moderndiplomacy.eu/md-premium/"] > img
@@ -47385,6 +47382,7 @@ newstomato.com##^.rn_container div[style^="text-align:"][style*="margin-top:"]
 newstomato.com$$.rn_container div[style^="text-align:"][style*="margin-top:"]
 !#endif
 newstomato.com##.rn_container div[style^="text-align:"][style*="margin-top:"]
+
 
 !#if cap_html_filtering
 fbi.gov##^#meta-tile-meta-sticky-footer
@@ -49428,7 +49426,6 @@ bargainfox.com##^.site-content > div.nt_custom_new
 bargainfox.com$$.site-content > div.nt_custom_new
 !#endif
 bargainfox.com##.site-content > div.nt_custom_new
-
 
 topwar.ru#?#.str-cont > div.alert:has(> div.alert_in p > strong > a[href="https://t.me/topwar_official"])
 !#if cap_html_filtering
@@ -51508,7 +51505,6 @@ vegasslotsonline.com##^.subscribe-to-newsletter
 vegasslotsonline.com$$.subscribe-to-newsletter
 !#endif
 vegasslotsonline.com##.subscribe-to-newsletter
-
 
 !#if cap_html_filtering
 sundaypost.com##^#dct-cta--signup-signup-generic
@@ -55054,7 +55050,6 @@ schuco.de$$.social-v2--newsletter
 !#endif
 schuco.de##.social-v2--newsletter
 
-
 !#if cap_html_filtering
 schuco.de#$##^exit_intent_newsletter_modal { display: none!important; }
 schuco.de#$$$exit_intent_newsletter_modal { display: none!important; }
@@ -56134,6 +56129,7 @@ streamlit.io,linksys.com##^.sign-up-form
 streamlit.io,linksys.com$$.sign-up-form
 !#endif
 streamlit.io,linksys.com##.sign-up-form
+
 
 !#if cap_html_filtering
 dol.com.br##^#newsletterInterna
@@ -60434,7 +60430,6 @@ humansarefree.com$$form[action*="/subscription-form/"]
 !#endif
 humansarefree.com##form[action*="/subscription-form/"]
 
-
 !#if cap_html_filtering
 governmentslaves.news##^#homebanner-subscribe
 governmentslaves.news$$#homebanner-subscribe
@@ -60829,7 +60824,6 @@ faithpot.com,ademocut.com,lawlex.org$$#wp-subscribe
 !#endif
 faithpot.com,ademocut.com,lawlex.org###wp-subscribe
 
-
 !#if cap_html_filtering
 lawlex.org##^#singlesubscribe
 lawlex.org$$#singlesubscribe
@@ -60894,6 +60888,7 @@ thehindubusinessline.com##^.Subscribe
 thehindubusinessline.com$$.Subscribe
 !#endif
 thehindubusinessline.com##.Subscribe
+
 
 !#if cap_html_filtering
 thehindubusinessline.com##^.socialLindiv
@@ -61731,6 +61726,7 @@ masfrandy.com$$.berlangganan-box
 !#endif
 masfrandy.com##.berlangganan-box
 
+
 !#if cap_html_filtering
 infomoney.com.br##^.infomoney-newsletter
 infomoney.com.br$$.infomoney-newsletter
@@ -62438,6 +62434,7 @@ searchengines.guru$$.article-blue-block
 !#endif
 searchengines.guru##.article-blue-block
 
+
 !#if cap_html_filtering
 a2hosting.com,entrepreneur.com##^.article-subscribe
 a2hosting.com,entrepreneur.com$$.article-subscribe
@@ -62939,7 +62936,6 @@ legit.ng,mobileplanet.ua,babychakra.com,games.mail.ru,citydog.io,citydog.by,rusp
 legit.ng,mobileplanet.ua,babychakra.com,games.mail.ru,citydog.io,citydog.by,rusplt.ru,skyeng.ru$$.email-subscription
 !#endif
 legit.ng,mobileplanet.ua,babychakra.com,games.mail.ru,citydog.io,citydog.by,rusplt.ru,skyeng.ru##.email-subscription
-
 
 magazine.skyeng.ru#?#div[data-ce-tag="grid-col"] > p[data-ce-tag="paragraph"]:contains(/(^В изучении английского.*оригинале.\s$)|(^Чтобы без проблем общаться.* фразы на английском.$)/)
 !#if cap_html_filtering
@@ -66087,6 +66083,7 @@ telegraaf.nl$$.Col .Newsletter__body
 telegraaf.nl##.Col .Newsletter__body
 
 ||cbn.com.ua/wp-content/uploads/2019/06/20061924.jpg
+
 !#if cap_html_filtering
 m.timesofindia.com##^.newsletter_wdgt
 m.timesofindia.com$$.newsletter_wdgt
@@ -66398,7 +66395,6 @@ neonnettle.com##^#mailList
 neonnettle.com$$#mailList
 !#endif
 neonnettle.com###mailList
-
 
 !#if cap_html_filtering
 finsmes.com,skardu.pk,mikrometoxos.gr,filmdaily.co,connectwww.com,helpnetsecurity.com,journaldev.com##^#mailchimp-top-bar
@@ -66903,6 +66899,7 @@ ipress.ua##^#subscribe_us
 ipress.ua$$#subscribe_us
 !#endif
 ipress.ua###subscribe_us
+
 
 !#if cap_html_filtering
 designmodo.com##^#subscribesinglepad
