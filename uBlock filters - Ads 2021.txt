@@ -774,6 +774,12 @@ forum.gigabyte.us###remove_ads_link
 
 ! 1primewire .com popups ads
 ||1primewire.com/addons/$image
+!#if cap_html_filtering
+1primewire.com##^[id]:has(> [class="close ico"])
+1primewire.com$$[id]:has(> [class="close ico"])
+!#endif
+1primewire.com##[id]:has(> [class="close ico"])
+
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7322
 *$script,domain=novelmultiverse.com,redirect-rule=noopjs
@@ -6527,10 +6533,6 @@ routech.ro##+js(nostif, blur)
 ! https://github.com/uBlockOrigin/uAssets/issues/10944
 routech.ro##+js(no-xhr-if, googlesyndication)
 
-! https://www.reddit.com/r/uBlockOrigin/comments/osh855/nsfw_freebunkercom_popup_appear/
-freebunker.com##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP/)
-||freebunker.com/includes/js/layer.js^
-
 ! https://github.com/uBlockOrigin/uAssets/issues/9650
 !#if cap_html_filtering
 msn.cn##^msft-article[id^="native_ad_nativead"]
@@ -6622,8 +6624,8 @@ send-anywhere.com###transfer-reward-ad
 ||brightcovecdn.com/playback/*/*?ad_config_id$removeparam=ad_config_id,xhr,domain=tvnz.co.nz
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/owh9eq/please_help_me_disable_this_anti_adblock/
-@@||pharmacyreviewer.co^$ghide
-@@||pharmacyreviewer.co/forum/js/$script,1p
+@@||pharmacyreviewer.com^$ghide
+@@||pharmacyreviewer.com/forum/js/$script,1p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/ownid8/cant_block_admiral_ads/
 247sports.com##body:not(.skybox-loaded) .topnav:style(margin-top:0px !important)
@@ -7304,9 +7306,6 @@ www.sainsburys.co.uk#?#li:has(.product-header):has-text(Sponsored)
 123moviesto.to##.mvic-bmt
 
 
-! https://github.com/uBlockOrigin/uAssets/issues/9884
-mp3snow.com##+js(nowoif)
-
 ! https://github.com/uBlockOrigin/uAssets/issues/9885
 mp3dl.cc##+js(nowoif)
 
@@ -7507,22 +7506,6 @@ ttsfree.com##^div[id^="ezoic-pub-ad-"]
 ttsfree.com$$div[id^="ezoic-pub-ad-"]
 !#endif
 ttsfree.com##div[id^="ezoic-pub-ad-"]
-
-
-! https://github.com/uBlockOrigin/uAssets/issues/9958
-trannypictures.com##+js(aopr, document.dispatchEvent)
-trannypictures.com##+js(acs, document.querySelectorAll, popMagic)
-!#if cap_html_filtering
-trannypictures.com##^[href^="http://in.trannyaccess.com/track/"]
-trannypictures.com$$[href^="http://in.trannyaccess.com/track/"]
-!#endif
-trannypictures.com##[href^="http://in.trannyaccess.com/track/"]
-
-!#if cap_html_filtering
-trannypictures.com##^.im_adv
-trannypictures.com$$.im_adv
-!#endif
-trannypictures.com##.im_adv
 
 
 ! https://github.com/uBlockOrigin/uAssets/issues/9961
@@ -7956,7 +7939,7 @@ funker530.com##+js(rc, cnx-ad-container|cnx-ad-bid-slot)
 ||funker530-ads.azurewebsites.net^
 
 ! https://github.com/uBlockOrigin/uAssets/issues/10065
-reset-scans.com,reset-scans.us##+js(rmnt, script, deblocker)
+reset-scans.us##+js(rmnt, script, deblocker)
 
 ! https://github.com/uBlockOrigin/uAssets/pull/10067
 uyduportal.net##+js(acs, document.addEventListener, nextFunction)

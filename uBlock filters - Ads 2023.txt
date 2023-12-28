@@ -2869,6 +2869,12 @@ madoohd.com$$.floating-side-bnn
 !#endif
 madoohd.com##.floating-side-bnn
 
+!#if cap_html_filtering
+madoohd.com##^.freespin_btn
+madoohd.com$$.freespin_btn
+!#endif
+madoohd.com##.freespin_btn
+
 
 ! https://github.com/uBlockOrigin/uAssets/issues/17410
 mawsueaa.com##+js(aeld, load, onload)
@@ -7048,9 +7054,6 @@ setfilmizlesene.com###reklamCode
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19610
 @@||cloudnovel.net^$ghide
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/160848
-notube.io##+js(nowoif, notube.io/p)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160907
 embedwish.com,filelions.live##+js(rmnt, script, /$.*(css|oncontextmenu)/)
