@@ -1,6 +1,6 @@
 ! URL: https://ublockorigin.github.io/uAssets/filters/filters.txt
 ! Title: uBlock filters
-! Last modified: Thu, 28 Dec 2023 12:51:55 +0000
+! Last modified: Thu, 28 Dec 2023 20:12:08 +0000
 ! Expires: 5 days
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Homepage: https://github.com/uBlockOrigin/uAssets
@@ -2732,12 +2732,6 @@ primewire.*##:xpath('//*[contains(text(),"Sponsored")]'):upward(2)
 ||primewire.*/sw$script,1p
 ||primewire.*/addons/*.gif$image
 !#if cap_html_filtering
-primewire.*##^[href="/user/profile/premium-membership"][target="_blank"]
-primewire.*$$[href="/user/profile/premium-membership"][target="_blank"]
-!#endif
-primewire.*##[href="/user/profile/premium-membership"][target="_blank"]
-
-!#if cap_html_filtering
 primewire.*##^.ico.close
 primewire.*$$.ico.close
 !#endif
@@ -3618,12 +3612,6 @@ embed.smashystream.com###addiv
 putlocker.*##+js(aopw, open)
 putlocker.*##+js(aopw, adcashMacros)
 ||putlocker.*/*.gif$image
-!#if cap_html_filtering
-putlocker.*##^[href="/user/profile/premium-membership"]
-putlocker.*$$[href="/user/profile/premium-membership"]
-!#endif
-putlocker.*##[href="/user/profile/premium-membership"]
-
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=38536
 10fastfingers.com##+js(acs, document.createElement, decodeURIComponent)
@@ -7338,10 +7326,6 @@ next-episode.net$$[id=""]
 !#endif
 next-episode.net##[id=""]
 
-next-episode.net##^script:has-text(/onerror|adsbygoogle|notice|while/i)
-!#if !cap_html_filtering
-next-episode.net##+js(rmnt, script, /onerror|adsbygoogle|notice|while/i)
-!#endif
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=39824
 ||beinsports.com/*/adbw/
@@ -15295,12 +15279,6 @@ solarmovie.*$$[class="close ico"]:upward(1)
 solarmovie.*##[class="close ico"]:upward(1)
 
 !#if cap_html_filtering
-solarmovie.*##^[href="/user/profile/premium-membership"]
-solarmovie.*$$[href="/user/profile/premium-membership"]
-!#endif
-solarmovie.*##[href="/user/profile/premium-membership"]
-
-!#if cap_html_filtering
 solarmovie.*##^.close
 solarmovie.*$$.close
 !#endif
@@ -20338,12 +20316,6 @@ alemannia-aachen.de##.b-error
 01fmovies.com$$.jw-logo
 !#endif
 01fmovies.com##.jw-logo
-
-!#if cap_html_filtering
-01fmovies.com##^[href="/user/profile/premium-membership"]
-01fmovies.com$$[href="/user/profile/premium-membership"]
-!#endif
-01fmovies.com##[href="/user/profile/premium-membership"]
 
 !#if cap_html_filtering
 01fmovies.com##^.ico.close

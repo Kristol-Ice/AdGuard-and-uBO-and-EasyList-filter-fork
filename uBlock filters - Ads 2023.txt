@@ -8285,6 +8285,7 @@ fplstatistics.co.uk##ins.adsbygoogle:style(clip-path: circle(0) !important;)
 @@||pagead2.googlesyndication.com/pagead/managed/js/adsense^$script,3p,domain=fplstatistics.co.uk
 @@||fundingchoicesmessages.google.com^$script,3p,domain=fplstatistics.co.uk
 ||googleads.g.doubleclick.net/pagead^$frame,3p,redirect-rule=noopframe,domain=fplstatistics.co.uk
+fplstatistics.co.uk##+js(no-fetch-if, googlesyndication)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/20971
 @@||mrfreemium.blogspot.com^$ghide
@@ -8947,3 +8948,15 @@ teksnologi.com##+js(rmnt, script, deblocker)
 
 ! dollareuro .live anti-adb
 dollareuro.live##+js(rmnt, script, deblocker)
+
+! https://github.com/uBlockOrigin/uAssets/issues/21638
+loot-links.com##+js(no-fetch-if, googlesyndication)
+
+! https://sethphat.com/download/?id=5497 timer
+sethphat.com##+js(nano-stb, total, 1000, 0.001)
+
+! https://theapkfolder.com/dls-23-mod-apk/download/ timer
+theapkfolder.com##+js(nano-stb, countdown, *, 0.001)
+
+! https://upapk.io/4hzklen07qof/ timer
+upapk.io##+js(nano-stb, tick, 1000, 0.001)

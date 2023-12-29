@@ -2,7 +2,7 @@
 [Adblock Plus 2.0]
 ! Title: EasyList
 ! Expires: 6 days (update frequency)
-! Last modified: Thu, 28 Dec 2023 14:31:18 +0000
+! Last modified: Fri, 29 Dec 2023 03:55:29 +0000
 ! Diff-Path: %diffpath%#easylist
 ! Diff-Expires: 317 minutes
 ! *** easylist:template_header.txt ***
@@ -23589,6 +23589,7 @@ browsershots.org#@#.advert_area
 ||broughtenragesince.com^
 ||broweb.site^
 ||brown-gas.com^
+||brownerchunam.com^
 ||broworker4s.com^
 ||broworker6s.com^
 ||broworker7.com^
@@ -24095,6 +24096,7 @@ browsershots.org#@#.advert_area
 ||cashieratrocity.com^
 ||cashlayer.com^
 ||cashmylinks.com^
+||cashooscrunode.com^
 ||cashoossikara.uno^
 ||cashtrafic.com^
 ||cashtrafic.info^
@@ -25573,6 +25575,7 @@ browsershots.org#@#.advert_area
 ||cretgate.com^
 ||crevicedepressingpumpkin.com^
 ||cribwarilyintentional.com^
+||cricksnatchez.com^
 ||criesnonstopbake.com^
 ||criesresentstrangely.com^
 ||crific.com^
@@ -31508,6 +31511,7 @@ browsershots.org#@#.advert_area
 ||hoodcapunbane.digital^
 ||hoofexcessively.com^
 ||hoogajee.net^
+||hooglidi.net^
 ||hoojique.xyz^
 ||hookawep.net^
 ||hookersecus.com^
@@ -34741,6 +34745,7 @@ browsershots.org#@#.advert_area
 ||loverevenue.com^
 ||loverfellow.com^
 ||loversarrivaladventurer.com^
+||lovesgoner.com^
 ||lovesparkle.space^
 ||lovewellat.guru^
 ||low-sad.com^
@@ -39194,6 +39199,7 @@ browsershots.org#@#.advert_area
 ||piquperkin.com^
 ||piratedivide.com^
 ||pirist.com^
+||pirniemagi.com^
 ||piroghiusent.com^
 ||pirogidecnet.com^
 ||pirouque.com^
@@ -46849,6 +46855,7 @@ browsershots.org#@#.advert_area
 ||usurv.com^
 ||uswardwot.com^
 ||uszaodwya.com^
+||ut13r.site^
 ||utaitlastwebe.com^
 ||utantialcottish.xyz^
 ||utarget.co.uk^
@@ -50233,6 +50240,7 @@ browsershots.org#@#.advert_area
 ||clixtrac.com^$third-party
 ||clkmg.com^$third-party
 ||cluep.com^$third-party
+||codegown.care^$third-party
 ||cogocast.net^$third-party
 ||coguan.com^$third-party
 ||coinads.io^$third-party
@@ -58440,6 +58448,10 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||adultfilmdatabase.com/graphics/porndude.png
 ||affiliates.goodvibes.com^
 ||akiba-online.com/data/siropu/
+||alaska.xhamster.com^
+||alaska.xhamster.desi^
+||alaska.xhamster2.com^
+||alaska.xhamster3.com^
 ||allporncomic.com/round-bread-60fe/
 ||allporncomic.com/snowy-paper-9b9f/
 ||alrincon.com/nbk/
@@ -58682,10 +58694,6 @@ $popup,third-party,domain=123animes.mobi|1337x.buzz|720pstream.tv|adblockeronsta
 ||manhwa18.cc/js/script.js
 ||mansurfer.com/flash_promo/
 ||marawaresearch.com/images/Banner
-||marine.xhamster.com^
-||marine.xhamster.desi^
-||marine.xhamster2.com^
-||marine.xhamster3.com^
 ||mature-chicks.com/sparkling-
 ||matureworld.ws/images/banners/
 ||megatube.xxx/ab-s.js
@@ -69527,6 +69535,12 @@ theepochtimes.com##^.bee-popup-container
 theepochtimes.com$$.bee-popup-container
 !#endif
 theepochtimes.com##.bee-popup-container
+
+!#if cap_html_filtering
+chowhound.com,glam.com,moneydigest.com,outdoorguide.com,svg.com##^.before-ad
+chowhound.com,glam.com,moneydigest.com,outdoorguide.com,svg.com$$.before-ad
+!#endif
+chowhound.com,glam.com,moneydigest.com,outdoorguide.com,svg.com##.before-ad
 
 !#if cap_html_filtering
 renonr.com##^.below-header-widgets
@@ -84949,10 +84963,10 @@ usnews.com$$[class*="ad-spacer"]
 usnews.com##[class*="ad-spacer"]
 
 !#if cap_html_filtering
-beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,techreport.com##^[class*="clickout-"]
-beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,techreport.com$$[class*="clickout-"]
+beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,philnews.ph,techreport.com##^[class*="clickout-"]
+beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,philnews.ph,techreport.com$$[class*="clickout-"]
 !#endif
-beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,techreport.com##[class*="clickout-"]
+beincrypto.com,bitcoinist.com,captainaltcoin.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,philnews.ph,techreport.com##[class*="clickout-"]
 
 !#if cap_html_filtering
 smallseotools.com##^[class*="gram"]

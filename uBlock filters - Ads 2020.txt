@@ -5562,39 +5562,6 @@ fxlap.com##.banner
 ! https://github.com/uBlockOrigin/uAssets/issues/8101
 onlinegamesx.com###yuidea-snp:style(display:block !important)
 
-! https://github.com/uBlockOrigin/uAssets/issues/8102
-blog.linksfire.co##+js(aopr, app_vars.force_disable_adblock)
-!#if cap_html_filtering
-blog.linksfire.co##^[href^="https://b3stcond1tions.com/"]
-blog.linksfire.co$$[href^="https://b3stcond1tions.com/"]
-!#endif
-blog.linksfire.co##[href^="https://b3stcond1tions.com/"]
-
-!#if cap_html_filtering
-blog.linksfire.co##^div.separator > b
-blog.linksfire.co$$div.separator > b
-!#endif
-blog.linksfire.co##div.separator > b
-
-!#if cap_html_filtering
-blog.linksfire.co##^.banner
-blog.linksfire.co$$.banner
-!#endif
-blog.linksfire.co##.banner
-
-!#if cap_html_filtering
-blog.linksfire.co##^.ex2
-blog.linksfire.co$$.ex2
-!#endif
-blog.linksfire.co##.ex2
-
-!#if cap_html_filtering
-blog.linksfire.co##^.link-details
-blog.linksfire.co$$.link-details
-!#endif
-blog.linksfire.co##.link-details
-
-
 ! earnfasts.com/yOJ25OA ads/popups
 earnfasts.com##+js(aopr, open)
 earnfasts.com##+js(set, blurred, false)
@@ -8246,7 +8213,6 @@ javhd.today##+js(acs, document.createElement, 'script')
 filmovi.ws##^script:has-text(decodeURIComponent)
 aniwatch.pro,ytc.*##+js(nowoif)
 ||cdn.ay.gy/js/$script,3p
-linksfire.*##+js(aopr, open)
 shahid4u.*,watchonlinemoviespk.*##+js(nowoif)
 moviesmeta.*##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP/)
 megaupto.com##+js(nano-stb, seconds)
