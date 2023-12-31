@@ -1,6 +1,6 @@
 ! URL: https://ublockorigin.github.io/uAssets/filters/filters.txt
 ! Title: uBlock filters
-! Last modified: Fri, 29 Dec 2023 21:09:19 +0000
+! Last modified: Sun, 31 Dec 2023 07:25:14 +0000
 ! Expires: 5 days
 ! Description: Filters optimized for uBlock, to be used along EasyList
 ! Homepage: https://github.com/uBlockOrigin/uAssets
@@ -4656,19 +4656,8 @@ platinmods.*##+js(nano-sib)
 ||whentai.com/*.gif$image
 
 ! Common rules for TXXX network
-/\/[a-z]{4,}\/(?!holly7)(?!siksik7)[0-9a-z]{3,}\d\.\d{1,2}\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,domain=555.porn|aniporn.com|bigdick.tube|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.com|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com
-/\.[a-z]{3,5}\/[0-9a-z]{8,12}\/[0-9a-z]{8,12}\.js$/$script,domain=555.porn|aniporn.com|asiantv.fun|blackporn.tube|bdsmx.tube|bigdick.tube|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.com|mrgay.tube|onlyporn.tube|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornhits.com|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|sextu.com|shemalez.com|sss.xxx|teenorgy.video|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xmilf.com
-/afon7.$script,1p
-/barbar7.$script,1p
-! https://github.com/uBlockOrigin/uAssets/issues/10064
-/huyass7.$script,1p
-/lemon7.$script,1p
-/rass7.$script,1p
-/teo7.$script,1p
-/nofa7.$script,1p
-/ytrek7.$script,1p
-/kzdh7.$script,1p
-/klesd7.$script,1p
+/\/[a-z]{4,}\/(?!holly7)(?!siksik7)[0-9a-z]{3,}\d\.\d{1,2}\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,domain=555.porn|abxxx.com|aniporn.com|bigdick.tube|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.com|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com
+/\.[a-z]{3,5}\/[0-9a-z]{8,12}\/[0-9a-z]{8,12}\.js$/$script,domain=555.porn|abxxx.com|aniporn.com|asiantv.fun|blackporn.tube|bdsmx.tube|bigdick.tube|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.com|mrgay.tube|onlyporn.tube|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornhits.com|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|sextu.com|shemalez.com|sss.xxx|teenorgy.video|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xmilf.com
 /assets/jwplayer-*/vast.js$script,1p
 ! https://github.com/uBlockOrigin/uAssets/issues/953
 txxx.*##+js(acs, setTimeout, hommy.mutation.mutation)
@@ -5323,12 +5312,6 @@ txxxporn.tube##.page-video > div[class]:has(> div[class]:not(.video-related) > d
 ! https://github.com/uBlockOrigin/uAssets/issues/4234
 hclips.com##+js(acs, adver)
 !#if cap_html_filtering
-hclips.com##^.video-page__content > .right
-hclips.com$$.video-page__content > .right
-!#endif
-hclips.com##.video-page__content > .right
-
-!#if cap_html_filtering
 hclips.com##^.wrapper + .partners-wrap + div[class]
 hclips.com$$.wrapper + .partners-wrap + div[class]
 !#endif
@@ -5351,6 +5334,12 @@ hclips.com##^span[style="display:flex !important"] > div:first-child
 hclips.com$$span[style="display:flex !important"] > div:first-child
 !#endif
 hclips.com##span[style="display:flex !important"] > div:first-child
+
+!#if cap_html_filtering
+hclips.com##^.video-page__content > div.left + div:not([class])
+hclips.com$$.video-page__content > div.left + div:not([class])
+!#endif
+hclips.com##.video-page__content > div.left + div:not([class])
 
 *$frame,3p,denyallow=google.com|gstatic.com,domain=hclips.com
 ! https://github.com/uBlockOrigin/uAssets/issues/8391
@@ -5480,6 +5469,25 @@ manysex.com##^span[style="display:flex !important"] > div > div:not(:last-child)
 manysex.com$$span[style="display:flex !important"] > div > div:not(:last-child)
 !#endif
 manysex.com##span[style="display:flex !important"] > div > div:not(:last-child)
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/169195
+!#if cap_html_filtering
+abxxx.com##^.video-page__content > div.left > section
+abxxx.com$$.video-page__content > div.left > section
+!#endif
+abxxx.com##.video-page__content > div.left > section
+
+!#if cap_html_filtering
+abxxx.com##^.video__wrapper > div.wrapper > section
+abxxx.com$$.video__wrapper > div.wrapper > section
+!#endif
+abxxx.com##.video__wrapper > div.wrapper > section
+
+!#if cap_html_filtering
+abxxx.com##^.video__wrapper > div.wrapper.headline
+abxxx.com$$.video__wrapper > div.wrapper.headline
+!#endif
+abxxx.com##.video__wrapper > div.wrapper.headline
 
 
 ! https://github.com/uBlockOrigin/uAssets/issues/966
@@ -14811,7 +14819,6 @@ mywatchseries.*##+js(acs, document.querySelectorAll, popMagic)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/4219
 yomovies.*##+js(aopr, decodeURI)
-mdfx9dc8n.net##+js(rmnt, script, /h=decodeURIComponent|popundersPerIP/)
 mixdrp.*##+js(aeld, load, download-wrapper)
 mixdrop.*##+js(set, MDCore.adblock, 0)
 mdbekjwqa.pw,mdfx9dc8n.net,mixdrop.*,mixdrp.*,mixdroop.*##+js(nowoif)
@@ -14819,6 +14826,7 @@ mixdrop.*,mixdrp.*##+js(acs, $, String.fromCharCode)
 mixdrop.*,mixdrp.*##+js(nano-stb, disabled)
 mdbekjwqa.pw##+js(noeval-if, setInterval)
 mdbekjwqa.pw##+js(acs, document.createElement, onerror)
+mdfx9dc8n.net##+js(rmnt, script, popundersPerIP)
 ||mixdrop.*/sw.js$script,1p
 !#if cap_html_filtering
 mixdrop.*##^div[onclick^="$(this).remove"]
@@ -14827,10 +14835,10 @@ mixdrop.*$$div[onclick^="$(this).remove"]
 mixdrop.*##div[onclick^="$(this).remove"]
 
 !#if cap_html_filtering
-mdbekjwqa.pw,mixdrp.*,mixdrop.*,mixdroop.*##^body > div[style^="position: absolute;"][style*="z-index"]
-mdbekjwqa.pw,mixdrp.*,mixdrop.*,mixdroop.*$$body > div[style^="position: absolute;"][style*="z-index"]
+mdbekjwqa.pw,mdfx9dc8n.net,mixdrp.*,mixdrop.*,mixdroop.*##^body > div[style^="position: absolute;"][style*="z-index"]
+mdbekjwqa.pw,mdfx9dc8n.net,mixdrp.*,mixdrop.*,mixdroop.*$$body > div[style^="position: absolute;"][style*="z-index"]
 !#endif
-mdbekjwqa.pw,mixdrp.*,mixdrop.*,mixdroop.*##body > div[style^="position: absolute;"][style*="z-index"]
+mdbekjwqa.pw,mdfx9dc8n.net,mixdrp.*,mixdrop.*,mixdroop.*##body > div[style^="position: absolute;"][style*="z-index"]
 
 *$script,3p,denyallow=dotblocking.dummy|google.com|gstatic.com|hwcdn.net|jquery.com,domain=mixdrop.*|mixdrp.*|~mixdrop.one|mixdroop.*
 ||brightadnetwork.com^
@@ -27886,12 +27894,12 @@ rarlab.com##.tbar2:has-text(advert)
 dood.*##+js(acs, adcashMacros)
 dood.*,dooood.*##+js(acs, document.createElement, 'script')
 dood.*,doods.pro,dooood.*,ds2play.com##+js(aopw, DoodPop)
-dood.*,ds2video.com##+js(acs, decodeURI, decodeURIComponent)
+d0o0d.com,dood.*,ds2video.com##+js(acs, decodeURI, decodeURIComponent)
 dood.*##+js(aopr, __aaZoneid)
-dood.*,doods.pro,dooood.*,ds2play.com,ds2video.com##+js(nowoif)
-dood.*,doods.pro,doodstream.*,dooood.*,ds2play.com,ds2video.com##+js(rmnt, script, /adblock|popunder/)
-dood.*,doods.pro,doodstream.*,dooood.*,ds2play.com,ds2video.com##^script:has-text(/adblock|popunder/)
-/sw.js$script,domain=dood.*|doods.pro|dooood.*|ds2play.com|ds2video.com
+d0o0d.com,dood.*,doods.pro,dooood.*,ds2play.com,ds2video.com##+js(nowoif)
+d0o0d.com,dood.*,doods.pro,doodstream.*,dooood.*,ds2play.com,ds2video.com##+js(rmnt, script, /adblock|popunder/)
+d0o0d.com,dood.*,doods.pro,doodstream.*,dooood.*,ds2play.com,ds2video.com##^script:has-text(/adblock|popunder/)
+/sw.js$script,domain=d0o0d.com|dood.*|doods.pro|dooood.*|ds2play.com|ds2video.com
 ||declareave.com^
 ||dexchangegenius.com^
 
