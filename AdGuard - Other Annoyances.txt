@@ -1,11 +1,11 @@
 ! URL: https://filters.adtidy.org/extension/ublock/filters/21.txt
 ![Adblock Plus 2.0]
-! Checksum: 1Co2R+dbaJHdti3RGsUcgA
-! Diff-Path: ../patches/21/21-s-1703946947-3600.patch
+! Checksum: bwSkz0jdFrPUHQ/tvHc+Tg
+! Diff-Path: ../patches/21/21-s-1704054938-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.27
-! TimeUpdated: 2023-12-30T14:31:57+00:00
+! Version: 2.0.18.28
+! TimeUpdated: 2023-12-31T20:32:00+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -273,7 +273,7 @@ liga.net##.youtube-block
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165443
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165288
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164936
-thegamer.com,screenrant.com,makeuseof.com,movieweb.com,androidpolice.com,xda-developers.com##+js(cookie-remover, articlesRead)
+howtogeek.com,gamerant.com,cbr.com,thegamer.com,screenrant.com,makeuseof.com,movieweb.com,androidpolice.com,xda-developers.com##+js(cookie-remover, articlesRead)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165217
 !#if cap_html_filtering
 lachainemeteo.com##^.videoContainer.videoFixed
@@ -506,7 +506,6 @@ virtualbrest.ru#?#td > noindex:has(> table > tbody > tr > td > p > a[href="https
 ||pregchan.com/randomBanner.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155602
 e1.ru#?#.central-column-container div.onisd:has(> div > ul > li > a[href="https://vk.com/e1news"])
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155790
 !#if cap_html_filtering
 websiterating.com##^.site + .gb-container-366a1a73
@@ -1669,7 +1668,6 @@ eurasianet.org##.featured-news .top > .callout
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120426
 hpplus.jp##+js(set-constant, $.cookie, trueFunc)
 ! https://github.com/List-KR/List-KR/pull/357
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/154726
 !#if cap_html_filtering
 10000recipe.com##^a[onclick*="EZ.countLog('event_recipe_view_right"]
@@ -2551,6 +2549,7 @@ wolframalpha.com##main > span > a[href^="https://www.wolframalpha.com/pro/pricin
 
 wolframalpha.com#?#div[animations]:has(> a[href][target="_blank"] > img)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97527
+
 !#if cap_html_filtering
 benesse.jp##^.bookmark.fixed
 benesse.jp$$.bookmark.fixed
@@ -3117,7 +3116,6 @@ habr.com#?#ul.tm-article-list-block__list > li.tm-article-list-block__item:has(>
 habr.com#?#.tm-article-card-list > li.tm-article-card-list__item:has(> div.tm-promo-post-link)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87867
 xchina.co#?#.aside > div.center:has(> a[href="/tg.html"])
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87972
 eadaily.com#?#.latest-block > div.side-announcement:has(> a[href="tg://resolve?domain=EurasiaDaily"])
 ! sponsor page at the end of video
@@ -3308,7 +3306,6 @@ deviantart.com#?$$root > header ~ div[class] > span.theme-light > a[href$="/user
 deviantart.com#?##root > header ~ div[class] > span.theme-light > a[href$="/users/login"]:upward(header ~ div[class])
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84883
-
 searchengines.guru#?#body div[class]:not([id]):has(> div[align="center"] > iframe[src*="/index.html?link="])
 ! myshows.me - social widget
 myshows.me#?#.Page-main > div.Home-section:has(> div > iframe#instagram-widget)
@@ -3368,6 +3365,7 @@ viva.ua$$.telegram-banner
 viva.ua##.telegram-banner
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/84256
+
 blunt-therapy.com#?#.elementor-column-wrap div.elementor-widget:has(> div[class] .elementor-heading-title:contains(Get Our Best tips))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/83741
 !#if cap_html_filtering
@@ -3558,6 +3556,7 @@ down.mdiaload.com##a[href*="download"][href*=".html"]
 
 down.mdiaload.com#?#.download-option-btn > button > a[href*="download"][href*=".html"]:upward(2)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/81006
+
 !#if cap_html_filtering
 marriedgames.com.br##^.mdl_container
 marriedgames.com.br$$.mdl_container
@@ -4086,6 +4085,7 @@ codestudyblog.com$$#divshow3
 codestudyblog.com###divshow3
 
 ||codestudyblog.com/ref/myscripts.js
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70108
 !#if cap_html_filtering
 kinoafisha.info##^.article_channels
@@ -6151,7 +6151,6 @@ porn.com$$.player-cams
 !#endif
 porn.com##.player-cams
 
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/20915
 !#if cap_html_filtering
 onlinefilm-hd.com##^#footer div[align="justify"]
@@ -6199,7 +6198,6 @@ kievpravda.com##.person-of-day-sidebar
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/18710
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67963#issuecomment-737008135
-
 !#if cap_html_filtering
 youtube.com##^#content > .style-scope > .ytd-compact-promoted-item-renderer
 youtube.com$$#content > .style-scope > .ytd-compact-promoted-item-renderer
@@ -7106,6 +7104,7 @@ forums.redflagdeals.com$$.message.guest_intro
 forums.redflagdeals.com##.message.guest_intro
 
 ! stackoverflow.com - proposal for registration
+
 !#if cap_html_filtering
 stackoverflow.com##^#herobox
 stackoverflow.com$$#herobox
@@ -7588,7 +7587,6 @@ ctc.ru##.widget.special-block[data-trackable]
 
 ||mts.ctc.ru/?nowrap=
 ! kinokong.net - полоса с популярными фильмами
-
 !#if cap_html_filtering
 kinokong.net##^#hotnewsline
 kinokong.net$$#hotnewsline
@@ -7697,6 +7695,7 @@ inopressa.ru$$.alignleft > table[width="715"][border="0"][bgcolor="#DDDDDD"]
 inopressa.ru##.alignleft > table[width="715"][border="0"][bgcolor="#DDDDDD"]
 
 !
+
 ! http://forum.adguard.com/showthread.php?6449
 !#if cap_html_filtering
 absurdopedia.net##^#p-friends
@@ -7976,12 +7975,12 @@ cloud.mail.ru##.b-tooltip_tariff-promo
 
 ! popups
 ! theme popup
+
 !#if cap_html_filtering
 e.mail.ru##^#theme-currency-notify
 e.mail.ru$$#theme-currency-notify
 !#endif
 e.mail.ru###theme-currency-notify
-
 
 ! make as start page
 !#if cap_html_filtering
@@ -9855,7 +9854,6 @@ ya.ru$$.search3__doodle_video
 !#endif
 ya.ru##.search3__doodle_video
 
-
 ||yastatic.net/s3/home/logos/doodle/mp4/tvstation_$domain=ya.ru
 !#if cap_html_filtering
 ya.ru##^#market-feed
@@ -9891,6 +9889,7 @@ yandex.*##.meteum-promo
 
 !
 ! Yandex.Maps
+
 !#if cap_html_filtering
 yandex.*##^:matches-path(/maps).card-special-offers-view
 yandex.*$$:matches-path(/maps).card-special-offers-view
@@ -10001,7 +10000,6 @@ rasp.yandex.*##^.TravelHotelsBanner
 rasp.yandex.*$$.TravelHotelsBanner
 !#endif
 rasp.yandex.*##.TravelHotelsBanner
-
 
 ! Yandex.Search
 !#if cap_html_filtering
@@ -10708,6 +10706,7 @@ tver.jp##^div[class^="episode-page-main_companionAd"]
 tver.jp$$div[class^="episode-page-main_companionAd"]
 !#endif
 tver.jp##div[class^="episode-page-main_companionAd"]
+
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131292
 !#if cap_html_filtering
@@ -11730,7 +11729,6 @@ faze.ca$$#text-12
 faze.ca###text-12
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102343
-
 ||xgoo.jp/top2018/conductor_banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102502
 hnavi.co.jp#?#div[class^="article-content-"] > p:not([style]) + p[style]:has(> a[href^="https://hnavi.co.jp/lp/system2b/"])
@@ -11945,6 +11943,7 @@ telecom.economictimes.indiatimes.com##.in-page-promotions-buckets-featured
 ! golem.de self-promo (buy a pc from them)
 golem.de#?#.list-articles > li:has(> a[href*="/news/werbung"])
 golem.de#?#.media__teaser-list > li:has(> div[data-article-id] > a[href*="/news/werbung"])
+
 ~forum.golem.de,golem.de#$?#li[style="display: none !important;"] + li { border-top: none !important; }
 golem.de#?#.list-tickers > li:has(> div > a[href*="/news/werbung"])
 ! m.bild.de - ad to shop trikots in their own shop
@@ -11975,6 +11974,7 @@ cityheaven.net$$.tiktok_banner_box
 cityheaven.net##.tiktok_banner_box
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/100391
+
 !#if cap_html_filtering
 baike.baidu.com##^.BK-after-content-wrapper > div[class][id] > a[onclick^="page.Mixedor.mixedOpen"][target="_blank"]
 baike.baidu.com$$.BK-after-content-wrapper > div[class][id] > a[onclick^="page.Mixedor.mixedOpen"][target="_blank"]
@@ -12038,7 +12038,6 @@ octoparse.com$$.content > p > a[href^="http://www.octoparse.com/download?"]
 octoparse.com##.content > p > a[href^="http://www.octoparse.com/download?"]
 
 ! https://github.com/easylist/easylist/pull/9705#issuecomment-968065999
-
 ||p.dmm.co.jp/p/bnr/dc/topics/large/book_
 ! https://github.com/AdguardTeam/AdguardFilters/issues/99512 promo banner
 !#if cap_html_filtering
@@ -12389,7 +12388,6 @@ testbook.com$$.post-body-banner a[href="https://testbook.com/pass"] > img
 !#endif
 testbook.com##.post-body-banner a[href="https://testbook.com/pass"] > img
 
-
 ! promotional ads
 !#if cap_html_filtering
 kakakumag.com##^.side-ad-box
@@ -12722,7 +12720,6 @@ sankei.com###piano_information_Article
 
 sankei.com#?#.main-items > .col-container > .col-item > .custom-html-feature:has(> #piano_information_Article)
 ||news.sod.co.jp/wp-content/uploads/*/prime_cp_$image,~third-party
-
 !#if cap_html_filtering
 nicovideo.jp##^.TagRelatedBannerContainer.Card
 nicovideo.jp$$.TagRelatedBannerContainer.Card
@@ -13107,7 +13104,6 @@ kakaku.com##.p-dell
 kakaku.com#?#.alignC > div.mTop10 > div[style="border:1px solid #ccc;"]:contains(-PR-)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/94502#issuecomment-920307757
 www.kinopoisk.ru#?#div[class^="styles_root"] > div[data-tid]:has(> div[class*="blockClassName"] a[href*="trailer_promo"])
-
 www.kinopoisk.ru#?#.desktop-layout-with-sidebar__content > div[data-tid]:has(> div[class] a[href^="https://hd.kinopoisk.ru/?source"])
 !#if cap_html_filtering
 www.kinopoisk.ru##^a[href="https://hd.kinopoisk.ru/?source=kinopoisk_head_button"]
@@ -13388,6 +13384,7 @@ kropic.com,imgbaron.com,picbaron.com##^.newsbar_b
 kropic.com,imgbaron.com,picbaron.com$$.newsbar_b
 !#endif
 kropic.com,imgbaron.com,picbaron.com##.newsbar_b
+
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/63380
 !#if cap_html_filtering
@@ -13798,7 +13795,6 @@ stuttgarter-nachrichten.de##.ga_hptta .content > a[data-tags="Verlagsangebot"]
 
 stuttgarter-nachrichten.de#?#.ga_hptta > .item:has(> .content > a[data-tags="Verlagsangebot"])
 ! tichyseinblick.de - self-promo at end of article
-
 !#if cap_html_filtering
 tichyseinblick.de##^.rty-new-donation
 tichyseinblick.de$$.rty-new-donation
@@ -13872,6 +13868,7 @@ golem.de##^.section-gpure
 golem.de$$.section-gpure
 !#endif
 golem.de##.section-gpure
+
 
 golem.de#$#.has-gpure-btn { min-height: 111px !important; }
 ! golem.de - golem academy
@@ -14579,6 +14576,7 @@ amazon.de###native-app-upsell
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/26289
 ! notizie.tiscali.it in article
+
 !#if cap_html_filtering
 tiscali.it##^.entry-pos-vsb
 tiscali.it$$.entry-pos-vsb
@@ -16721,7 +16719,6 @@ nifty.com$$dd[class^="Setsuzoku_servicePromo"]
 !#endif
 nifty.com##dd[class^="Setsuzoku_servicePromo"]
 
-
 !#if cap_html_filtering
 myhome.nifty.com##^.box > a[href$="HeaderBanner"]
 myhome.nifty.com$$.box > a[href$="HeaderBanner"]
@@ -17194,6 +17191,7 @@ sogyotecho.jp##^.foot_banner
 sogyotecho.jp$$.foot_banner
 !#endif
 sogyotecho.jp##.foot_banner
+
 
 !#if cap_html_filtering
 creators.yahoo.co.jp##^#new_cont + hr.line
@@ -17711,6 +17709,7 @@ bellesa.co$$a[target="_blank"] > div > video
 bellesa.co##a[target="_blank"] > div > video
 
 similarweb.com#?#.single-section__content > p:has(> span[style] a[href="https://www.similarweb.com/corp/research/contact-us/"])
+
 !#if cap_html_filtering
 androidinsider.ru##^.link-alert
 androidinsider.ru$$.link-alert
@@ -18315,7 +18314,6 @@ tuoitre.vn##^.box-raovat
 tuoitre.vn$$.box-raovat
 !#endif
 tuoitre.vn##.box-raovat
-
 
 !#if cap_html_filtering
 whois.com##^.rhs-col > .chiclet
@@ -19676,6 +19674,7 @@ blog.livup.com.br$$.livup-home-banner-ads
 !#endif
 blog.livup.com.br##.livup-home-banner-ads
 
+
 !#if cap_html_filtering
 eapteka.ru##^#notifications-root
 eapteka.ru$$#notifications-root
@@ -20878,7 +20877,6 @@ geeksforgeeks.org$$div[class^="textBasedMannualAds"]
 !#endif
 geeksforgeeks.org##div[class^="textBasedMannualAds"]
 
-
 !#if cap_html_filtering
 uteka.ru##^.home-page-intro-slider
 uteka.ru$$.home-page-intro-slider
@@ -21942,6 +21940,7 @@ meijer.com##^div[data-destinationlink$=":::mPerksAcquisition"]
 meijer.com$$div[data-destinationlink$=":::mPerksAcquisition"]
 !#endif
 meijer.com##div[data-destinationlink$=":::mPerksAcquisition"]
+
 
 !#if cap_html_filtering
 weblium.com##^a[href*="&utm_campaign=banner_make4hour"]
@@ -23795,7 +23794,6 @@ send.firefox.com$$body > send-promo
 !#endif
 send.firefox.com##body > send-promo
 
-
 userstyles.org#?#.us-stylecards__container > div[class^="us-stylecard"]:has(> div.fallbackDiv)
 !#if cap_html_filtering
 kimovil.com##^.hotdeals-block
@@ -24724,7 +24722,6 @@ novelas-brasilieras.ru#$#.header { margin-bottom: 0px !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166077
 automoto.it,moto.it#$#body > div#main-content { padding-top: 0px !important; }
 ! https://github.com/uBlockOrigin/uAssets/discussions/17361#discussioncomment-7478083
-
 coingraph.us#$#form > [id] { display: block !important; }
 !#if cap_html_filtering
 coingraph.us#$##^wpsafe-link3 { display: block !important; }
@@ -25764,6 +25761,7 @@ business-mortgage.info#$##Proceed { display: inline!important; }
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53996
 freetutsdownload.net#$#button.chuyenhuong { display: inline-block!important; }
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/53501
 !#if cap_html_filtering
 imgtorrnt.in#$##^clkk { display: block!important; }
@@ -26152,6 +26150,7 @@ brightdays.jp##+js(remove-attr, onCopy|onContextmenu, body)
 heroxcheat.cloud##+js(nano-setInterval-booster, mdtimer , *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156634
 bloginkz.com##+js(nano-setInterval-booster, timer, , 0.02)
+
 bloginkz.com##+js(remove-attr, disabled, #captcha_container + button.btn)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156768
 sabah.com.tr##+js(set-attr, .player > div[data-videoid], data-autoplay, 0)
@@ -26519,6 +26518,7 @@ cheatermad.com##+js(nano-setInterval-booster, #upbtn, , 0.02)
 dramaworldhd.co##+js(nano-setInterval-booster, timeLeft, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115213
 mazen-ve.com##+js(nano-setInterval-booster, mdtimer, , 0.02)
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113960
 streamcheck.link,tinyurl.so,tinyurl.is##+js(nano-setInterval-booster, skip-btn, *, 0.02)
 streamcheck.link,tinyurl.so,tinyurl.is##+js(remove-class, disabled, a[id^="newskip-"].disabled)
@@ -26591,6 +26591,7 @@ financeflix.in,technoflip.in,studyranks.in##+js(nano-setInterval-booster, count,
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110284
 wondervelocity.com##+js(nano-setInterval-booster, counter, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/108502
+
 yifysubtitles.me##+js(nano-setInterval-booster, timer, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109848
 apkmody.io##+js(adjust-setTimeout, download_loading, *, 0.02)
@@ -26802,7 +26803,6 @@ linkslo.com##+js(nano-setInterval-booster, countdown, , 0.02)
 newzflix.xyz##+js(adjust-setTimeout, clsname, 5000, 0.02)
 moviesfi.net##+js(adjust-setTimeout, #download, 10000, 0.02)
 moviesfi.net##+js(adjust-setTimeout, #download, 11000, 0.02)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92167
 gold-24.net,3rabsports.com,forexrw7.com,fx-22.com,forexmab.com,forexwaw.club,forex-articles.com,linkjust.com,forexmab.com,forexlap.com##+js(nano-setInterval-booster, sec--, , 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/91401
@@ -27369,6 +27369,7 @@ mobilelegends.shop##+js(nano-setInterval-booster, linkDL, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50905
 freetutorialsus.com##+js(nano-setInterval-booster, downloadButton, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51884
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50871
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50686
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50707
@@ -27727,6 +27728,7 @@ firmwarefile.com,m.rtl.be,procrackerz.org,chapterupdates.com,babelnovel.com,katz
 !+ NOT_PLATFORM(windows, mac, android, ext_ff)
 quotev.com#$#body #res_area ::selection { background-color: #3297FD!important; }
 !
+
 !--- JS ----
 ! NOTE: Context menu - JS
 !
@@ -27889,7 +27891,6 @@ utorrentgamesps2.blogspot.com##+js(remove-attr, onselectstart, body)
 utorrentgamesps2.blogspot.com##+js(abort-current-script, document.onkeyup)
 software-on.com##+js(addEventListener-defuser, /selectstart|dragstart|keydown/, preventDefault)
 exlyrics.com,moviesrush.one,skidrowcodex.net##+js(abort-on-property-read, stopPrntScr)
-
 ahstudios.net,crunchyscan.fr,picallow.com,thecustomrom.com##+js(abort-on-property-read, addMultiEventListener)
 lectortmo.com##+js(remove-attr, oncontextmenu, .img-container > img[oncontextmenu])
 quotev.com##+js(remove-attr, onselectstart|ondragstart|unselectable, #rescontent)

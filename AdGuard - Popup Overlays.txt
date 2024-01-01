@@ -1,11 +1,11 @@
 ! URL: https://filters.adtidy.org/extension/ublock/filters/19.txt
 ![Adblock Plus 2.0]
-! Checksum: Lsl+TeHqR9No/a7JXRkOFw
-! Diff-Path: ../patches/19/19-s-1703943341-3600.patch
+! Checksum: chcy21SogAXLYUA0ONY6Wg
+! Diff-Path: ../patches/19/19-s-1704054937-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.28
-! TimeUpdated: 2023-12-30T13:31:43+00:00
+! Version: 2.0.29.29
+! TimeUpdated: 2023-12-31T20:31:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -40870,12 +40870,6 @@ shrm.org$$.hr-daily-newsletter
 !#endif
 shrm.org##.hr-daily-newsletter
 
-!#if cap_html_filtering
-howtogeek.com##^#signin-banner-container
-howtogeek.com$$#signin-banner-container
-!#endif
-howtogeek.com###signin-banner-container
-
 timesofindia.indiatimes.com#?#div[data-mod="sidebar"] > div[class*=" "]:has(.et_subscription_container_entertainment)
 gizchina.it#?#.mrf-detailsBody > nav:has(> a[href^="https://t.me/gizdeals"])
 !#if cap_html_filtering
@@ -42029,7 +42023,6 @@ m.webnovel.com##^div[class^="styles_sign-in-modal__"]
 m.webnovel.com$$div[class^="styles_sign-in-modal__"]
 !#endif
 m.webnovel.com##div[class^="styles_sign-in-modal__"]
-
 
 !#if cap_html_filtering
 hrw.org##^#block-rollupnewslettersignup
@@ -43814,7 +43807,6 @@ smh.com.au$$[data-testid="goodfood-newsletter-cta-wrapper"]
 !#endif
 smh.com.au##[data-testid="goodfood-newsletter-cta-wrapper"]
 
-
 !#if cap_html_filtering
 smh.com.au##^#soft-reg-wall-piano-id
 smh.com.au$$#soft-reg-wall-piano-id
@@ -43996,6 +43988,7 @@ semafor.com$$div[class^="styles_newsletterWrapper"]
 semafor.com##div[class^="styles_newsletterWrapper"]
 
 kontur-extern.ru#$?#body > div[class^="lightbox"]:has(> div.lightbox-window > div.lightbox-window__inner > div.lightbox-window__content > div#subscription-popup-block) { display: none !important; }
+
 !#if cap_html_filtering
 kontur-extern.ru#$##^lightbox-veil { display: none !important; }
 kontur-extern.ru#$$$lightbox-veil { display: none !important; }
@@ -44919,7 +44912,6 @@ sebhastian.com$$.p-5
 !#endif
 sebhastian.com##.p-5
 
-
 !#if cap_html_filtering
 rb.ru##^.mobile_top_banner
 rb.ru$$.mobile_top_banner
@@ -45039,7 +45031,6 @@ holod.media##^.nl-inline
 holod.media$$.nl-inline
 !#endif
 holod.media##.nl-inline
-
 
 !#if cap_html_filtering
 pinkvilla.com##^#mainArticleSocialShare > div[style]:not([title])
@@ -45164,7 +45155,6 @@ runews24.ru$$a.button_type_link[target="_blank"][href]
 runews24.ru##a.button_type_link[target="_blank"][href]
 
 decrypt.co#?#.post-content > div.text-left:has(> form > label[for="article-footer-email"])
-
 !#if cap_html_filtering
 geo.fr##^.pmcPushv
 geo.fr$$.pmcPushv
@@ -45863,6 +45853,7 @@ sciencenews.org##^#subscribeConversion
 sciencenews.org$$#subscribeConversion
 !#endif
 sciencenews.org###subscribeConversion
+
 
 !#if cap_html_filtering
 svoboda.org##^a[href^="https://t.me/"][class="banner__a"]
@@ -46742,7 +46733,6 @@ auto123.com##^.yoo_list-builder
 auto123.com$$.yoo_list-builder
 !#endif
 auto123.com##.yoo_list-builder
-
 
 !#if cap_html_filtering
 impactoespananoticias.com##^.boletin
@@ -48576,6 +48566,7 @@ benzinga.com$$a[class^="GoogleNewsButton__"]
 !#endif
 benzinga.com##a[class^="GoogleNewsButton__"]
 
+
 !#if cap_html_filtering
 benzinga.com##^div[class^="CallToAction__"]
 benzinga.com$$div[class^="CallToAction__"]
@@ -49709,7 +49700,6 @@ dhnet.be##^#selligent-newsletters
 dhnet.be$$#selligent-newsletters
 !#endif
 dhnet.be###selligent-newsletters
-
 
 !#if cap_html_filtering
 dailymail.co.uk##^div[data-track-module="newsletter-sign-up"]
@@ -50913,6 +50903,7 @@ ortobom.com.br##^#newsletterHomeSection
 ortobom.com.br$$#newsletterHomeSection
 !#endif
 ortobom.com.br###newsletterHomeSection
+
 
 !#if cap_html_filtering
 unstop.com##^.subscribe-bg
@@ -53338,7 +53329,6 @@ babel.ua$$.c-subs-box
 !#endif
 babel.ua##.c-subs-box
 
-
 !#if cap_html_filtering
 ottoversand.at##^#sheet
 ottoversand.at$$#sheet
@@ -54082,6 +54072,7 @@ altclick.ru$$.article-blog + div.b-request
 !#endif
 altclick.ru##.article-blog + div.b-request
 
+
 !#if cap_html_filtering
 onsitego.com##^.blog_cta
 onsitego.com$$.blog_cta
@@ -54386,6 +54377,7 @@ smh.com.au,theage.com.au##^section[data-testid="article-body-bottom"] div[data-t
 smh.com.au,theage.com.au$$section[data-testid="article-body-bottom"] div[data-testid="registration-prompt"]
 !#endif
 smh.com.au,theage.com.au##section[data-testid="article-body-bottom"] div[data-testid="registration-prompt"]
+
 
 !#if cap_html_filtering
 calvinklein.com.br##^.vtex-modal-layout-0-x-modal--newsletter-block-class
@@ -54757,7 +54749,6 @@ aiseesoft.de##^.footer--newsletter
 aiseesoft.de$$.footer--newsletter
 !#endif
 aiseesoft.de##.footer--newsletter
-
 
 ||on.od.ua/wp-content/uploads/2021/01/tg-on-banner.png
 !#if cap_html_filtering
@@ -56157,6 +56148,7 @@ analyticsindiamag.com$$div[id^="wpdevar_comment_"] ~ hr
 !#endif
 analyticsindiamag.com##div[id^="wpdevar_comment_"] ~ hr
 
+
 !#if cap_html_filtering
 analyticsindiamag.com##^div[id^="wpdevar_comment_"] ~ hr + pre.wp-block-preformatted
 analyticsindiamag.com$$div[id^="wpdevar_comment_"] ~ hr + pre.wp-block-preformatted
@@ -57534,7 +57526,6 @@ diariodocomercio.com.br#?#.elementor-widget-wrap > section.elementor-section:has
 ebizfacts.com#?#.elementor-shortcode > div.elementor-element:has(> div.subscribe-form-wrapper)
 ebizfacts.com#?#.elementor-section-wrap > section:has(> div.elementor-container > div.elementor-row > div.elementor-column  div.elementor-widget-wrap > div.home-subscribe)
 ebizfacts.com#?#.elementor-section-wrap > section:has(> div.elementor-container > div.elementor-row > div.elementor-column  div.elementor-widget-wrap div.elementor-shortcode > div.subscribe-form-wrapper)
-
 !#if cap_html_filtering
 ebizfacts.com##^.wp-block-group__inner-container > div.subscribe-form-wrapper
 ebizfacts.com$$.wp-block-group__inner-container > div.subscribe-form-wrapper
@@ -58212,7 +58203,6 @@ forums.macrumors.com##^.mr_join_sidebar
 forums.macrumors.com$$.mr_join_sidebar
 !#endif
 forums.macrumors.com##.mr_join_sidebar
-
 
 !#if cap_html_filtering
 forums.macrumors.com##^.mr_signup_container
@@ -59319,6 +59309,7 @@ thecounter.org$$body > div.modal-x.bg-purple
 thecounter.org##body > div.modal-x.bg-purple
 
 thecounter.org#?#.related-border-bottom ~ div:has(> div.callout-green)
+
 !#if cap_html_filtering
 hackread.com##^#text-52.widget
 hackread.com$$#text-52.widget
@@ -59823,6 +59814,7 @@ scientificamerican.com##^#promo-header
 scientificamerican.com$$#promo-header
 !#endif
 scientificamerican.com###promo-header
+
 
 !#if cap_html_filtering
 scientificamerican.com##^.house__home_ad
@@ -63252,7 +63244,6 @@ intermedia.ru$$#subscribeForm
 !#endif
 intermedia.ru###subscribeForm
 
-
 !#if cap_html_filtering
 intermedia.ru##^.personaldata_notice
 intermedia.ru$$.personaldata_notice
@@ -64194,6 +64185,7 @@ erco.com##^#newsletter-bottom-bar
 erco.com$$#newsletter-bottom-bar
 !#endif
 erco.com###newsletter-bottom-bar
+
 
 !#if cap_html_filtering
 autocarindia.com,laleggepertutti.it##^.news-letter
@@ -67675,6 +67667,7 @@ flyingmag.com,popsci.com,saveur.com##^.email-widget-container
 flyingmag.com,popsci.com,saveur.com$$.email-widget-container
 !#endif
 flyingmag.com,popsci.com,saveur.com##.email-widget-container
+
 
 !#if cap_html_filtering
 hello7app.com##^.email_box

@@ -2,7 +2,7 @@
 [Adblock Plus 2.0]
 ! Title: EasyList
 ! Expires: 6 days (update frequency)
-! Last modified: Sun, 31 Dec 2023 13:09:16 +0000
+! Last modified: Mon, 01 Jan 2024 05:34:41 +0000
 ! Diff-Path: %diffpath%#easylist
 ! Diff-Expires: 317 minutes
 ! *** easylist:template_header.txt ***
@@ -1443,8 +1443,6 @@
 /subAd.
 /suv4.js
 /SWMAdPlayer.
-/synad2.
-/synad3.
 /sync2ad.
 /syndication/ad.
 /sys/ad/*
@@ -19611,6 +19609,7 @@ browsershots.org#@#.advert_area
 ||a67z.com^
 ||a69i.com^
 ||a6c606db45.com^
+||a6dc99d1a8.com^
 ||a7165aaaf6.com^
 ||a718917a44.com^
 ||a81ae971fb.com^
@@ -20678,6 +20677,7 @@ browsershots.org#@#.advert_area
 ||agloogly.com^
 ||agloowie.com^
 ||agmtrk.com^
+||agngplsooascil.com^
 ||agnoetecluster.uno^
 ||agnrcrpwyyn.com^
 ||agonelambes.website^
@@ -22268,6 +22268,7 @@ browsershots.org#@#.advert_area
 ||babyishmate.pro^
 ||babynaz.xyz^
 ||babyniceshark.com^
+||babysittingbeerthrobbing.com^
 ||bac23cfb5b.com^
 ||baccatepsychon.com^
 ||bacishushaby.com^
@@ -22536,6 +22537,7 @@ browsershots.org#@#.advert_area
 ||bccda4ab57.com^
 ||bcczmm.com^
 ||bcd7ad4271.com^
+||bcd8072b72.com^
 ||bcea24c9be.com^
 ||bceptemujahb.com^
 ||bcfaonqj.com^
@@ -29086,6 +29088,7 @@ browsershots.org#@#.advert_area
 ||fixpass.net^
 ||fixsirrod.site^
 ||fjdpdcdndc.com^
+||fjjctsabpdjhge.com^
 ||fjoyewwxrowqy.com^
 ||fjttbkoxer.xyz^
 ||fkbkun.com^
@@ -29095,6 +29098,7 @@ browsershots.org#@#.advert_area
 ||fkexeijtqstuh.xyz^
 ||fkovjfx.com^
 ||fksnk.com^
+||fkugzbngtla.com^
 ||fkyhqtfiopfit.com^
 ||fla4n6ne7r8ydcohcojnnor.com^
 ||flabbyyolkinfection.com^
@@ -29736,6 +29740,7 @@ browsershots.org#@#.advert_area
 ||g91games.com^
 ||ga-ads.com^
 ||gacoufti.com^
+||gadbytyhmybnir.com^
 ||gadgetnews.one^
 ||gadsabs.com^
 ||gadsatz.com^
@@ -30850,6 +30855,7 @@ browsershots.org#@#.advert_area
 ||gxikmksjuz.com^
 ||gxmlkgraj.com^
 ||gxordgtvjr.com^
+||gxvaunase.com^
 ||gxymlqcnu.com^
 ||gyenhpl.com^
 ||gyfumobo.com^
@@ -31089,6 +31095,7 @@ browsershots.org#@#.advert_area
 ||hazymarvellous.com^
 ||hb-247.com^
 ||hb94dnbe.de^
+||hbeipcdntijpb.com^
 ||hbfqcy.com^
 ||hbfulzie.life^
 ||hbloveinfo.com^
@@ -33107,6 +33114,7 @@ browsershots.org#@#.advert_area
 ||jjwmlaynwwjlw.top^
 ||jjygptw.com^
 ||jk4lmrf2.de^
+||jkajyrkbvzmez.top^
 ||jkbewmezjawqj.top^
 ||jkdzimao.com^
 ||jkha742.xyz^
@@ -36215,6 +36223,7 @@ browsershots.org#@#.advert_area
 ||mqnrrawj.com^
 ||mqpazioiyt.com^
 ||mr2cnjuh34jb.com^
+||mraozo.xyz^
 ||mrareljqr.com^
 ||mraza2dosa.com^
 ||mrcoviu.pics^
@@ -36326,6 +36335,7 @@ browsershots.org#@#.advert_area
 ||mutenessdollyheadlong.com^
 ||mutinousconductdisk.com^
 ||mutomb.com^
+||mutteredadis.org^
 ||mutteredadisa.com^
 ||muttergrew.com^
 ||muttersedatetransmitted.com^
@@ -36810,6 +36820,7 @@ browsershots.org#@#.advert_area
 ||nftjmbhwxgo.com^
 ||nfuwpyx.com^
 ||nfwivxk.com^
+||nfxlrsxwvofi.com^
 ||ngcies.com^
 ||ngegas.files.im^
 ||ngeoziadiyc4hi2e.com^
@@ -40570,6 +40581,7 @@ browsershots.org#@#.advert_area
 ||pxyrmsodhctqifm.com^
 ||pycvlnu.com^
 ||pyfqqcekcgd.xyz^
+||pyhdvvimr.com^
 ||pykgnuujfuq.com^
 ||pyoungstersofto.xyz^
 ||pyract.com^
@@ -40588,6 +40600,7 @@ browsershots.org#@#.advert_area
 ||pyxzealot.com^
 ||pyzwxkb.com^
 ||pzawclkyxuno.com^
+||pzeazgmwem.com^
 ||pzgbqbk.com^
 ||pzoynkxexnx.com^
 ||pzwdtz.com^
@@ -41088,6 +41101,7 @@ browsershots.org#@#.advert_area
 ||rdtrck2.com^
 ||rdwmct.com^
 ||rdximaudovydtk.com^
+||rdxmjgp.com^
 ||re-captha-version-3-29.top^
 ||re-captha-version-3-33.top^
 ||reabitheconti.com^
@@ -42057,6 +42071,7 @@ browsershots.org#@#.advert_area
 ||rpts.org^
 ||rpzbfftekjdz.com^
 ||rqakljxbs.com^
+||rqctubqtcbgeug.com^
 ||rqdcusltmryapg.com^
 ||rqfedjzveel.com^
 ||rqgjvcea.com^
@@ -42638,6 +42653,7 @@ browsershots.org#@#.advert_area
 ||sdg.desihamster.pro^
 ||sdg.fwtrck.com^
 ||sdhfbvd.com^
+||sdhltncfqbu.com^
 ||sdkfjxjertertry.com^
 ||sdkl.info^
 ||sdmfyqkghzedvx.com^
@@ -43178,6 +43194,7 @@ browsershots.org#@#.advert_area
 ||sidebyx.com^
 ||sidebyz.com^
 ||sidelinebodypun.com^
+||sidesukbeing.org^
 ||sidewalkcrazinesscleaning.com^
 ||sidewaysuccession.com^
 ||sieembarge.com^
@@ -46508,6 +46525,7 @@ browsershots.org#@#.advert_area
 ||umnstoodthe.com^
 ||umoughtcallm.com^
 ||umpteenimpave.guru^
+||umqiapzsc.com^
 ||umqpchxoq.xyz^
 ||umqqfyqkjlxrh.xyz^
 ||umuotov.com^
@@ -49459,6 +49477,7 @@ browsershots.org#@#.advert_area
 ||zcode12.me^
 ||zcode7.me^
 ||zcoptry.com^
+||zcsbgzasy.com^
 ||zcsnjbjlwn.com^
 ||zdajdudqfq.com^
 ||zdhq.xyz^
@@ -49679,6 +49698,7 @@ browsershots.org#@#.advert_area
 ||zucks.net^
 ||zudaichy.com^
 ||zufoloodylize.com^
+||zufqmmwavdec.com^
 ||zughoocm.com^
 ||zugnogne.com^
 ||zugo.com^
@@ -55926,6 +55946,7 @@ browsershots.org#@#.advert_area
 ||cts.tradepub.com^
 ||customer.heartinternet.co.uk^$third-party
 ||cuteonly.com/banners.php
+||cxad.cxense.com^
 ||d3mmnnn9s2dcmq.cloudfront.net/shim/embed.js
 ||datafeedfile.com/widget/readywidget/
 ||dawanda.com/widget/
@@ -57878,7 +57899,6 @@ browsershots.org#@#.advert_area
 ||mp3fiber.com/*ml.jpg
 ||mpgh.net/idsx2/
 ||mrskin.com^$script,third-party,domain=~mrskincdn.com
-||msn.com/bundles/v1/homePage/latest/libs_ad-service_dist_index_js.
 ||musicatorrents.com^*/license.
 ||musicatorrents.com^*/script.
 ||musicstreetjournal.com/banner/
@@ -57900,6 +57920,7 @@ browsershots.org#@#.advert_area
 ||nrl.com/siteassets/sponsorship/
 ||nrl.com^*/sponsors/
 ||nu2.nu/gfx/sponsor/
+||nyaa.land/static/p2.jpg
 ||observerbd.com/ad/
 ||odrama.net/images/clicktoplay.jpg
 ||ohmygore.com/ef_pub
@@ -68569,10 +68590,10 @@ icon-icons.com$$.apu-mixed-packs
 icon-icons.com##.apu-mixed-packs
 
 !#if cap_html_filtering
-chron.com,seattlepi.com,sfgate.com##^.ar16-9
-chron.com,seattlepi.com,sfgate.com$$.ar16-9
+chron.com,mysanantonio.com,seattlepi.com,sfgate.com##^.ar16-9
+chron.com,mysanantonio.com,seattlepi.com,sfgate.com$$.ar16-9
 !#endif
-chron.com,seattlepi.com,sfgate.com##.ar16-9
+chron.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
 
 !#if cap_html_filtering
 adn.com,businessoffashion.com,irishtimes.com##^.arcad-feature
@@ -69007,28 +69028,28 @@ hypestat.com$$.b-error
 hypestat.com##.b-error
 
 !#if cap_html_filtering
-houstonchronicle.com,seattlepi.com,sfchronicle.com,sfgate.com##^.b-gray300.bt
-houstonchronicle.com,seattlepi.com,sfchronicle.com,sfgate.com$$.b-gray300.bt
+houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com##^.b-gray300.bt
+houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com$$.b-gray300.bt
 !#endif
-houstonchronicle.com,seattlepi.com,sfchronicle.com,sfgate.com##.b-gray300.bt
+houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com##.b-gray300.bt
 
 !#if cap_html_filtering
-chron.com,sfgate.com##^.b-gray300.bt.bb
-chron.com,sfgate.com$$.b-gray300.bt.bb
+chron.com,mysanantonio.com,sfgate.com##^.b-gray300.bt.bb
+chron.com,mysanantonio.com,sfgate.com$$.b-gray300.bt.bb
 !#endif
-chron.com,sfgate.com##.b-gray300.bt.bb
+chron.com,mysanantonio.com,sfgate.com##.b-gray300.bt.bb
 
 !#if cap_html_filtering
-seattlepi.com,sfgate.com##^.b-gray300.md\:bt
-seattlepi.com,sfgate.com$$.b-gray300.md\:bt
+mysanantonio.com,seattlepi.com,sfgate.com##^.b-gray300.md\:bt
+mysanantonio.com,seattlepi.com,sfgate.com$$.b-gray300.md\:bt
 !#endif
-seattlepi.com,sfgate.com##.b-gray300.md\:bt
+mysanantonio.com,seattlepi.com,sfgate.com##.b-gray300.md\:bt
 
 !#if cap_html_filtering
-chron.com,sfgate.com##^.b-gray300.md\:bt.md\:bb
-chron.com,sfgate.com$$.b-gray300.md\:bt.md\:bb
+chron.com,mysanantonio.com,sfgate.com##^.b-gray300.md\:bt.md\:bb
+chron.com,mysanantonio.com,sfgate.com$$.b-gray300.md\:bt.md\:bb
 !#endif
-chron.com,sfgate.com##.b-gray300.md\:bt.md\:bb
+chron.com,mysanantonio.com,sfgate.com##.b-gray300.md\:bt.md\:bb
 
 !#if cap_html_filtering
 china.ahk.de##^.b-header__banner
@@ -69707,6 +69728,12 @@ amgreatness.com##^.bg-gray-200.mx-auto
 amgreatness.com$$.bg-gray-200.mx-auto
 !#endif
 amgreatness.com##.bg-gray-200.mx-auto
+
+!#if cap_html_filtering
+chron.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##^.bg-gray100.mb32
+chron.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com$$.bg-gray100.mb32
+!#endif
+chron.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.bg-gray100.mb32
 
 !#if cap_html_filtering
 wccftech.com##^.bg-horizontal
@@ -77203,10 +77230,10 @@ inhabitat.com$$.mn-wrapper
 inhabitat.com##.mn-wrapper
 
 !#if cap_html_filtering
-houstonchronicle.com,sfgate.com##^.mnh90px
-houstonchronicle.com,sfgate.com$$.mnh90px
+houstonchronicle.com,mysanantonio.com,sfgate.com##^.mnh90px
+houstonchronicle.com,mysanantonio.com,sfgate.com$$.mnh90px
 !#endif
-houstonchronicle.com,sfgate.com##.mnh90px
+houstonchronicle.com,mysanantonio.com,sfgate.com##.mnh90px
 
 !#if cap_html_filtering
 allrecipes.com##^.mntl-jwplayer-broad
@@ -77321,6 +77348,12 @@ duckduckgo.com##^.module--carousel-products
 duckduckgo.com$$.module--carousel-products
 !#endif
 duckduckgo.com##.module--carousel-products
+
+!#if cap_html_filtering
+duckduckgo.com##^.module--carousel-toursactivities
+duckduckgo.com$$.module--carousel-toursactivities
+!#endif
+duckduckgo.com##.module--carousel-toursactivities
 
 !#if cap_html_filtering
 finextra.com##^.module--sponsor
@@ -84673,10 +84706,10 @@ geekflare.com$$.x-article-818cc9d4
 geekflare.com##.x-article-818cc9d4
 
 !#if cap_html_filtering
-sfgate.com##^.x100.bg-gray100
-sfgate.com$$.x100.bg-gray100
+mysanantonio.com,sfgate.com##^.x100.bg-gray100
+mysanantonio.com,sfgate.com$$.x100.bg-gray100
 !#endif
-sfgate.com##.x100.bg-gray100
+mysanantonio.com,sfgate.com##.x100.bg-gray100
 
 !#if cap_html_filtering
 beforeitsnews.com##^.x1x2prx2lbnm
@@ -85015,6 +85048,12 @@ noqreport.com$$[class^="noqre-"]
 noqreport.com##[class^="noqre-"]
 
 !#if cap_html_filtering
+reuters.com##^[class^="primary-video__container_"]
+reuters.com$$[class^="primary-video__container_"]
+!#endif
+reuters.com##[class^="primary-video__container_"]
+
+!#if cap_html_filtering
 nofilmschool.com##^[class^="rblad-nfs_content"]
 nofilmschool.com$$[class^="rblad-nfs_content"]
 !#endif
@@ -85129,10 +85168,10 @@ costco.ca$$[data-bi-placement="Criteo_Product_Display_Page_Espot"]
 costco.ca##[data-bi-placement="Criteo_Product_Display_Page_Espot"]
 
 !#if cap_html_filtering
-chron.com,seattlepi.com,sfchronicle.com##^[data-block-type="ad"]
-chron.com,seattlepi.com,sfchronicle.com$$[data-block-type="ad"]
+chron.com,seattlepi.com,sfchronicle.com,timesunion.com##^[data-block-type="ad"]
+chron.com,seattlepi.com,sfchronicle.com,timesunion.com$$[data-block-type="ad"]
 !#endif
-chron.com,seattlepi.com,sfchronicle.com##[data-block-type="ad"]
+chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
 
 !#if cap_html_filtering
 theblaze.com##^[data-category="SPONSORED"]
