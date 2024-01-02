@@ -154,7 +154,7 @@ ac-illust.com,photo-ac.com##body.modal-open *:style(filter: none!important;)
 ://www.*.com/css/$script,3p,to=com,domain=~principal.com|~principalcdn.com
 ://www.*.com/js/css/$script,3p,to=com
 =e3&*,0|$script,3p,to=com
-/^https:\/\/www\.[a-z]{8,16}\.com\/(?:images\/)?(?:static\/)?(?:common\/)?(?:assets\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[a-z]{3})?(?:dotdotdot|editor|firebase|leaflet\.toolbar|mijs|proj4|sext-all|sha|viz)\.js$/$script,3p,match-case
+/^https:\/\/www\.[a-z]{8,16}\.com\/(?:images\/)?(?:static\/)?(?:common\/)?(?:assets\/)?(?:scripts\/)?(?:api\/)?(?:js\/)?(?:[a-z]{3})?(?:ddom4|dotdotdot|editor|firebase|leaflet\.toolbar|mijs|proj4|sext-all|sha|viz)\.js$/$script,3p,match-case
 ||pushtoast-a.akamaihd.net^$script,3p
 ||nsfwr34.com/ad_schedule/
 mdy48tn97.com##+js(nowoif)
@@ -7221,9 +7221,9 @@ bitcotasks.com##^script:has-text(htmls)
 /files/banners/*.gif$image,domain=bitcotasks.com
 bitcotasks.com##+js(aopr, adBlockDetected)
 bitcotasks.com##+js(refresh-defuser)
-bitcotasks.com##+js(nostif, , 2500)
-bitcotasks.com##+js(nostif, , 3000)
 bitcotasks.com##+js(set, window_focus, true)
+bitcotasks.com##+js(set, window_paused, false)
+bitcotasks.com##+js(no-xhr-if, bmcdn6)
 !#if cap_html_filtering
 bitcotasks.com##^body > iframe#frame
 bitcotasks.com$$body > iframe#frame
@@ -7231,10 +7231,6 @@ bitcotasks.com$$body > iframe#frame
 bitcotasks.com##body > iframe#frame
 
 ||bcgame.top/*&utm_source=$frame,domain=bitcotasks.com
-!#if cap_html_filtering
-||bitcotasks.com^$script,1p,replace=/window\.location\..*="\/detected.html"/""/g
-!#endif
-/bitcotasks\.com\/[a-z0-9]{64}\/$/$script,1p,strict1p,domain=bitcotasks.com
 ! https://github.com/uBlockOrigin/uAssets/issues/16207
 !#if cap_html_filtering
 hatecoin.me##^#wcfloatDiv4
