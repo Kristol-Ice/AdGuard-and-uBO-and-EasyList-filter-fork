@@ -649,7 +649,6 @@ beeg.party##+js(nowoif)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7301
 spankbang.cc,spank-and-bang.com##+js(acs, decodeURI, decodeURIComponent)
-||madsips.com^$3p
 
 ! https://github.com/uBlockOrigin/uAssets/issues/7301
 tubxporn.com##+js(aopr, exoJsPop101)
@@ -1945,13 +1944,6 @@ hhkungfu.tv##+js(acs, addEventListener, google_ad_client)
 ! https://github.com/uBlockOrigin/uAssets/issues/7554
 *$xhr,redirect-rule=nooptext,domain=pricez.co.il
 
-! https://github.com/NanoMeow/QuickReports/issues/4127
-||googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=onlinecoursebay.com,redirect-rule=noopjs
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/57467
-utorrentgamesps2.blogspot.com##+js(nosiif, visibility, 1000)
-||shrtfly.com^$3p
-
 ! https://www.reddit.com/r/uBlockOrigin/comments/haekcc/farkcom_blocking_all_ad_blockers/
 @@||fark.com/js/$1p,script
 
@@ -2059,9 +2051,6 @@ teleboy.ch$$a[href*="BrandingDay"]
 !#endif
 teleboy.ch##a[href*="BrandingDay"]
 
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/57701
-vstplugs.com##+js(nosiif, visibility, 1000)
 
 ! https://github.com/NanoMeow/QuickReports/issues/4162
 ddownr.com##+js(nowoif)
@@ -2509,7 +2498,6 @@ siteunblocked.info$$[id^="cookieConsent"]
 !#endif
 siteunblocked.info##[id^="cookieConsent"]
 
-||socialnetwork-adblocker.com^$all
 ||declk.com^$all
 ||outwhirlipedeer.com^$all
 
@@ -6033,7 +6021,6 @@ progameguides.com##[id^="content_dynamicAd-"]
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/jthanh/new_tv_site_with_ads_uk/
 ! https://forums.lanik.us/viewtopic.php?p=158772#p158772
-||dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com^$media
 !#if cap_html_filtering
 discoveryplus.*##^.bmpui-seekbar-markers
 discoveryplus.*$$.bmpui-seekbar-markers
@@ -6359,17 +6346,20 @@ tecnomusic-evolution.com##+js(nosiif, visibility, 1000)
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/68438
 ! https://github.com/uBlockOrigin/uAssets/issues/16498
-beverfood.com##+js(nostif, offsetHeight)
-beverfood.com##+js(acs, jQuery, height)
-beverfood.com##+js(acs, setInterval, adblock)
-@@||beverfood.com^$ghide
+! https://github.com/uBlockOrigin/uAssets/issues/21742
+beverfood.com##+js(nosiif, adblock)
+!#if cap_html_filtering
+beverfood.com##^#backy
+beverfood.com$$#backy
+!#endif
+beverfood.com###backy
+
 !#if cap_html_filtering
 beverfood.com##^.switchabig
 beverfood.com$$.switchabig
 !#endif
 beverfood.com##.switchabig
 
-beverfood.com##.adsbygoogle:style(max-height: 1px !important;)
 ||beverfood.com/immagini/*1920$image
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8275

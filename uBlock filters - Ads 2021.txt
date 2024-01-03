@@ -593,7 +593,6 @@ roshy.tv##.beeteam368-player-sub-element
 ||mixxporn.com/b1.php
 ||pornhex.com/nb/
 ||pornofaps.com/frosty-bread-04ce/
-||niceyoungteens.com/nyt.js
 ||seed69.com/wp-content/uploads/*.gif$image
 ||sexyaporno.com/chat_$script
 ||tb.fuckandcdn.com/tbstatic*/tryboobs/compiled/script.
@@ -2867,7 +2866,6 @@ renault-club.cz##ins.adsbygoogle
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/77430
 ||manhuascan.com^*/popads.js
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|fastlylb.net|sharethis.com,domain=manhuascan.io
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/m6ns66/adblock_detected/
 ||evolok.net/*/authorize/*$xhr,redirect-rule=nooptext,domain=nation.africa
@@ -2906,9 +2904,7 @@ emb.apl236.me$$#ads
 emb.apl236.me###ads
 
 ||livesport24.net/*.gif$image
-||emb.apl284.me/*.php
-@@||emb.apl284.me/player/$frame
-emb.apl284.me##+js(nowoif, _blank)
+emb.apl305.me##+js(nowoif, _blank)
 !#if cap_html_filtering
 apl284.me##^#ads
 apl284.me$$#ads
@@ -5001,7 +4997,6 @@ cloudemb.com##+js(set, isadb, false)
 ||abusageqh.com^
 ||bb5gt41h.cfd^
 ||eisasbeau.buzz^
-||incasapritif.tech^
 ||linkspoint.xyz/sw.js$script,1p
 ||weakermumrespect.com^
 ! https://github.com/uBlockOrigin/uAssets/issues/18860
@@ -8867,7 +8862,6 @@ kinas.tv##+js(nowoif)
 1stream.*##+js(acs, document.createElement, "script")
 1stream.*##+js(nostif, "admc")
 1stream.*##^script[type]:has-text(c=document.createElement)
-||pagath.com^$3p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/qlir5v/annoying_ad_on_stocktwits_no_longer_being_blocked/
 !#if cap_html_filtering
@@ -9741,7 +9735,6 @@ teevee.asia##+js(nostif, innerHTML)
 ! https://forums.lanik.us/viewtopic.php?t=47015
 itdmusics.com##+js(aeld, load, onload)
 itdmusics.com##+js(acs, eval, replace)
-||prplads.com^$3p
 
 ! https://forums.lanik.us/viewtopic.php?t=47016
 @@||itopmusic.org^$ghide
@@ -10486,10 +10479,6 @@ cam-video.xxx###float-video
 
 
 ! ads
-||wurfl.site^$script,3p
-##[href^="https://knightsstatuesteering.com/"]
-##[href^="https://instatus.in/status1.php"]
-##[href^="http://wurfl.site/Ck.php"]
 ##[href^="https://buycheaprdp.com/"]
 ##[href^="https://bestbuyrdp.com/"]
 ##[href^="https://buycheaphost.net/"]
