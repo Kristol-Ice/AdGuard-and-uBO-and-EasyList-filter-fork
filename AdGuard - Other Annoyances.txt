@@ -1,11 +1,11 @@
 ! URL: https://filters.adtidy.org/extension/ublock/filters/21.txt
 ![Adblock Plus 2.0]
-! Checksum: CfLH2sJ4H7mSbpvw/7qYMA
-! Diff-Path: ../patches/21/21-s-1704216973-3600.patch
+! Checksum: xw/XhwGdgRLugPeyomjzvA
+! Diff-Path: ../patches/21/21-s-1704288965-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.31
-! TimeUpdated: 2024-01-02T17:32:10+00:00
+! Version: 2.0.18.35
+! TimeUpdated: 2024-01-03T13:32:11+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -102,6 +102,8 @@ instagram.com##._aagw:empty
 !
 ! End: Instagram.com
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169847
+cnyes.com##+js(remove-class, ppn-overflows, .ppn-overflows.ppn-floating_enable)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169687
 !#if cap_html_filtering
 wpde.com##^#js-SocialWidget-Container
@@ -1996,6 +1998,7 @@ roomie.jp,gizmodo.jp##fw-storyblock
 ||fireworkapi1.com/embed/v2/playlists/5m1wZ5/feeds?page_size=10
 ||fireworkapi1.com/embed/v2/channels/whats_trending
 ||fireworkapi.com/embed/v2/publisher_clients/
+
 ||fireworkapi1.com^$domain=jj-jj.net|mensnonno.jp|olive-hitomawashi.com|gizmodo.jp|final-inc.com|roomie.jp|gendai.media|as-web.jp|boldsky.com|blogto.com|getnews.jp|lp.p.pia.jp|fudge.jp|motor-fan.jp|madamefigaro.jp
 !#if cap_html_filtering
 madamefigaro.jp##^.firework_story_block_col
@@ -2045,6 +2048,7 @@ leparisien.fr##^#dailymotion-pip-large-viewport
 leparisien.fr$$#dailymotion-pip-large-viewport
 !#endif
 leparisien.fr###dailymotion-pip-large-viewport
+
 
 !#if cap_html_filtering
 leparisien.fr##^#right_rail .dailymotion-cpe
@@ -2479,6 +2483,7 @@ migalhas.com.br##.principal__side app-fomentadores
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98079
 ||mwcm.nytimes.com/capi/metered_assets/?plat=*&areas=welcomeAd
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98420
 !#if cap_html_filtering
 closermag.fr##^.sidebar-wrapper .dailymotion-player-wrapper#dailymotion-pip-large-viewport
@@ -3245,6 +3250,7 @@ researchgate.net##.research-detail-signup-promo
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85771
 ||diets.ru/i/rb/start_to_lose_weight_*.jpg
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85648
 !#if cap_html_filtering
 smashingmagazine.com##^#sponsors-main-page + div.f-article-item
@@ -4647,6 +4653,7 @@ newyorker.com$$.cm-footer__failsafe
 !#endif
 newyorker.com##.cm-footer__failsafe
 
+
 newyorker.com#?#div[class^="PageSections__container"] > section[class^="SoloPromoSection__promoWrapper"]:has(> div[class^="SoloPromoSection__promoColumn"] > p[class^="SoloPromoSection__promo"] > span > a[href^="https://subscribe.condenastdigital.com"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54648
 !#if cap_html_filtering
@@ -4963,6 +4970,7 @@ weather.com$$main > aside > div[id^="rail-Donation-"]
 !#endif
 weather.com##main > aside > div[id^="rail-Donation-"]
 
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66522
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45328
 auto-swiat.pl,przegladsportowy.onet.pl,komputerswiat.pl##+js(set-constant, floatingPlayer.isFloatingEnabled, false)
@@ -5167,7 +5175,6 @@ amazon.de##^.widgetId\=loom-desktop-inline-slot_pcps-antenna
 amazon.de$$.widgetId\=loom-desktop-inline-slot_pcps-antenna
 !#endif
 amazon.de##.widgetId\=loom-desktop-inline-slot_pcps-antenna
-
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/41217
 ||m.timesofindia.com/common_cube.cms$important
@@ -8072,6 +8079,7 @@ fitomarket.com.ua###socialLinksMain
 trickswire.com#$#.mts-cl-overlap-mode > .mts-cl-overlap-box { display: none!important; }
 trickswire.com#$#.mts-cl-overlap-mode > .mts-cl-blur-area { filter: none!important; }
 /pandalocker.$script,domain=lanka.ru
+
 !#if cap_html_filtering
 0lik.ru##^.onp-sl-outer-wrap
 0lik.ru$$.onp-sl-outer-wrap
@@ -8116,7 +8124,6 @@ labkom.co.id#$#.fca-lockercat-content { display: block!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46696
 ! social-locker
 ! trimay.ru - social video locker
-
 ||trimay.ru/?
 !
 !
@@ -9599,6 +9606,7 @@ patronlardunyasi.com$$div[style="width:320px; margin-bottom:20px;"] > a[href][cl
 !#endif
 patronlardunyasi.com##div[style="width:320px; margin-bottom:20px;"] > a[href][class^="social_"]
 
+
 !#if cap_html_filtering
 fxhome.com#$##^download > .steps > #step-claim { display: block!important; }
 fxhome.com#$$$download > .steps > #step-claim { display: block!important; }
@@ -9837,7 +9845,6 @@ mail.google.com##header[role="banner"] > div[class] > div.gb_yf > div.gb_gc[role
 
 ! Incorrect blocking https://github.com/AdguardTeam/AdguardFilters/issues/140802
 !youtube.com###visible-banners
-
 !
 !--- Microsoft Edge banners --------------------
 !#if cap_html_filtering
@@ -10794,6 +10801,7 @@ portal.librus.pl$$.widget-portal > div[class]:not(.row) > div[class] > div[class
 !#endif
 portal.librus.pl##.widget-portal > div[class]:not(.row) > div[class] > div[class]:only-child div > picture > source[media][srcset^="https://portal.librus.pl/images/base/"] + img[src^="https://portal.librus.pl/images/base/"]
 
+
 portal.librus.pl#?#.container-main > .article-list  > div[class]:not([class*="row"]):has(> div[class]:only-child > div[class]:only-child > div[class]:only-child picture > source[srcset])
 portal.librus.pl#?#.common__main > .article-container > div[class]:not([class*="row"]):has(> div[class]:only-child > div[class]:only-child > div[class]:only-child picture > source[srcset])
 portal.librus.pl#?#.common__main > .common__widget > section > div[class]:not([class*="row"]):has(> div[class]:only-child > div[class]:only-child > div[class]:only-child picture > source[srcset])
@@ -11190,6 +11198,7 @@ outlook.live.com#?#.customScrollBar[tabindex] .customScrollBar > div[style] > di
 ! Ad above inbox (via settings -> general advertising settings -> banner ads
 outlook.live.com#?#div[data-app-section="MessageList"] > div:first-child:has(> div > div > div > div div > span:contains(Microsoft Outlook))
 ! Other tab
+
 outlook.live.com#?#div[data-app-section="MessageList"] .customScrollBar > div[class] > div[class]:has(> div[class]:first-child > div[id][class] div[class] > span:contains(Microsoft Outlook))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102342
 bunshun.jp#?#.block-header:contains(SPECIAL)
@@ -14014,7 +14023,6 @@ portalspozywczy.pl$$.right > .list-16 > .el-2 > .box-2
 !#endif
 portalspozywczy.pl##.right > .list-16 > .el-2 > .box-2
 
-
 !#if cap_html_filtering
 horecatrends.pl##^body > .container > .box-1
 horecatrends.pl$$body > .container > .box-1
@@ -15396,6 +15404,13 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+||fc2.com/video/css/u/pm/img/PC_bnr_
+!#if cap_html_filtering
+flickr.com##^.nav-banner-container
+flickr.com$$.nav-banner-container
+!#endif
+flickr.com##.nav-banner-container
+
 !#if cap_html_filtering
 chugaku-juken.com##^#satori__creative_container
 chugaku-juken.com$$#satori__creative_container
@@ -17867,6 +17882,7 @@ learn.microsoft.com$$#banner-holder
 !#endif
 learn.microsoft.com###banner-holder
 
+
 ||static.fc2.com/contents/images/ZQEJVWJ2Z/j4k/
 ivoox.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 !#if cap_html_filtering
@@ -19606,7 +19622,6 @@ hasunoha.jp##^.mTalksSqaureAd
 hasunoha.jp$$.mTalksSqaureAd
 !#endif
 hasunoha.jp##.mTalksSqaureAd
-
 
 !#if cap_html_filtering
 jp.indeed.com##^#mosaic-right-rail
@@ -21756,6 +21771,7 @@ laleggepertutti.it$$div[style*="background-color: #efbb1b;"][style*="padding: 10
 !#endif
 laleggepertutti.it##div[style*="background-color: #efbb1b;"][style*="padding: 10px;"][style*="color: #000;"]
 
+
 !#if cap_html_filtering
 observer-reporter.com##^.AdCarousel
 observer-reporter.com$$.AdCarousel
@@ -22694,7 +22710,6 @@ nzherald.co.nz$$.premium-toaster
 !#endif
 nzherald.co.nz##.premium-toaster
 
-
 !#if cap_html_filtering
 mozilla.org##^.mzp-c-sticky-promo
 mozilla.org$$.mzp-c-sticky-promo
@@ -23287,7 +23302,6 @@ belta.by##^.main > div[class$="right_col"] > div.top_news + div[class]
 belta.by$$.main > div[class$="right_col"] > div.top_news + div[class]
 !#endif
 belta.by##.main > div[class$="right_col"] > div.top_news + div[class]
-
 
 ||letu.ru/common/img/background/doma_*.jpg
 !#if cap_html_filtering
@@ -26065,6 +26079,9 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169605
+apkmodvn.com##+js(set-constant, waktu, -1)
+file.apkmoddone.com##+js(nano-setInterval-booster, =--, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169278
 anonymfile.com##+js(set-constant, countDown, 1)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169123
@@ -26080,7 +26097,6 @@ tanytech.com,themezon.net##+js(nano-setInterval-booster, tp-time, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165861
 tutwuri.id##+js(nano-setInterval-booster, innerHTML=`Wait)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165773
-
 mbjremix.com##+js(nano-setInterval-booster, /wpsafe|wait|timer/, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/165588
 cloudpaten.pro##+js(nano-setInterval-booster, .html(), *, 0.001)
@@ -26236,6 +26252,7 @@ makimbo.xyz##+js(nano-setInterval-booster, time, *, 0.02)
 dyp.li##+js(nano-setInterval-booster, p--, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146297
 linku.to##+js(nano-setInterval-booster, current(), *, 0.02)
+
 oneslidephotography.com,apasih.my.id,financekami.com##+js(nano-setInterval-booster, wpsafe-, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146298
 surl.li##+js(nano-setInterval-booster, disabled, *, 0.02)
@@ -26288,7 +26305,6 @@ getfreecourses.co##+js(nano-setInterval-booster, DOWNLOAD, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142474
 dosya.hizliresim.com##+js(nano-setInterval-booster, Number, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142399
-
 player.pelisgratishd.io##+js(nano-setInterval-booster, count, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/142288
 spacebin.site##+js(nano-setInterval-booster, counter--, *, 0.02)
@@ -26832,9 +26848,9 @@ gamingforecast.com##+js(nano-setInterval-booster, Link(), , 0.02)
 policiesforyou.com##+js(adjust-setTimeout, fade, 5000, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/89044
 multilinkfz.xyz##+js(nano-setInterval-booster, timer, , 0.02)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46874
 icutlink.com##+js(nano-setInterval-booster, time, , 0.02)
+
 icutlink.com##+js(set-constant, sec, 0)
 zegtrends.com##+js(nano-setInterval-booster, time, 2500, 0.02)
 ! littlebyte.net - skip timer
@@ -26842,7 +26858,6 @@ littlebyte.net##+js(nano-setInterval-booster, freeRemind, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103846
 ! https://github.com/AdguardTeam/AdguardFilters/issues/103846
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88701
-
 megadescargas.net,blyts.net##+js(nano-setInterval-booster, contador, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88546
 ! https://github.com/AdguardTeam/AdguardFilters/issues/88658
@@ -27036,6 +27051,7 @@ render-state.to##+js(adjust-setTimeout, params.redirect, 5000, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71905
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71848
 mylink1.biz##+js(set-constant, seconde, -1)
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72001
 janusnotes.com##+js(nano-setInterval-booster, updatePercentage, 100, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78085
@@ -27365,6 +27381,7 @@ mobilelegends.shop##+js(nano-setInterval-booster, linkDL, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50905
 freetutorialsus.com##+js(nano-setInterval-booster, downloadButton, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51884
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50871
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50686
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50707
@@ -27473,7 +27490,6 @@ file4go.com,file4go.net##+js(set-constant, time, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38558
 ! https://github.com/AdguardTeam/AdguardFilters/issues/164463
 ! https://github.com/AdguardTeam/AdguardFilters/issues/123405
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110006
 ! https://github.com/AdguardTeam/AdguardFilters/issues/34644
 ! https://github.com/AdguardTeam/AdguardFilters/issues/38542
@@ -27724,6 +27740,7 @@ firmwarefile.com,m.rtl.be,procrackerz.org,chapterupdates.com,babelnovel.com,katz
 !+ NOT_PLATFORM(windows, mac, android, ext_ff)
 quotev.com#$#body #res_area ::selection { background-color: #3297FD!important; }
 !
+
 !--- JS ----
 ! NOTE: Context menu - JS
 !

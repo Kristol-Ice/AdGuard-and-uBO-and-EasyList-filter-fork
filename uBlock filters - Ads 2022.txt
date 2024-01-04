@@ -1766,7 +1766,6 @@ vtube.to##+js(aeld, popstate)
 vtube.to,vtplay.net##+js(set, D4zz, noopFunc)
 /vtu_*.js$script,domain=vtbe.*|vtube.to|vtube.network|vtplay.net|vtplayer.net
 ||flirtmeet.life^$3p
-||hbloveinfo.com^$3p
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/svkkgn/anti_adblock_on_website_98zerocom_how_can_i_solve/
 98zero.com##+js(aopr, adBlockDetected)
@@ -2064,12 +2063,6 @@ aspdotnet-suresh.com,tudo-para-android.com,urdulibrarypk.blogspot.com##+js(aeld,
 
 ! thedigitalfix .com PH
 ! https://github.com/uBlockOrigin/uAssets/issues/16826
-!#if cap_html_filtering
-thedigitalfix.com##^#nn_astro_wrapper
-thedigitalfix.com$$#nn_astro_wrapper
-!#endif
-thedigitalfix.com###nn_astro_wrapper
-
 thedigitalfix.com###nn_bfa_wrapper:remove()
 thedigitalfix.com##+js(nosiif, debug)
 thedigitalfix.com##.sticky_rail600:remove()
@@ -2606,12 +2599,6 @@ chooyomi.com##+js(nano-sib, timer)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/tkmp9s/animesuge_manages_to_bypass_ublock_and_open_new/
 animesuge.to##+js(aost, document.createElement, _0x)
-!#if cap_html_filtering
-animesuge.to##^.adx
-animesuge.to$$.adx
-!#endif
-animesuge.to##.adx
-
 
 ! https://github.com/uBlockOrigin/uAssets/issues/12390
 !#if cap_html_filtering
@@ -3421,16 +3408,6 @@ madtrx.fun##.ads
 
 ! https://hollywoodlife.com/pics/saturday-night-live-season-46-photos/saturday-night-live-season-46-11/ ads
 hollywoodlife.com##+js(set, Object.prototype.enableInterstitial, false)
-
-! https://safelink.pandaznetwork.com/xDshQ3In timer and focus detection
-pandaznetwork.com##+js(set, blurred, false)
-cgchotbox.com###wpsafe-generate, #wpsafe-link:style(display: block !important;)
-!#if cap_html_filtering
-cgchotbox.com##^div[id^="wpsafe-wait"]
-cgchotbox.com$$div[id^="wpsafe-wait"]
-!#endif
-cgchotbox.com##div[id^="wpsafe-wait"]
-
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115781
 entireweb.com##+js(acs, setInterval, addAds)
@@ -4971,12 +4948,6 @@ cryptomonitor.in##+js(nostif, show)
 consoleroms.com,romspedia.com##+js(nano-sib, timeLeft)
 ! the rule below works only occasionary
 romsgames.net,romsget.io##+js(nano-stb, submit, 5000)
-!#if cap_html_filtering
-romsgames.net##^.adlabel
-romsgames.net$$.adlabel
-!#endif
-romsgames.net##.adlabel
-
 !#if cap_html_filtering
 romspedia.com##^#ad1
 romspedia.com$$#ad1
