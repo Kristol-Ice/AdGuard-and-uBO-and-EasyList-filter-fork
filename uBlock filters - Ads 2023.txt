@@ -8786,6 +8786,8 @@ idlixofficials.com,idlixplus.com,idlixplus.net$$#repop
 !#endif
 idlixofficials.com,idlixplus.com,idlixplus.net###repop
 
+! https://github.com/uBlockOrigin/uAssets/issues/21779
+idlixofficials.com##+js(aost, document.querySelector, /(?!\bjquery\b)/)
 
 ! https://github.com/uBlockOrigin/uAssets/issues/21600
 @@||choralia.net/popu.js$script
