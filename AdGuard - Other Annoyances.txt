@@ -1,11 +1,11 @@
 ! URL: https://filters.adtidy.org/extension/ublock/filters/21.txt
 ![Adblock Plus 2.0]
-! Checksum: xw/XhwGdgRLugPeyomjzvA
-! Diff-Path: ../patches/21/21-s-1704288965-3600.patch
+! Checksum: ZnqIt1lAQX2mOb1FXUBUHg
+! Diff-Path: ../patches/21/21-s-1704371931-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.35
-! TimeUpdated: 2024-01-03T13:32:11+00:00
+! Version: 2.0.18.38
+! TimeUpdated: 2024-01-04T12:32:39+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -10052,6 +10052,37 @@ www.kinopoisk.ru##div[class^="trailer-promo"]
 ! END: Yandex
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169654
+!#if cap_html_filtering
+moneycontrol.com##^.creScroe
+moneycontrol.com$$.creScroe
+!#endif
+moneycontrol.com##.creScroe
+
+!#if cap_html_filtering
+moneycontrol.com##^#sticky_middle_cb
+moneycontrol.com$$#sticky_middle_cb
+!#endif
+moneycontrol.com###sticky_middle_cb
+
+!#if cap_html_filtering
+moneycontrol.com##^.pink-bar[href*="/credit-score"]
+moneycontrol.com$$.pink-bar[href*="/credit-score"]
+!#endif
+moneycontrol.com##.pink-bar[href*="/credit-score"]
+
+!#if cap_html_filtering
+moneycontrol.com##^.mcApp_btn[href*="/credit-score"]
+moneycontrol.com$$.mcApp_btn[href*="/credit-score"]
+!#endif
+moneycontrol.com##.mcApp_btn[href*="/credit-score"]
+
+!#if cap_html_filtering
+moneycontrol.com##^#top_header_container[title="Credit Score"]
+moneycontrol.com$$#top_header_container[title="Credit Score"]
+!#endif
+moneycontrol.com###top_header_container[title="Credit Score"]
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169074
 !#if cap_html_filtering
 wyofile.com##^.newspack-popup-container
@@ -10072,6 +10103,7 @@ pngtree.com##^a[data-huejs="enterprise_hours_left"]
 pngtree.com$$a[data-huejs="enterprise_hours_left"]
 !#endif
 pngtree.com##a[data-huejs="enterprise_hours_left"]
+
 
 !#if cap_html_filtering
 pngtree.com##^a[data-huejs="couponfixed-nologin-click"]
@@ -10681,6 +10713,7 @@ amazon.co.jp$$#mangaPromotionsBanner_feature_div
 !#endif
 amazon.co.jp###mangaPromotionsBanner_feature_div
 
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131839
 !#if cap_html_filtering
 dbook.docomo.ne.jp##^#js-fixed-banner
@@ -10800,7 +10833,6 @@ portal.librus.pl##^.widget-portal > div[class]:not(.row) > div[class] > div[clas
 portal.librus.pl$$.widget-portal > div[class]:not(.row) > div[class] > div[class]:only-child div > picture > source[media][srcset^="https://portal.librus.pl/images/base/"] + img[src^="https://portal.librus.pl/images/base/"]
 !#endif
 portal.librus.pl##.widget-portal > div[class]:not(.row) > div[class] > div[class]:only-child div > picture > source[media][srcset^="https://portal.librus.pl/images/base/"] + img[src^="https://portal.librus.pl/images/base/"]
-
 
 portal.librus.pl#?#.container-main > .article-list  > div[class]:not([class*="row"]):has(> div[class]:only-child > div[class]:only-child > div[class]:only-child picture > source[srcset])
 portal.librus.pl#?#.common__main > .article-container > div[class]:not([class*="row"]):has(> div[class]:only-child > div[class]:only-child > div[class]:only-child picture > source[srcset])
@@ -11198,7 +11230,6 @@ outlook.live.com#?#.customScrollBar[tabindex] .customScrollBar > div[style] > di
 ! Ad above inbox (via settings -> general advertising settings -> banner ads
 outlook.live.com#?#div[data-app-section="MessageList"] > div:first-child:has(> div > div > div > div div > span:contains(Microsoft Outlook))
 ! Other tab
-
 outlook.live.com#?#div[data-app-section="MessageList"] .customScrollBar > div[class] > div[class]:has(> div[class]:first-child > div[id][class] div[class] > span:contains(Microsoft Outlook))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102342
 bunshun.jp#?#.block-header:contains(SPECIAL)
@@ -11433,6 +11464,7 @@ car-mo.jp##^.ad-carview
 car-mo.jp$$.ad-carview
 !#endif
 car-mo.jp##.ad-carview
+
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110544
 ||nijiyome.jp/css/contents_pc/topjack.css
@@ -12103,6 +12135,7 @@ w3cschool.cn#$##header[style*="height:"] { height: 55px !important; }
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116020#issuecomment-1137526324
 lenta.ru#$#.scroll-to-site { display: none !important; }
+
 m.lenta.ru##+js(addEventListener-defuser, scroll, getBoundingClientRect)
 lenta.ru##+js(addEventListener-defuser, scroll, window.history.pushState)
 ! self-promo (mobile)
@@ -13692,6 +13725,7 @@ kadrovik.ua$$a[class="global-link"][target="_blank"]
 kadrovik.ua##a[class="global-link"][target="_blank"]
 
 kadrovik.ua#$#body { background: none!important; }
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48972
 !#if cap_html_filtering
 zzz.com.ua##^body > div[style="text-align:center;font-size:11px;font-family:arial;background-color:black;color:white"]
@@ -14331,6 +14365,7 @@ xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5
 xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhwide8.com,xhamster3.com,xhplanet2.com,xhtab2.com,xhamster18.*,xhamster17.*,hamsterix.*,xhamster13.*,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com$$.cams-overlay
 !#endif
 xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhwide8.com,xhamster3.com,xhplanet2.com,xhtab2.com,xhamster18.*,xhamster17.*,hamsterix.*,xhamster13.*,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com##.cams-overlay
+
 
 !#if cap_html_filtering
 xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhwide8.com,xhamster3.com,xhplanet2.com,xhtab2.com,xhamster18.*,xhamster17.*,hamsterix.*,xhamster13.*,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com##^[class*="cams-widget"]
@@ -15085,6 +15120,7 @@ sakh.com$$.promo-popup
 sakh.com##.promo-popup
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10455
+
 !#if cap_html_filtering
 hotline.ua##^.promo-product
 hotline.ua$$.promo-product
@@ -17882,7 +17918,6 @@ learn.microsoft.com$$#banner-holder
 !#endif
 learn.microsoft.com###banner-holder
 
-
 ||static.fc2.com/contents/images/ZQEJVWJ2Z/j4k/
 ivoox.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 !#if cap_html_filtering
@@ -18562,6 +18597,7 @@ naked-science.ru##^.content > div.body > div.other-news-block
 naked-science.ru$$.content > div.body > div.other-news-block
 !#endif
 naked-science.ru##.content > div.body > div.other-news-block
+
 
 !#if cap_html_filtering
 sunsky-online.com##^#divWelcome
@@ -20459,6 +20495,7 @@ tunelf.com$$.article-product-block
 !#endif
 tunelf.com##.article-product-block
 
+
 !#if cap_html_filtering
 wionews.com##^.zee-points-items
 wionews.com$$.zee-points-items
@@ -20934,6 +20971,7 @@ my-best.com##^.l-footer__bnr
 my-best.com$$.l-footer__bnr
 !#endif
 my-best.com##.l-footer__bnr
+
 
 !#if cap_html_filtering
 i.factor.ua##^#slogan
@@ -21549,6 +21587,7 @@ shin5noblog.com$$.rank-guide
 !#endif
 shin5noblog.com##.rank-guide
 
+
 !#if cap_html_filtering
 yk.kz##^.main_carousel
 yk.kz$$.main_carousel
@@ -21770,7 +21809,6 @@ laleggepertutti.it##^div[style*="background-color: #efbb1b;"][style*="padding: 1
 laleggepertutti.it$$div[style*="background-color: #efbb1b;"][style*="padding: 10px;"][style*="color: #000;"]
 !#endif
 laleggepertutti.it##div[style*="background-color: #efbb1b;"][style*="padding: 10px;"][style*="color: #000;"]
-
 
 !#if cap_html_filtering
 observer-reporter.com##^.AdCarousel
@@ -25854,6 +25892,7 @@ myotto.online#$$$makingdifferenttimer { display: block!important; }
 myotto.online#$##makingdifferenttimer { display: block!important; }
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48741
+
 ixbt.com#$#.b-footer > div.block__describe { height: 100px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47483
 dl.3dmodelshare.org,download.3dzip.org#$#.download_dem { display: block!important; }
@@ -26079,6 +26118,10 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169542
+bishalghale.com.np##+js(nano-setInterval-booster, timer, *, 0.001)
+! https://github.com/AdguardTeam/AdguardFilters/issues/169882
+privatemoviez.*##+js(nano-setInterval-booster, count, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169605
 apkmodvn.com##+js(set-constant, waktu, -1)
 file.apkmoddone.com##+js(nano-setInterval-booster, =--, *, 0.001)
@@ -26127,6 +26170,7 @@ thecustomrom.com##+js(adjust-setTimeout, window.location.href, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161053
 165.22.246.130##+js(nano-setInterval-booster, /wpsafe|wait|timer/, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160927
+
 vstdrive.in##+js(nano-setInterval-booster, time--, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160924
 zeroupload.com##+js(nano-setInterval-booster, count, *, 0.001)
@@ -26252,7 +26296,6 @@ makimbo.xyz##+js(nano-setInterval-booster, time, *, 0.02)
 dyp.li##+js(nano-setInterval-booster, p--, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146297
 linku.to##+js(nano-setInterval-booster, current(), *, 0.02)
-
 oneslidephotography.com,apasih.my.id,financekami.com##+js(nano-setInterval-booster, wpsafe-, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/146298
 surl.li##+js(nano-setInterval-booster, disabled, *, 0.02)
@@ -26466,6 +26509,7 @@ filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
 uploadmaza.com##+js(adjust-setTimeout, Tick, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121539
 uptomega.me##+js(adjust-setTimeout, Tick, , 0.02)
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120819
 manga2day.com,sport4you.net##+js(set-constant, timer, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121236
@@ -26850,7 +26894,6 @@ policiesforyou.com##+js(adjust-setTimeout, fade, 5000, 0.02)
 multilinkfz.xyz##+js(nano-setInterval-booster, timer, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/46874
 icutlink.com##+js(nano-setInterval-booster, time, , 0.02)
-
 icutlink.com##+js(set-constant, sec, 0)
 zegtrends.com##+js(nano-setInterval-booster, time, 2500, 0.02)
 ! littlebyte.net - skip timer
@@ -27051,7 +27094,6 @@ render-state.to##+js(adjust-setTimeout, params.redirect, 5000, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71905
 ! https://github.com/AdguardTeam/AdguardFilters/issues/71848
 mylink1.biz##+js(set-constant, seconde, -1)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72001
 janusnotes.com##+js(nano-setInterval-booster, updatePercentage, 100, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/78085
@@ -27381,7 +27423,6 @@ mobilelegends.shop##+js(nano-setInterval-booster, linkDL, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50905
 freetutorialsus.com##+js(nano-setInterval-booster, downloadButton, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/51884
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50871
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50686
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50707
@@ -27740,7 +27781,6 @@ firmwarefile.com,m.rtl.be,procrackerz.org,chapterupdates.com,babelnovel.com,katz
 !+ NOT_PLATFORM(windows, mac, android, ext_ff)
 quotev.com#$#body #res_area ::selection { background-color: #3297FD!important; }
 !
-
 !--- JS ----
 ! NOTE: Context menu - JS
 !
@@ -27896,6 +27936,7 @@ kusonime.com##+js(abort-on-property-read, mousedwn)
 kusonime.com##+js(abort-current-script, document.keypress)
 kusonime.com##+js(abort-current-script, EventTarget.prototype.addEventListener, keydown)
 emailfake.com##+js(addEventListener-defuser, copy, addLink)
+
 texte.work##+js(remove-attr, oncontextmenu|onkeydown, body)
 omgkpop.top##+js(addEventListener-defuser, /contextmenu|dragstart|keydown|keyup|keypress/, /event\.dispatch\.apply|trackEvent/)
 teepr.com##+js(abort-current-script, jQuery, document.oncontextmenu)
