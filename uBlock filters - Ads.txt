@@ -1084,14 +1084,44 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div
 
 ! https://github.com/uBlockOrigin/uAssets/issues/3367#issuecomment-1416733062
 ! !#if env_chromium
+!#if cap_html_filtering
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^html[lang="en"] div[aria-posinset] svg[style$="width: 56.8906px;"] use:upward(div[aria-posinset])
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$html[lang="en"] div[aria-posinset] svg[style$="width: 56.8906px;"] use:upward(div[aria-posinset])
+!#endif
 ! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##html[lang="en"] div[aria-posinset] svg[style$="width: 56.8906px;"] use:upward(div[aria-posinset])
+
+!#if cap_html_filtering
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^html[lang="pl"] div[aria-posinset] svg[style$="width: 78.5465px;"] use:upward(div[aria-posinset])
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$html[lang="pl"] div[aria-posinset] svg[style$="width: 78.5465px;"] use:upward(div[aria-posinset])
+!#endif
 ! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##html[lang="pl"] div[aria-posinset] svg[style$="width: 78.5465px;"] use:upward(div[aria-posinset])
+
+!#if cap_html_filtering
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^html[lang="vi"] div[aria-posinset] svg[style$="width: 65.0684px;"] use:upward(div[aria-posinset])
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$html[lang="vi"] div[aria-posinset] svg[style$="width: 65.0684px;"] use:upward(div[aria-posinset])
+!#endif
 ! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##html[lang="vi"] div[aria-posinset] svg[style$="width: 65.0684px;"] use:upward(div[aria-posinset])
+
 ! !#endif
 ! !#if env_firefox
+!#if cap_html_filtering
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^html[lang="en"] div[aria-posinset] svg[style$="width: 59px;"] use:upward(div[aria-posinset])
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$html[lang="en"] div[aria-posinset] svg[style$="width: 59px;"] use:upward(div[aria-posinset])
+!#endif
 ! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##html[lang="en"] div[aria-posinset] svg[style$="width: 59px;"] use:upward(div[aria-posinset])
+
+!#if cap_html_filtering
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^html[lang="pl"] div[aria-posinset] svg[style$="width: 80.8px;"] use:upward(div[aria-posinset])
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$html[lang="pl"] div[aria-posinset] svg[style$="width: 80.8px;"] use:upward(div[aria-posinset])
+!#endif
 ! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##html[lang="pl"] div[aria-posinset] svg[style$="width: 80.8px;"] use:upward(div[aria-posinset])
+
+!#if cap_html_filtering
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^html[lang="vi"] div[aria-posinset] svg[style$="width: 65px;"] use:upward(div[aria-posinset])
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$html[lang="vi"] div[aria-posinset] svg[style$="width: 65px;"] use:upward(div[aria-posinset])
+!#endif
 ! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##html[lang="vi"] div[aria-posinset] svg[style$="width: 65px;"] use:upward(div[aria-posinset])
+
 ! !#endif
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-posinset]:has(a[aria-label="広告"]):style(height: 0 !important; overflow: hidden !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/3367#issuecomment-1845256665
@@ -1121,7 +1151,12 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$#wa
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] [class] > a[href*="utm_source=facebook"] span[class] > span[class][style*="-webkit-line-clamp"]:has-text(広告):upward(div:not([class]) > div:not([class]))
 
 
+!#if cap_html_filtering
+!facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^div[role="feed"] > div[class]:has([data-ad-preview])
+!facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$div[role="feed"] > div[class]:has([data-ad-preview])
+!#endif
 !facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="feed"] > div[class]:has([data-ad-preview])
+
 
 ! mail.yahoo.com stuff
 !#if cap_html_filtering
@@ -1960,10 +1995,30 @@ quora.com$$.dom_annotate_multifeed_bundle_AdBundle
 !#endif
 quora.com##.dom_annotate_multifeed_bundle_AdBundle
 
+!#if cap_html_filtering
+!www.quora.com##^.q-box.qu-bg--white > span[data-nosnippet="true"] > .q-box
+!www.quora.com$$.q-box.qu-bg--white > span[data-nosnippet="true"] > .q-box
+!#endif
 !www.quora.com##.q-box.qu-bg--white > span[data-nosnippet="true"] > .q-box
+
+!#if cap_html_filtering
+!www.quora.com##^.qu-mb--small.qu-bg--white > .q-box > div > span[data-nosnippet="true"] > .q-box
+!www.quora.com$$.qu-mb--small.qu-bg--white > .q-box > div > span[data-nosnippet="true"] > .q-box
+!#endif
 !www.quora.com##.qu-mb--small.qu-bg--white > .q-box > div > span[data-nosnippet="true"] > .q-box
+
+!#if cap_html_filtering
+!www.quora.com##^.q-box.qu-borderTop > span[data-nosnippet="true"] > .q-box
+!www.quora.com$$.q-box.qu-borderTop > span[data-nosnippet="true"] > .q-box
+!#endif
 !www.quora.com##.q-box.qu-borderTop > span[data-nosnippet="true"] > .q-box
+
+!#if cap_html_filtering
+!www.quora.com##^span[data-nosnippet="true"] .q-box.qu-pb--tiny.qu-pt--medium
+!www.quora.com$$span[data-nosnippet="true"] .q-box.qu-pb--tiny.qu-pt--medium
+!#endif
 !www.quora.com##span[data-nosnippet="true"] .q-box.qu-pb--tiny.qu-pt--medium
+
 ! https://github.com/uBlockOrigin/uAssets/issues/11253
 !#if cap_html_filtering
 quora.com##^[data-nosnippet="true"]
@@ -4265,7 +4320,12 @@ alrincon.com##+js(aopr, ExoLoader.serve)
 alrincon.com##+js(aopr, open)
 alrincon.com##+js(acs, onload, open)
 ||trcklks.com^$3p
+!#if cap_html_filtering
+! ##^[href^="https://sex.cam/"]
+! $$[href^="https://sex.cam/"]
+!#endif
 ! ##[href^="https://sex.cam/"]
+
 !#if cap_html_filtering
 alrincon.com##^center:has-text(deal)
 alrincon.com$$center:has-text(deal)

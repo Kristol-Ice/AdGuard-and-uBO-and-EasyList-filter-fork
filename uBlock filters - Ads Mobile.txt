@@ -14,90 +14,6 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85997
 ! https://github.com/AdguardTeam/AdguardFilters/issues/87085
 !#if cap_html_filtering
-*##^.ad-block
-*$$.ad-block
-!#endif
-*##.ad-block
-
-!#if cap_html_filtering
-*##^.ad-center
-*$$.ad-center
-!#endif
-*##.ad-center
-
-!#if cap_html_filtering
-*##^.ad-slot:not(.adsbox):not(.adsbygoogle)
-*$$.ad-slot:not(.adsbox):not(.adsbygoogle)
-!#endif
-*##.ad-slot:not(.adsbox):not(.adsbygoogle)
-
-!#if cap_html_filtering
-~lamire.jp,*##^.ad-unit:not(.text-ad):not(.textads)
-~lamire.jp,*$$.ad-unit:not(.text-ad):not(.textads)
-!#endif
-~lamire.jp,*##.ad-unit:not(.text-ad):not(.textads)
-
-!#if cap_html_filtering
-*##^.ad-wrapper
-*$$.ad-wrapper
-!#endif
-*##.ad-wrapper
-
-!#if cap_html_filtering
-*##^.ad_container
-*$$.ad_container
-!#endif
-*##.ad_container
-
-!#if cap_html_filtering
-*##^.ads-wrapper
-*$$.ads-wrapper
-!#endif
-*##.ads-wrapper
-
-!#if cap_html_filtering
-*##^.dfp-ad
-*$$.dfp-ad
-!#endif
-*##.dfp-ad
-
-!#if cap_html_filtering
-*##^.ezoic-ad
-*$$.ezoic-ad
-!#endif
-*##.ezoic-ad
-
-!#if cap_html_filtering
-*##^.top-ad-container
-*$$.top-ad-container
-!#endif
-*##.top-ad-container
-
-!#if cap_html_filtering
-*##^AMP-AD
-*$$AMP-AD
-!#endif
-*##AMP-AD
-
-!#if cap_html_filtering
-*##^div[id*="ScriptRoot"]
-*$$div[id*="ScriptRoot"]
-!#endif
-*##div[id*="ScriptRoot"]
-
-!#if cap_html_filtering
-*##^ins.adsbygoogle
-*$$ins.adsbygoogle
-!#endif
-*##ins.adsbygoogle
-
-!#if cap_html_filtering
-*##^[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-*$$[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-!#endif
-*##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
-
-!#if cap_html_filtering
 xnxx.com,xvideos.com##^#ad-header-mobile
 xnxx.com,xvideos.com$$#ad-header-mobile
 !#endif
@@ -320,12 +236,6 @@ nytimes.com###acm-wrapper
 
 
 ! https://github.com/uBlockOrigin/uAssets/issues/18325
-!#if cap_html_filtering
-*##^.ads_all > .ads_w
-*$$.ads_all > .ads_w
-!#endif
-*##.ads_all > .ads_w
-
 
 ! https://github.com/uBlockOrigin/uAssets/issues/18397
 !#if cap_html_filtering
@@ -416,12 +326,6 @@ apkpure.com##.ad-box-auto
 
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/16y31qu/ezvid_ads_not_blocked_in_ublock_origin_for/
-!#if cap_html_filtering
-*##^.ez-video-wrap
-*$$.ez-video-wrap
-!#endif
-*##.ez-video-wrap
-
 
 ! https://github.com/uBlockOrigin/uAssets/issues/19721#issuecomment-1864681386
 !#if cap_html_filtering

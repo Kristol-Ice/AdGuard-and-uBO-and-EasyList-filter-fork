@@ -2226,8 +2226,18 @@ hentaikai.com##+js(acs, document.createElement, script.src)
 ! https://github.com/uBlockOrigin/uAssets/issues/18446
 ! https://github.com/uBlockOrigin/uAssets/issues/18662
 ! https://www.reddit.com/r/uBlockOrigin/comments/1615y46/
+!#if cap_html_filtering
+! aliexpress.com##^div[data-spm="main"] > a[class*="--container--"] span[class*="--ad--"]:upward(div[data-spm="main"] > a[class*="--container--"])
+! aliexpress.com$$div[data-spm="main"] > a[class*="--container--"] span[class*="--ad--"]:upward(div[data-spm="main"] > a[class*="--container--"])
+!#endif
 ! aliexpress.com##div[data-spm="main"] > a[class*="--container--"] span[class*="--ad--"]:upward(div[data-spm="main"] > a[class*="--container--"])
+
+!#if cap_html_filtering
+! aliexpress.com##^a.search-card-item[href*="&aem_p4p_detail="]:has-text(/^AD/)
+! aliexpress.com$$a.search-card-item[href*="&aem_p4p_detail="]:has-text(/^AD/)
+!#endif
 ! aliexpress.com##a.search-card-item[href*="&aem_p4p_detail="]:has-text(/^AD/)
+
 
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/2508
 mephimtv.cc##+js(m3u-prune, /#EXT-X-DISCONTINUITY.{1\,100}#EXT-X-DISCONTINUITY/gm, mixed.m3u8)
@@ -6050,7 +6060,12 @@ skill4ltu.eu##+js(aeld, load, adsbygoogle)
 
 ! https://www.reddit.com/r/uBlockOrigin/comments/15a5ta4/block_discreet_sotwe_ads/
 ! https://github.com/uBlockOrigin/uAssets/issues/19354
+!#if cap_html_filtering
+! sotwe.com##^.tweet-card .v-responsive.media-carousel-image .v-responsive__content img[alt]:not([alt*="https://t.co/"]):upward(.tweet-card)
+! sotwe.com$$.tweet-card .v-responsive.media-carousel-image .v-responsive__content img[alt]:not([alt*="https://t.co/"]):upward(.tweet-card)
+!#endif
 ! sotwe.com##.tweet-card .v-responsive.media-carousel-image .v-responsive__content img[alt]:not([alt*="https://t.co/"]):upward(.tweet-card)
+
 !#if cap_html_filtering
 sotwe.com##^.tweet-card .v-responsive.media-carousel-image .v-responsive__content img[alt]:not(:matches-attr(alt="/.*\shttps:\/\/t\.co\/[\w]{10}$/")):upward(.tweet-card)
 sotwe.com$$.tweet-card .v-responsive.media-carousel-image .v-responsive__content img[alt]:not(:matches-attr(alt="/.*\shttps:\/\/t\.co\/[\w]{10}$/")):upward(.tweet-card)

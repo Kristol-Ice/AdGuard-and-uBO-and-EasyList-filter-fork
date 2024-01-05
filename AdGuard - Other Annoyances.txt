@@ -71,11 +71,21 @@
 !
 ! This section contains the list of rules targeting annoyances that do not fall under existing categories. Rules should be domain-specific.
 !
+!#if cap_html_filtering
+! Good: example.org##^.annoyance (it's an annoyance that not falling under existing categories)
+! Good: example.org$$.annoyance (it's an annoyance that not falling under existing categories)
+!#endif
 ! Good: example.org##.annoyance (it's an annoyance that not falling under existing categories)
+
 ! Bad:  ||example.org^$third-party (it's an adserver and should be in adservers.txt)
 !
 !
+!#if cap_html_filtering
+!##^##^##^##^# Annoying elements (not ads)
+!$$$$$$$$# Annoying elements (not ads)
+!#endif
 !######### Annoying elements (not ads)
+
 ! SECTION: Other annoyances - Uncategorized
 !
 ! Test for youtube. Look for feedback
@@ -1463,7 +1473,12 @@ msn.com#$$$entry-point-hp-wc-root-wrapper.limited-width { margin-top: 100px !imp
 !#endif
 msn.com#$##entry-point-hp-wc-root-wrapper.limited-width { margin-top: 100px !important; }
 
+!#if cap_html_filtering
+! https://gi##^.video-js.dj-is-floatingthub.com/AdguardTeam/AdguardFilters/issues/131390
+! https://gi$$.video-js.dj-is-floatingthub.com/AdguardTeam/AdguardFilters/issues/131390
+!#endif
 ! https://gi##.video-js.dj-is-floatingthub.com/AdguardTeam/AdguardFilters/issues/131390
+
 !#if cap_html_filtering
 b1tv.ro##^.video-js.dj-is-floating
 b1tv.ro$$.video-js.dj-is-floating
@@ -7158,7 +7173,12 @@ m.facebook.com##div[data-mcomponent="MScreen"] > div[data-type="vscroller"] > di
 
 m.facebook.com#?#.filler ~ div:not([data-srat]) > div > div[data-mcomponent="MContainer"][style*="height:"][style*="px; z-index:"][style*="0; width:"]:has(> div[data-is-snappable-in-h-scroll="true"])
 ! "People you may know" at https://www.facebook.com/profile.php
+!#if cap_html_filtering
+! facebook.com##^#pagelet_pymk_timeline
+! facebook.com$$#pagelet_pymk_timeline
+!#endif
 ! facebook.com###pagelet_pymk_timeline
+
 !#if cap_html_filtering
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?##^ssrb_top_nav_end + div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div > div[class] > div[aria-label="People you may know"])
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?$$ssrb_top_nav_end + div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div[class]:has(> div[class] > div[class] > div[class] > div[class] > div[class] > div[class] > div > div[class] > div[aria-label="People you may know"])
@@ -7239,7 +7259,12 @@ mbasic.facebook.com,m.facebook.com$$[data-ft*="quick_promotion_instance_log_data
 !#endif
 mbasic.facebook.com,m.facebook.com##[data-ft*="quick_promotion_instance_log_data_encoded"]
 
+!#if cap_html_filtering
+!facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^div[role="main"] div[style="height: 0px;"] + div[class] > div[class] > div[class] div[class] div[class][style*="border-radius"]
+!facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$div[role="main"] div[style="height: 0px;"] + div[class] > div[class] > div[class] div[class] div[class][style*="border-radius"]
+!#endif
 !facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="main"] div[style="height: 0px;"] + div[class] > div[class] > div[class] div[class] div[class][style*="border-radius"]
+
 !#if cap_html_filtering
 m.facebook.com##^div[data-type="vscroller"] > div[data-tti-phase][data-mcomponent="MContainer"][style*="height:449px; z-index:0; width:"]
 m.facebook.com$$div[data-type="vscroller"] > div[data-tti-phase][data-mcomponent="MContainer"][style*="height:449px; z-index:0; width:"]
@@ -7333,7 +7358,12 @@ m.facebook.com$$div[data-type="vscroller"] > div[data-mcomponent="MContainer"][s
 m.facebook.com##div[data-type="vscroller"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[style*="height:1px;"]
 
 ! do not enable - will stop loading new posts (sometimes whole page are "Suggested post from a public group")
+!#if cap_html_filtering
+! m.facebook.com##^div[data-type="vscroller"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[style*="height:1px;"] + div[style*="height:1px;"]
+! m.facebook.com$$div[data-type="vscroller"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[style*="height:1px;"] + div[style*="height:1px;"]
+!#endif
 ! m.facebook.com##div[data-type="vscroller"] > div[data-mcomponent="MContainer"][style*="display: none !important;"] + div[style*="height:1px;"] + div[style*="height:1px;"]
+
 ! Suggested videos in timeline after starting a video
 m.facebook.com#?#div[data-mcomponent="MContainer"] > div[data-mcomponent="MContainer"]:has(> div[data-mcomponent="TextArea"] > div > .native-text:contains(Sugggested Videos))
 ! Reels and short videos
@@ -9844,7 +9874,12 @@ mail.google.com$$header[role="banner"] > div[class] > div.gb_yf > div.gb_gc[role
 mail.google.com##header[role="banner"] > div[class] > div.gb_yf > div.gb_gc[role="dialog"][aria-label$="Google Chrome"]
 
 ! Incorrect blocking https://github.com/AdguardTeam/AdguardFilters/issues/140802
+!#if cap_html_filtering
+!youtube.com##^#visible-banners
+!youtube.com$$#visible-banners
+!#endif
 !youtube.com###visible-banners
+
 !
 !--- Microsoft Edge banners --------------------
 !#if cap_html_filtering
@@ -13165,7 +13200,12 @@ www.kinopoisk.ru$$div[class^="trailer-promo"]
 www.kinopoisk.ru##div[class^="trailer-promo"]
 
 ! kinopoisk.ru#?#iframe.yandex_music:upward(div.media-post-embed)
+!#if cap_html_filtering
+! kinopoisk.ru##^.media-page-layout__trailer-promo
+! kinopoisk.ru$$.media-page-layout__trailer-promo
+!#endif
 ! kinopoisk.ru##.media-page-layout__trailer-promo
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/72673
 !#if cap_html_filtering
 barchart.com##^.bc-premier-ads-block
@@ -14311,7 +14351,12 @@ geoguessr.com#$#.no-pro section.page { padding-bottom: 0!important; }
 geoguessr.com#$#.game-usps { display: none!important; }
 ! facebook.com - products shown on special stories
 ! breaks https://github.com/AdguardTeam/AdguardFilters/issues/30045#issuecomment-475830659
+!#if cap_html_filtering
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^.userContentWrapper div[data-ft] > .mtm + .mtm
+! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$.userContentWrapper div[data-ft] > .mtm + .mtm
+!#endif
 ! facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.userContentWrapper div[data-ft] > .mtm + .mtm
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/28507
 !#if cap_html_filtering
 mayoclinic.org##^.mayoad
@@ -24744,9 +24789,24 @@ eiga.com##.header-pure-banner
 ! Good: any type of the rules will be good
 ! Bad:  @@||example.org^$stealth (should be in AdGuard Base - allowlist_stealth.txt)
 !
+!#if cap_html_filtering
+!##^##^##^##^##^##^##^##^##^##^##^##^##^##^##^
+!$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!#endif
 !##############################
+
+!#if cap_html_filtering
+!##^##^##^##^# CSS tweaks ##^##^##^##^#
+!$$$$$$$$# CSS tweaks $$$$$$$$#
+!#endif
 !######### CSS tweaks #########
+
+!#if cap_html_filtering
+!##^##^##^##^##^##^##^##^##^##^##^##^##^##^##^
+!$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!#endif
 !##############################
+
 ! SECTION: Tweaks - CSS
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169109
@@ -26113,9 +26173,24 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !
 !
 !
+!#if cap_html_filtering
+!##^##^##^##^##^##^##^##^##^##^##^##^##^##^##^
+!$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!#endif
 !##############################
+
+!#if cap_html_filtering
+!##^##^##^##^# JS tweaks ##^##^##^##^##^
+!$$$$$$$$# JS tweaks $$$$$$$$$$
+!#endif
 !######### JS tweaks ##########
+
+!#if cap_html_filtering
+!##^##^##^##^##^##^##^##^##^##^##^##^##^##^##^
+!$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!#endif
 !##############################
+
 ! SECTION: Tweaks - JS
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169542
@@ -27608,9 +27683,24 @@ dizipub1.com,dizipub2.com,dizipub3.com,dizipub4.com,dizipub5.com,dizipub6.com,di
 !
 !
 !
+!#if cap_html_filtering
+!##^##^##^##^##^##^##^##^##^##^##^##^##^##^##^
+!$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!#endif
 !##############################
+
+!#if cap_html_filtering
+!##^##^##^##^# HTML tweaks ##^##^##^##^
+!$$$$$$$$# HTML tweaks $$$$$$$$
+!#endif
 !######### HTML tweaks ########
+
+!#if cap_html_filtering
+!##^##^##^##^##^##^##^##^##^##^##^##^##^##^##^
+!$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+!#endif
 !##############################
+
 ! SECTION: Tweaks - HTML
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/156306

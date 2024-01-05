@@ -32444,7 +32444,12 @@ roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,r
 !#endif
 roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,roninwear.pt,roninwear.us###wrapper-dx-coki
 
+!#if cap_html_filtering
+!! ##^div[class^="cookie__"]
+!! $$div[class^="cookie__"]
+!#endif
 !! ##div[class^="cookie__"]
+
 !#if cap_html_filtering
 4templates.com,epal.gg,thegoodocs.com,thewallsthotel.com##^div[class^="cookie__"]
 4templates.com,epal.gg,thegoodocs.com,thewallsthotel.com$$div[class^="cookie__"]
@@ -34861,7 +34866,12 @@ twitter.com$$[data-reactroot] > [class] + [class]:last-child
 !#endif
 twitter.com##[data-reactroot] > [class] + [class]:last-child
 
+!#if cap_html_filtering
+! twitter.com##^.r-13qz1uu.r-tvv088.css-1dbjc4n
+! twitter.com$$.r-13qz1uu.r-tvv088.css-1dbjc4n
+!#endif
 ! twitter.com##.r-13qz1uu.r-tvv088.css-1dbjc4n
+
 !#if cap_html_filtering
 twitter.com##^.css-1dbjc4n.r-12vffkv > .r-12vffkv > .css-1dbjc4n[data-testid="BottomBar"] > .css-1dbjc4n.r-1awozwy.r-1sw30gj.r-15ce4ve
 twitter.com$$.css-1dbjc4n.r-12vffkv > .r-12vffkv > .css-1dbjc4n[data-testid="BottomBar"] > .css-1dbjc4n.r-1awozwy.r-1sw30gj.r-15ce4ve
@@ -37409,7 +37419,12 @@ dcshoes.it,atticabank.gr,intersport.hu,mironet.cz,learnattack.de,campingcabodega
 dcshoes.it,atticabank.gr,intersport.hu,mironet.cz,learnattack.de,campingcabodegata.com,campingred.es,campingriojerte.com,campingurbasa.com,campingboltana.com,campingcuenca.com,campingelastral.es,campingfuentescarrionas.com,campingelmolino.com,campingcastillo.com,campingcabodegata.es,lascorralizas.com,campingetxarri.com,campingdeharo.com,lagoresort.com,enracha.es,sgim.org,montkov.cz,birkenstock.com,piscine-champerret.fr,piscine-godard.fr,citeaquademie.fr,billetterie.elysee-montmartre.com,couzeo.fr,piscine-estrees.fr,espontoise.fr,complexe-citelium.fr,ca-laloue.fr,billetterie.stadetoulousain.fr,billetterie.stade.fr,duo-caudry.fr,lavague-plainevallee.fr,piscine-berlioux.fr,wetixpro.com,billetterie-bopb.fr,piscine-baker.fr,casinodeparis.fr,letrianon.fr,dragons-billetterie.com,aquazergues.fr,lo-obernai.fr,fcgticket.com,sceneo-capso.fr,helicea-cab.fr,billetterie-ffhandball.fr##.ui-dialog
 
 atticabank.gr,intersport.hu,mironet.cz,campingcabodegata.com,campingred.es,campingriojerte.com,campingurbasa.com,campingboltana.com,campingcuenca.com,campingelastral.es,campingfuentescarrionas.com,campingelmolino.com,campingcastillo.com,campingcabodegata.es,lascorralizas.com,campingetxarri.com,campingdeharo.com,lagoresort.com,enracha.es,sgim.org,montkov.cz,birkenstock.com,piscine-champerret.fr,piscine-godard.fr,citeaquademie.fr,billetterie.elysee-montmartre.com,couzeo.fr,piscine-estrees.fr,espontoise.fr,complexe-citelium.fr,ca-laloue.fr,billetterie.stadetoulousain.fr,billetterie.stade.fr,duo-caudry.fr,lavague-plainevallee.fr,piscine-berlioux.fr,wetixpro.com,billetterie-bopb.fr,piscine-baker.fr,casinodeparis.fr,letrianon.fr,dragons-billetterie.com,aquazergues.fr,lo-obernai.fr,fcgticket.com,sceneo-capso.fr,helicea-cab.fr,billetterie-ffhandball.fr##body,html:style(overflow: auto !important; position: initial !important;)
+!#if cap_html_filtering
+!! ##^[data-popmake*="cookie_"]
+!! $$[data-popmake*="cookie_"]
+!#endif
 !! ##[data-popmake*="cookie_"]
+
 !#if cap_html_filtering
 electric-scooters-bikes.be##^[data-popmake*="cookie_"]
 electric-scooters-bikes.be$$[data-popmake*="cookie_"]
@@ -42563,11 +42578,36 @@ turboimagehost.com##.asg-overlay
 
 turboimagehost.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! hsbc + assetmanagement.hsbc.com.sg mirrors
+!#if cap_html_filtering
+!hsbc.de##^.lightbox-overlay
+!hsbc.de$$.lightbox-overlay
+!#endif
 !hsbc.de##.lightbox-overlay
+
+!#if cap_html_filtering
+!hsbc.com.mt,hsbc.nl,hsbc.co.uk,hsbc.ch,hsbc.se,hsbc.es,hsbc.at,hsbc.be,hsbc.cz,hsbc.dk,hsbc.com,hsbc.gr,hsbc.de,hsbc.com.mx,hsbc.ca,hsbc.bm,hsbc.com.tw,hsbc.co.in,hsbc.co.jp,hsbc.com.sg,hsbc.fr##^#terms-and-conditions-modal
+!hsbc.com.mt,hsbc.nl,hsbc.co.uk,hsbc.ch,hsbc.se,hsbc.es,hsbc.at,hsbc.be,hsbc.cz,hsbc.dk,hsbc.com,hsbc.gr,hsbc.de,hsbc.com.mx,hsbc.ca,hsbc.bm,hsbc.com.tw,hsbc.co.in,hsbc.co.jp,hsbc.com.sg,hsbc.fr$$#terms-and-conditions-modal
+!#endif
 !hsbc.com.mt,hsbc.nl,hsbc.co.uk,hsbc.ch,hsbc.se,hsbc.es,hsbc.at,hsbc.be,hsbc.cz,hsbc.dk,hsbc.com,hsbc.gr,hsbc.de,hsbc.com.mx,hsbc.ca,hsbc.bm,hsbc.com.tw,hsbc.co.in,hsbc.co.jp,hsbc.com.sg,hsbc.fr###terms-and-conditions-modal
+
+!#if cap_html_filtering
+!hsbc.com.mt,hsbc.nl,hsbc.co.uk,hsbc.ch,hsbc.se,hsbc.es,hsbc.at,hsbc.be,hsbc.cz,hsbc.dk,hsbc.com,hsbc.gr,hsbc.de,hsbc.com.mx,hsbc.ca,hsbc.bm,hsbc.com.tw,hsbc.co.in,hsbc.co.jp,hsbc.com.sg,hsbc.fr##^.cookie-modal-container
+!hsbc.com.mt,hsbc.nl,hsbc.co.uk,hsbc.ch,hsbc.se,hsbc.es,hsbc.at,hsbc.be,hsbc.cz,hsbc.dk,hsbc.com,hsbc.gr,hsbc.de,hsbc.com.mx,hsbc.ca,hsbc.bm,hsbc.com.tw,hsbc.co.in,hsbc.co.jp,hsbc.com.sg,hsbc.fr$$.cookie-modal-container
+!#endif
 !hsbc.com.mt,hsbc.nl,hsbc.co.uk,hsbc.ch,hsbc.se,hsbc.es,hsbc.at,hsbc.be,hsbc.cz,hsbc.dk,hsbc.com,hsbc.gr,hsbc.de,hsbc.com.mx,hsbc.ca,hsbc.bm,hsbc.com.tw,hsbc.co.in,hsbc.co.jp,hsbc.com.sg,hsbc.fr##.cookie-modal-container
+
+!#if cap_html_filtering
+!hsbc.com.eg,hsbc.com.cn,hsbc.com.vn,hsbc.com.tw,hsbc.com.mo,hsbc.com.kw,hsbc.ch,hsbc.co.id,hsbc.am,hsbc.com,hsbc.nl,hsbc.com.mt,hsbc.de,hsbc.cz,hsbc.be,hsbc.es,hsbc.pl,hsbc.uk,hsbc.ie,hsbc.com.tr,hsbc.it,hsbc.fr,hsbc.gr,hsbc-transactionservices.de,hsbcnet.com##^.cookie-notification
+!hsbc.com.eg,hsbc.com.cn,hsbc.com.vn,hsbc.com.tw,hsbc.com.mo,hsbc.com.kw,hsbc.ch,hsbc.co.id,hsbc.am,hsbc.com,hsbc.nl,hsbc.com.mt,hsbc.de,hsbc.cz,hsbc.be,hsbc.es,hsbc.pl,hsbc.uk,hsbc.ie,hsbc.com.tr,hsbc.it,hsbc.fr,hsbc.gr,hsbc-transactionservices.de,hsbcnet.com$$.cookie-notification
+!#endif
 !hsbc.com.eg,hsbc.com.cn,hsbc.com.vn,hsbc.com.tw,hsbc.com.mo,hsbc.com.kw,hsbc.ch,hsbc.co.id,hsbc.am,hsbc.com,hsbc.nl,hsbc.com.mt,hsbc.de,hsbc.cz,hsbc.be,hsbc.es,hsbc.pl,hsbc.uk,hsbc.ie,hsbc.com.tr,hsbc.it,hsbc.fr,hsbc.gr,hsbc-transactionservices.de,hsbcnet.com##.cookie-notification
+
+!#if cap_html_filtering
+!smartserve.hsbc,hsbc.ch,hsbc.com,hsbc.nl,hsbc.com.mt,hsbc.de,hsbc.cz,hsbc.be,hsbc.es,hsbc.pl,hsbc.uk,hsbc.ie,hsbc.com.tr,hsbc.it,hsbc.fr,hsbc.gr,hsbc-transactionservices.de,hsbcnet.com##^#__tealiumGDPRecModal
+!smartserve.hsbc,hsbc.ch,hsbc.com,hsbc.nl,hsbc.com.mt,hsbc.de,hsbc.cz,hsbc.be,hsbc.es,hsbc.pl,hsbc.uk,hsbc.ie,hsbc.com.tr,hsbc.it,hsbc.fr,hsbc.gr,hsbc-transactionservices.de,hsbcnet.com$$#__tealiumGDPRecModal
+!#endif
 !smartserve.hsbc,hsbc.ch,hsbc.com,hsbc.nl,hsbc.com.mt,hsbc.de,hsbc.cz,hsbc.be,hsbc.es,hsbc.pl,hsbc.uk,hsbc.ie,hsbc.com.tr,hsbc.it,hsbc.fr,hsbc.gr,hsbc-transactionservices.de,hsbcnet.com###__tealiumGDPRecModal
+
 hsbc.com.mt,hsbc.nl,hsbc.co.uk,hsbc.se,hsbc.es,hsbc.at,hsbc.cz,hsbc.dk,hsbc.com,hsbc.com.mx,hsbc.ca,hsbc.bm,hsbc.com.tw,hsbc.co.in,hsbc.co.jp,hsbc.com.sg,smartserve.hsbc,hsbc.ch,hsbc.de,hsbc.be,hsbc.pl,hsbc.uk,hsbc.ie,hsbc.com.tr,hsbc.it,hsbc.fr,hsbc.gr,hsbc-transactionservices.de,hsbcnet.com##body,html:style(overflow: auto !important; position: initial !important;)
 ! dbschenker
 !#if cap_html_filtering
