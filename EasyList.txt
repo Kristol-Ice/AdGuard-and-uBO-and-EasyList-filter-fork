@@ -2,7 +2,7 @@
 [Adblock Plus 2.0]
 ! Title: EasyList
 ! Expires: 6 days (update frequency)
-! Last modified: Fri, 05 Jan 2024 02:18:34 +0000
+! Last modified: Sat, 06 Jan 2024 05:13:30 +0000
 ! Diff-Path: %diffpath%#easylist
 ! Diff-Expires: 317 minutes
 ! *** easylist:template_header.txt ***
@@ -87,7 +87,7 @@
 .com/a?pagetype
 .com/ad/$~image,third-party,domain=~mediaplex.com|~warpwire.com|~wsj.com
 .com/ads?
-.com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~archiproducts.com|~tritondigital.com
+.com/adv/$domain=~adv.asahi.com|~advantabankcorp.com|~alltransistors.com|~archiproducts.com|~tritondigital.com
 .com/adz/
 .com/peeltr.js
 .com/sc/*?n=$script,third-party
@@ -794,6 +794,7 @@
 /exoads/*
 /exobanner.
 /exoclick.$~script,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
+/exonb/backloaderforload.php
 /expads-blocked.js
 /export/ltv_popup.php
 /exports/tour/*$third-party
@@ -3875,6 +3876,7 @@ _800x80_
 ###adsense-468x60
 ###adsense-area
 ###adsense-bottom
+###adsense-container-bottom
 ###adsense-header
 ###adsense-link
 ###adsense-links
@@ -20603,6 +20605,7 @@ browsershots.org#@#.advert_area
 ||afgr9.com^
 ||afgtrwd1.com^
 ||afgwciwbjxcsfro.com^
+||afgwsgl.com^
 ||afgzipohma.com^
 ||afm01.com^
 ||afodreet.net^
@@ -23119,6 +23122,7 @@ browsershots.org#@#.advert_area
 ||blakelousepreoccupation.com^
 ||blamads.com^
 ||blamedbuckie.fun^
+||blamersservian.digital^
 ||blancheavily.uno^
 ||bland-husband.com^
 ||blanddish.pro^
@@ -23863,6 +23867,7 @@ browsershots.org#@#.advert_area
 ||bvoqzs.com^
 ||bvtfutroyr.com^
 ||bvudraqxpl.com^
+||bvyblnenz.com^
 ||bwbmyzvjnqlna.top^
 ||bwbmyzvjnqlwv.top^
 ||bwmvzwkbqlmrz.top^
@@ -24366,6 +24371,7 @@ browsershots.org#@#.advert_area
 ||cendantofth.org^
 ||ceneicons.com^
 ||ceneverdreams.com^
+||ceneverdreams.org^
 ||cennter.com^
 ||cenous.com^
 ||censelysoviell.xyz^
@@ -26117,6 +26123,7 @@ browsershots.org#@#.advert_area
 ||dayznews.biz^
 ||daz3rw5a5k4h.com^
 ||dazhantai.com^
+||db20da1532.com^
 ||db5f3a82ab.com^
 ||db72c26349.com^
 ||dbbsrv.com^
@@ -27300,6 +27307,7 @@ browsershots.org#@#.advert_area
 ||dummieseardrum.com^
 ||dumplingclubhousecompliments.com^
 ||dumplingdirewomen.com^
+||dunceryquant.com^
 ||duncip.com^
 ||dunct.com^
 ||dunderaffiliates.com^
@@ -28202,6 +28210,7 @@ browsershots.org#@#.advert_area
 ||erinoccluse.website^
 ||erizoricher.life^
 ||erkeincepts.website^
+||erlvjjyk.com^
 ||erm5aranwt7hucs.com^
 ||ernesseitenean.com^
 ||erniphiq.com^
@@ -29804,6 +29813,7 @@ browsershots.org#@#.advert_area
 ||fuzeelamby.com^
 ||fuzinghummaul.com^
 ||fuzzywardshoplifting.com^
+||fvcdduqg.com^
 ||fvcwqkkqmuv.com^
 ||fvgxfupisy.com^
 ||fvzhenljkw.com^
@@ -32159,6 +32169,7 @@ browsershots.org#@#.advert_area
 ||iiydmrr.com^
 ||ijatsapphiresanda.com^
 ||ijbgqlf.com^
+||ijebtcgu.com^
 ||ijeetsie.com^
 ||ijhpdtiij.com^
 ||ijmrburud.com^
@@ -33297,6 +33308,7 @@ browsershots.org#@#.advert_area
 ||jocauzee.net^
 ||jocelynrace.com^
 ||jodhpurrarish.digital^
+||jodroacm.com^
 ||joereisp.xyz^
 ||jogdied.com^
 ||johamp.com^
@@ -34019,6 +34031,7 @@ browsershots.org#@#.advert_area
 ||kremarkedone.com^
 ||kreud.com^
 ||krful.com^
+||krgukepers.org^
 ||krilor.com^
 ||krisydark.com^
 ||krjxhvyyzp.com^
@@ -34759,6 +34772,7 @@ browsershots.org#@#.advert_area
 ||lmnrorgeummvsqe.com^
 ||lmp3.org^
 ||lmqowtvu.com^
+||lmvrjajerrbwv.top^
 ||lnabew.com^
 ||lnbswijsipf.com^
 ||lncfuqbgpnmxm.xyz^
@@ -34976,6 +34990,7 @@ browsershots.org#@#.advert_area
 ||lpnjcnigcfuk.com^
 ||lpravybegqv.com^
 ||lptrak.com^
+||lpzhlqrrcvpnzj.com^
 ||lqammdjflcecau.com^
 ||lqcdn.com^
 ||lqdfscnbki.com^
@@ -36079,6 +36094,7 @@ browsershots.org#@#.advert_area
 ||mnetads.com^
 ||mng-ads.com^
 ||mnhjk.com^
+||mnhjkl.com^
 ||mniumlapsers.com^
 ||mnnuhtvnubdg.xyz^
 ||mnodtbmmomqo.com^
@@ -37695,6 +37711,7 @@ browsershots.org#@#.advert_area
 ||oddsserve.com^
 ||odeerofhisk.xyz^
 ||odipjwipwwyus.xyz^
+||odkfzmwfkjgzag.com^
 ||odlyccugg.com^
 ||odnaknopka.ru^
 ||odnaturedfe.org^
@@ -41536,6 +41553,7 @@ browsershots.org#@#.advert_area
 ||refrigeratemaimbrunette.com^
 ||refrigeratespinsterreins.com^
 ||refugedcuber.com^
+||refulgecomsat.com^
 ||refundsreisner.life^
 ||refusedfellow.com^
 ||refuserates.com^
@@ -45884,6 +45902,7 @@ browsershots.org#@#.advert_area
 ||tonesprotectioncard.com^
 ||tonganserried.life^
 ||tongsgodforsaken.com^
+||tonicdivedfounded.com^
 ||tonicelement.digital^
 ||tonicneighbouring.com^
 ||toninjaska.com^
@@ -46576,6 +46595,7 @@ browsershots.org#@#.advert_area
 ||tzaristdiploma.com^
 ||tzegilo.com^
 ||tzgygfy.com^
+||tzrlfzwyicvj.com^
 ||tzugumojfm.com^
 ||tzuhumrwypw.com^
 ||tzvojcc.com^
@@ -46652,6 +46672,7 @@ browsershots.org#@#.advert_area
 ||ufpcdn.com^
 ||ufptkylyfa.com^
 ||ufsbauge.com^
+||ufzqrmflbnlze.com^
 ||ugahutoa.com^
 ||ugalia.com^
 ||ugawnotrjj.xyz^
@@ -46716,6 +46737,7 @@ browsershots.org#@#.advert_area
 ||ukenthascaptureu.info^
 ||ukentsiwoulukdlik.info^
 ||ukfareputfea.xyz^
+||ukidiayddbshfl.com^
 ||ukiyoyechromy.com^
 ||uklgakwqy.com^
 ||ukmlastityty.info^
@@ -46774,6 +46796,7 @@ browsershots.org#@#.advert_area
 ||ummihaqhu.xyz^
 ||umnstoodthe.com^
 ||umoughtcallm.com^
+||umplohzn.com^
 ||umpteenimpave.guru^
 ||umqiapzsc.com^
 ||umqpchxoq.xyz^
@@ -49762,6 +49785,7 @@ browsershots.org#@#.advert_area
 ||zdajdudqfq.com^
 ||zdhq.xyz^
 ||zdjljvsi.com^
+||zdljbrwosbymft.com^
 ||zdxblxwjoees.com^
 ||zeads.com^
 ||zealeddrizzly.com^
@@ -55136,6 +55160,7 @@ browsershots.org#@#.advert_area
 ||watchadsfree.com^$popup
 ||watchadzfree.com^$popup
 ||watchcpm.com^$popup
+||watchesthereupon.com^$popup
 ||watchfreeofads.com^$popup
 ||watchlivesports4k.club^$popup
 ||watchtaro.com^$popup
@@ -56071,12 +56096,14 @@ browsershots.org#@#.advert_area
 ||1143895874.rsc.cdn77.org^
 ||1144017219.rsc.cdn77.org^
 ||1187531871.rsc.cdn77.org^
+||1193176784.rsc.cdn77.org^
 ||1203782659.rsc.cdn77.org^
 ||1244458189.rsc.cdn77.org^
 ||1437953666.rsc.cdn77.org^
 ||1603463731.rsc.cdn77.org^
 ||1675450967.rsc.cdn77.org^
 ||1736253261.rsc.cdn77.org^
+||1805629149.rsc.cdn77.org^
 ||1885212191.rsc.cdn77.org^
 ||360playvid.com^$third-party
 ||360playvid.info^$third-party
@@ -56612,6 +56639,7 @@ browsershots.org#@#.advert_area
 ||d18b5y9gp0lr93.cloudfront.net^
 ||d18e74vjvmvza1.cloudfront.net^
 ||d18g6t7whf8ejf.cloudfront.net^
+||d18hqfm1ev805k.cloudfront.net^
 ||d18kg2zy9x3t96.cloudfront.net^
 ||d18mealirgdbbz.cloudfront.net^
 ||d18myvrsrzjrd7.cloudfront.net^
@@ -56842,6 +56870,7 @@ browsershots.org#@#.advert_area
 ||d27gtglsu4f4y2.cloudfront.net^
 ||d27pxpvfn42pgj.cloudfront.net^
 ||d27qffx6rqb3qm.cloudfront.net^
+||d27tzcmp091qxd.cloudfront.net^
 ||d27x9po2cfinm5.cloudfront.net^
 ||d28exbmwuav7xa.cloudfront.net^
 ||d28quk6sxoh2w5.cloudfront.net^
@@ -65853,6 +65882,12 @@ iogames.onl##^.Adv
 iogames.onl$$.Adv
 !#endif
 iogames.onl##.Adv
+
+!#if cap_html_filtering
+yandex.com,yandex.eu,yandex.ru##^.AdvRsyaCrossPage
+yandex.com,yandex.eu,yandex.ru$$.AdvRsyaCrossPage
+!#endif
+yandex.com,yandex.eu,yandex.ru##.AdvRsyaCrossPage
 
 !#if cap_html_filtering
 airportinfo.live,audiokarma.org,audizine.com##^.AdvallyTag
@@ -86609,6 +86644,12 @@ ldoceonline.com$$[id^="ad_contentslot"]
 ldoceonline.com##[id^="ad_contentslot"]
 
 !#if cap_html_filtering
+bestbuy.ca,bestbuy.com##^[id^="atwb-ninja-carousel"]
+bestbuy.ca,bestbuy.com$$[id^="atwb-ninja-carousel"]
+!#endif
+bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
+
+!#if cap_html_filtering
 beforeitsnews.com##^[id^="banners_"]
 beforeitsnews.com$$[id^="banners_"]
 !#endif
@@ -87969,6 +88010,12 @@ onetransistor.eu##^a[onclick][target="_blank"]
 onetransistor.eu$$a[onclick][target="_blank"]
 !#endif
 onetransistor.eu##a[onclick][target="_blank"]
+
+!#if cap_html_filtering
+1001tracklists.com##^a[onclick^="lTrInt"]
+1001tracklists.com$$a[onclick^="lTrInt"]
+!#endif
+1001tracklists.com##a[onclick^="lTrInt"]
 
 !#if cap_html_filtering
 earlygame.com,i711.com##^a[rel*="sponsored"]
@@ -90161,6 +90208,12 @@ healthgrades.com$$ps-action-intercept
 healthgrades.com##ps-action-intercept
 
 !#if cap_html_filtering
+yandex.com,yandex.eu,yandex.ru##^rect
+yandex.com,yandex.eu,yandex.ru$$rect
+!#endif
+yandex.com,yandex.eu,yandex.ru##rect
+
+!#if cap_html_filtering
 mashable.com##^section.mt-4 > div
 mashable.com$$section.mt-4 > div
 !#endif
@@ -90372,10 +90425,148 @@ backgrounds.wetransfer.net##we-wallpaper
 
 ! :has()
 !#if cap_html_filtering
+radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##^#headerTopBar ~ div > div:has(div#RAD_D_station_top)
+radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se$$#headerTopBar ~ div > div:has(div#RAD_D_station_top)
+!#endif
+radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
+
+!#if cap_html_filtering
+gtaforums.com##^#ipsLayout_mainArea div:has(> #pwDeskLbAtf)
+gtaforums.com$$#ipsLayout_mainArea div:has(> #pwDeskLbAtf)
+!#endif
+gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
+
+!#if cap_html_filtering
+klmanga.io##^#movie-last-movie > li:has(> center > ins[data-width="300"])
+klmanga.io$$#movie-last-movie > li:has(> center > ins[data-width="300"])
+!#endif
+klmanga.io###movie-last-movie > li:has(> center > ins[data-width="300"])
+
+!#if cap_html_filtering
+aleteia.org##^#root > div[class]:has(> .adslot)
+aleteia.org$$#root > div[class]:has(> .adslot)
+!#endif
+aleteia.org###root > div[class]:has(> .adslot)
+
+!#if cap_html_filtering
+bbc.com##^#sticky-mpu:has(.dotcom-ad-inner)
+bbc.com$$#sticky-mpu:has(.dotcom-ad-inner)
+!#endif
+bbc.com###sticky-mpu:has(.dotcom-ad-inner)
+
+!#if cap_html_filtering
+kroger.com##^.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
+kroger.com$$.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
+!#endif
+kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
+
+!#if cap_html_filtering
+nationalgeographic.com##^.FrameBackgroundFull--grey:has(.ad-wrapper)
+nationalgeographic.com$$.FrameBackgroundFull--grey:has(.ad-wrapper)
+!#endif
+nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
+
+!#if cap_html_filtering
+imgur.com##^.Grid-column > div[style^="height:"]:has(.AdHomeContainer)
+imgur.com$$.Grid-column > div[style^="height:"]:has(.AdHomeContainer)
+!#endif
+imgur.com##.Grid-column > div[style^="height:"]:has(.AdHomeContainer)
+
+!#if cap_html_filtering
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
+!#endif
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
+
+!#if cap_html_filtering
+haveibeenpwned.com##^.actionsBar:has(.why1Password)
+haveibeenpwned.com$$.actionsBar:has(.why1Password)
+!#endif
+haveibeenpwned.com##.actionsBar:has(.why1Password)
+
+!#if cap_html_filtering
+forexlive.com##^.article-slot__wrapper:has(.article-header__sponsored)
+forexlive.com$$.article-slot__wrapper:has(.article-header__sponsored)
+!#endif
+forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
+
+!#if cap_html_filtering
+time.com##^.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
+time.com$$.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
+!#endif
+time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
+
+!#if cap_html_filtering
+blitz.gg##^.aside-content-column:has(.display-ad)
+blitz.gg$$.aside-content-column:has(.display-ad)
+!#endif
+blitz.gg##.aside-content-column:has(.display-ad)
+
+!#if cap_html_filtering
+haveibeenpwned.com##^.bodyGradient > :has(.why1Password)
+haveibeenpwned.com$$.bodyGradient > :has(.why1Password)
+!#endif
+haveibeenpwned.com##.bodyGradient > :has(.why1Password)
+
+!#if cap_html_filtering
+radioreference.com##^.box.gradient:has(a[href*="&Click="])
+radioreference.com$$.box.gradient:has(a[href*="&Click="])
+!#endif
+radioreference.com##.box.gradient:has(a[href*="&Click="])
+
+!#if cap_html_filtering
+asda.com##^.co-item:has(.co-item__sponsored-label)
+asda.com$$.co-item:has(.co-item__sponsored-label)
+!#endif
+asda.com##.co-item:has(.co-item__sponsored-label)
+
+!#if cap_html_filtering
+theautopian.com##^.code-block:has(.htlad-InContent)
+theautopian.com$$.code-block:has(.htlad-InContent)
+!#endif
+theautopian.com##.code-block:has(.htlad-InContent)
+
+!#if cap_html_filtering
+templateshub.net##^.col-lg-4.col-md-6:has(> div.singel-course)
+templateshub.net$$.col-lg-4.col-md-6:has(> div.singel-course)
+!#endif
+templateshub.net##.col-lg-4.col-md-6:has(> div.singel-course)
+
+!#if cap_html_filtering
+limetorrents.lol##^.downloadareabig:has([title^="Anâ€Œonâ€Œymous Download"])
+limetorrents.lol$$.downloadareabig:has([title^="Anâ€Œonâ€Œymous Download"])
+!#endif
+limetorrents.lol##.downloadareabig:has([title^="Anâ€Œonâ€Œymous Download"])
+
+!#if cap_html_filtering
+tripsonabbeyroad.com##^.e-con-inner:has(tp-cascoon)
+tripsonabbeyroad.com$$.e-con-inner:has(tp-cascoon)
+!#endif
+tripsonabbeyroad.com##.e-con-inner:has(tp-cascoon)
+
+!#if cap_html_filtering
+protrumpnews.com##^.enhanced-text-widget:has(span.pre-announcement)
+protrumpnews.com$$.enhanced-text-widget:has(span.pre-announcement)
+!#endif
+protrumpnews.com##.enhanced-text-widget:has(span.pre-announcement)
+
+!#if cap_html_filtering
+pigglywigglystores.com##^.fp-item:has(.fp-tag-ad)
+pigglywigglystores.com$$.fp-item:has(.fp-tag-ad)
+!#endif
+pigglywigglystores.com##.fp-item:has(.fp-tag-ad)
+
+!#if cap_html_filtering
 tumblr.com##^.ge_yK:has(.hM19_)
 tumblr.com$$.ge_yK:has(.hM19_)
 !#endif
 tumblr.com##.ge_yK:has(.hM19_)
+
+!#if cap_html_filtering
+fortune.com##^.homepage:has(> div[id^="InStream"])
+fortune.com$$.homepage:has(> div[id^="InStream"])
+!#endif
+fortune.com##.homepage:has(> div[id^="InStream"])
 
 !#if cap_html_filtering
 qwant.com##^.is-sidebar:has(a[data-testid="advertiserAdsLink"])
@@ -90384,10 +90575,82 @@ qwant.com$$.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 qwant.com##.is-sidebar:has(a[data-testid="advertiserAdsLink"])
 
 !#if cap_html_filtering
+yovizag.com##^.jeg_column:has(> .jeg_wrapper > .jeg_ad)
+yovizag.com$$.jeg_column:has(> .jeg_wrapper > .jeg_ad)
+!#endif
+yovizag.com##.jeg_column:has(> .jeg_wrapper > .jeg_ad)
+
+!#if cap_html_filtering
+chewy.com##^.kib-carousel-item:has(.kib-product-sponsor)
+chewy.com$$.kib-carousel-item:has(.kib-product-sponsor)
+!#endif
+chewy.com##.kib-carousel-item:has(.kib-product-sponsor)
+
+!#if cap_html_filtering
 content.dictionary.com##^.lp-code:has(> [class$="Ad"])
 content.dictionary.com$$.lp-code:has(> [class$="Ad"])
 !#endif
 content.dictionary.com##.lp-code:has(> [class$="Ad"])
+
+!#if cap_html_filtering
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##^.master-product-carousel:has([data-carousel-driven="sponsored-products"])
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com$$.master-product-carousel:has([data-carousel-driven="sponsored-products"])
+!#endif
+acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-driven="sponsored-products"])
+
+!#if cap_html_filtering
+officedepot.com##^.od-col:has(.od-product-card-region-colors-sponsored)
+officedepot.com$$.od-col:has(.od-product-card-region-colors-sponsored)
+!#endif
+officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)
+
+!#if cap_html_filtering
+pollunit.com##^.owl-carousel:has(.carousel-ad)
+pollunit.com$$.owl-carousel:has(.carousel-ad)
+!#endif
+pollunit.com##.owl-carousel:has(.carousel-ad)
+
+!#if cap_html_filtering
+hannaford.com##^.plp_thumb_wrap:has([data-citrusadimpressionid])
+hannaford.com$$.plp_thumb_wrap:has([data-citrusadimpressionid])
+!#endif
+hannaford.com##.plp_thumb_wrap:has([data-citrusadimpressionid])
+
+!#if cap_html_filtering
+niagarathisweek.com##^.polarBlock:has(.polarAds)
+niagarathisweek.com$$.polarBlock:has(.polarAds)
+!#endif
+niagarathisweek.com##.polarBlock:has(.polarAds)
+
+!#if cap_html_filtering
+woolworths.com.au##^.product-grid-v2--tile:has(.sponsored-text)
+woolworths.com.au$$.product-grid-v2--tile:has(.sponsored-text)
+!#endif
+woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
+
+!#if cap_html_filtering
+meijer.com##^.product-grid__product:has(.product-tile__sponsored)
+meijer.com$$.product-grid__product:has(.product-tile__sponsored)
+!#endif
+meijer.com##.product-grid__product:has(.product-tile__sponsored)
+
+!#if cap_html_filtering
+sainsburys.co.uk##^.pt-grid-item:has([data-test-id="citrus-label"])
+sainsburys.co.uk$$.pt-grid-item:has([data-test-id="citrus-label"])
+!#endif
+sainsburys.co.uk##.pt-grid-item:has([data-test-id="citrus-label"])
+
+!#if cap_html_filtering
+ksl.com##^.queue:has(.sponsored)
+ksl.com$$.queue:has(.sponsored)
+!#endif
+ksl.com##.queue:has(.sponsored)
+
+!#if cap_html_filtering
+olx.com.pk##^.react-swipeable-view-container:has([href*="http://onelink.to"])
+olx.com.pk$$.react-swipeable-view-container:has([href*="http://onelink.to"])
+!#endif
+olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
 
 !#if cap_html_filtering
 metager.org##^.result:has(a[href^="https://metager.org"][href*="/partner/r?"])
@@ -90408,16 +90671,124 @@ qwant.com$$.result__ext:has([data-testid="adResult"])
 qwant.com##.result__ext:has([data-testid="adResult"])
 
 !#if cap_html_filtering
+playpilot.com##^.search-preview .side:has(> .provider)
+playpilot.com$$.search-preview .side:has(> .provider)
+!#endif
+playpilot.com##.search-preview .side:has(> .provider)
+
+!#if cap_html_filtering
+troyhunt.com##^.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
+troyhunt.com$$.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
+!#endif
+troyhunt.com##.sidebar-featured:has(a[href^="https://pluralsight.pxf.io/"])
+
+!#if cap_html_filtering
+bing.com##^.slide:has(.rtb_ad_caritem_mvtr)
+bing.com$$.slide:has(.rtb_ad_caritem_mvtr)
+!#endif
+bing.com##.slide:has(.rtb_ad_caritem_mvtr)
+
+!#if cap_html_filtering
+rustlabs.com##^.sub-info-block:has(#banner)
+rustlabs.com$$.sub-info-block:has(#banner)
+!#endif
+rustlabs.com##.sub-info-block:has(#banner)
+
+!#if cap_html_filtering
+nex-software.com##^.toolinfo:has(a[href$="/reimage"])
+nex-software.com$$.toolinfo:has(a[href$="/reimage"])
+!#endif
+nex-software.com##.toolinfo:has(a[href$="/reimage"])
+
+!#if cap_html_filtering
 twitter.com##^.tweet:has(.promo)
 twitter.com$$.tweet:has(.promo)
 !#endif
 twitter.com##.tweet:has(.promo)
 
 !#if cap_html_filtering
+wowcher.co.uk##^.two-by-two-deal:has(a[href*="src=sponsored_search_"])
+wowcher.co.uk$$.two-by-two-deal:has(a[href*="src=sponsored_search_"])
+!#endif
+wowcher.co.uk##.two-by-two-deal:has(a[href*="src=sponsored_search_"])
+
+!#if cap_html_filtering
+cheaptickets.com,ebookers.com,expedia.com,hotels.com,orbitz.com,travelocity.com,wotif.com##^.uitk-card:has(.uitk-badge-sponsored)
+cheaptickets.com,ebookers.com,expedia.com,hotels.com,orbitz.com,travelocity.com,wotif.com$$.uitk-card:has(.uitk-badge-sponsored)
+!#endif
+cheaptickets.com,ebookers.com,expedia.com,hotels.com,orbitz.com,travelocity.com,wotif.com##.uitk-card:has(.uitk-badge-sponsored)
+
+!#if cap_html_filtering
 duckduckgo.com##^.vertical-section-divider:has(span.badge--ad-wrap)
 duckduckgo.com$$.vertical-section-divider:has(span.badge--ad-wrap)
 !#endif
 duckduckgo.com##.vertical-section-divider:has(span.badge--ad-wrap)
+
+!#if cap_html_filtering
+neonheightsservers.com##^.well:has(ins.adsbygoogle)
+neonheightsservers.com$$.well:has(ins.adsbygoogle)
+!#endif
+neonheightsservers.com##.well:has(ins.adsbygoogle)
+
+!#if cap_html_filtering
+9to5linux.com##^.widget:has([href$=".php"])
+9to5linux.com$$.widget:has([href$=".php"])
+!#endif
+9to5linux.com##.widget:has([href$=".php"])
+
+!#if cap_html_filtering
+svgrepo.com##^[class^="style_native"]:has([href*="buysellads.com"])
+svgrepo.com$$[class^="style_native"]:has([href*="buysellads.com"])
+!#endif
+svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
+
+!#if cap_html_filtering
+cargurus.com##^[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
+cargurus.com$$[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
+!#endif
+cargurus.com##[data-cg-ft="car-blade-link"]:has([data-cg-ft="srp-listing-blade-sponsored"])
+
+!#if cap_html_filtering
+stuff.co.nz##^[itemprop]:has(.sponsored-flag)
+stuff.co.nz$$[itemprop]:has(.sponsored-flag)
+!#endif
+stuff.co.nz##[itemprop]:has(.sponsored-flag)
+
+!#if cap_html_filtering
+kayak.com##^[role="button"]:has([class*="ad-marking"])
+kayak.com$$[role="button"]:has([class*="ad-marking"])
+!#endif
+kayak.com##[role="button"]:has([class*="ad-marking"])
+
+!#if cap_html_filtering
+kayak.com##^[role="tab"]:has([class*="sponsored"])
+kayak.com$$[role="tab"]:has([class*="sponsored"])
+!#endif
+kayak.com##[role="tab"]:has([class*="sponsored"])
+
+!#if cap_html_filtering
+aliexpress.com,aliexpress.us##^a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
+aliexpress.com,aliexpress.us$$a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
+!#endif
+aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
+
+!#if cap_html_filtering
+aliexpress.com,aliexpress.us##^a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])
+aliexpress.com,aliexpress.us$$a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])
+!#endif
+aliexpress.com,aliexpress.us##a[class^="manhattan--container--"][class*="main--card--"]:has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])
+
+!#if cap_html_filtering
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##^a[href^="/"][href*="?product_id="]:has(span[data-testid="product-card-sp-label"])
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it$$a[href^="/"][href*="?product_id="]:has(span[data-testid="product-card-sp-label"])
+!#endif
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##a[href^="/"][href*="?product_id="]:has(span[data-testid="product-card-sp-label"])
+
+!#if cap_html_filtering
+independent.co.uk,standard.co.uk##^article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
+independent.co.uk,standard.co.uk$$article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
+!#endif
+independent.co.uk,standard.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
 
 !#if cap_html_filtering
 digg.com##^article.fp-vertical-story:has(a[href="/channel/digg-pick"])
@@ -90438,10 +90809,124 @@ digg.com##article.fp-vertical-story:has(a[href="/channel/promotion"])
 9gag.com##article:has(.promoted)
 
 !#if cap_html_filtering
+mg.co.za##^article:has(.sponsored-single)
+mg.co.za$$article:has(.sponsored-single)
+!#endif
+mg.co.za##article:has(.sponsored-single)
+
+!#if cap_html_filtering
+tympanus.net##^article:has(header:has(.ct-sponsored))
+tympanus.net$$article:has(header:has(.ct-sponsored))
+!#endif
+tympanus.net##article:has(header:has(.ct-sponsored))
+
+!#if cap_html_filtering
+foxnews.com##^article[class|="article story"]:has(.sponsored-by)
+foxnews.com$$article[class|="article story"]:has(.sponsored-by)
+!#endif
+foxnews.com##article[class|="article story"]:has(.sponsored-by)
+
+!#if cap_html_filtering
 twitter.com##^article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com$$article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 !#endif
 twitter.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
+
+!#if cap_html_filtering
+psychcentral.com##^aside:has([data-empty])
+psychcentral.com$$aside:has([data-empty])
+!#endif
+psychcentral.com##aside:has([data-empty])
+
+!#if cap_html_filtering
+vidplay.lol##^body > div > div[class][style]:has(> div > div > a[target="_blank"])
+vidplay.lol$$body > div > div[class][style]:has(> div > div > a[target="_blank"])
+!#endif
+vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"])
+
+!#if cap_html_filtering
+countdown.co.nz##^cdx-card:has(product-badge-list)
+countdown.co.nz$$cdx-card:has(product-badge-list)
+!#endif
+countdown.co.nz##cdx-card:has(product-badge-list)
+
+!#if cap_html_filtering
+skyscanner.com,skyscanner.net##^div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
+skyscanner.com,skyscanner.net$$div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
+!#endif
+skyscanner.com,skyscanner.net##div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
+
+!#if cap_html_filtering
+inverse.com##^div > p + div:has(amp-ad)
+inverse.com$$div > p + div:has(amp-ad)
+!#endif
+inverse.com##div > p + div:has(amp-ad)
+
+!#if cap_html_filtering
+bailagentnetwork.com##^div.box-bottom:has(a[rel="noopener nofollow"])
+bailagentnetwork.com$$div.box-bottom:has(a[rel="noopener nofollow"])
+!#endif
+bailagentnetwork.com##div.box-bottom:has(a[rel="noopener nofollow"])
+
+!#if cap_html_filtering
+outlook.live.com##^div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
+outlook.live.com$$div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
+!#endif
+outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
+
+!#if cap_html_filtering
+thebay.com##^div.product:has(div.citrus-sponsored)
+thebay.com$$div.product:has(div.citrus-sponsored)
+!#endif
+thebay.com##div.product:has(div.citrus-sponsored)
+
+!#if cap_html_filtering
+healthyrex.com##^div.textwidget:has(a[rel="nofollow sponsored"])
+healthyrex.com$$div.textwidget:has(a[rel="nofollow sponsored"])
+!#endif
+healthyrex.com##div.textwidget:has(a[rel="nofollow sponsored"])
+
+!#if cap_html_filtering
+bestbuy.ca##^div.x-productListItem:has([class^="sponsoredProduct"])
+bestbuy.ca$$div.x-productListItem:has([class^="sponsoredProduct"])
+!#endif
+bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
+
+!#if cap_html_filtering
+timesnownews.com##^div:has(> .bggrayAd)
+timesnownews.com$$div:has(> .bggrayAd)
+!#endif
+timesnownews.com##div:has(> .bggrayAd)
+
+!#if cap_html_filtering
+skyscanner.com,skyscanner.net##^div:has(> a[data-testid="inline-brand-banner"])
+skyscanner.com,skyscanner.net$$div:has(> a[data-testid="inline-brand-banner"])
+!#endif
+skyscanner.com,skyscanner.net##div:has(> a[data-testid="inline-brand-banner"])
+
+!#if cap_html_filtering
+outlook.live.com##^div:has(> div > div.fbAdLink)
+outlook.live.com$$div:has(> div > div.fbAdLink)
+!#endif
+outlook.live.com##div:has(> div > div.fbAdLink)
+
+!#if cap_html_filtering
+tripadvisor.com##^div:has(> div[class="ui_columns is-multiline "])
+tripadvisor.com$$div:has(> div[class="ui_columns is-multiline "])
+!#endif
+tripadvisor.com##div:has(> div[class="ui_columns is-multiline "])
+
+!#if cap_html_filtering
+heb.com##^div:has(> div[id^="hrm-banner-shotgun"])
+heb.com$$div:has(> div[id^="hrm-banner-shotgun"])
+!#endif
+heb.com##div:has(> div[id^="hrm-banner-shotgun"])
+
+!#if cap_html_filtering
+webtools.fineaty.com##^div[class*=" hidden-"]:has(.adsbygoogle)
+webtools.fineaty.com$$div[class*=" hidden-"]:has(.adsbygoogle)
+!#endif
+webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 
 !#if cap_html_filtering
 aliexpress.com,aliexpress.us##^div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
@@ -90454,6 +90939,24 @@ qwant.com##^div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 qwant.com$$div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
 !#endif
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
+
+!#if cap_html_filtering
+walmart.com##^div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
+walmart.com$$div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
+!#endif
+walmart.com##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-component-type="wpa-tile"])
+
+!#if cap_html_filtering
+radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##^div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
+radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se$$div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
+!#endif
+radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se##div[class] > div[class]:has(> div[class] > div[id^="RAD_D_"])
+
+!#if cap_html_filtering
+dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com##^div[class^="ColListing"]:has(div[data-testid^="Sponsored"])
+dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com$$div[class^="ColListing"]:has(div[data-testid^="Sponsored"])
+!#endif
+dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com##div[class^="ColListing"]:has(div[data-testid^="Sponsored"])
 
 !#if cap_html_filtering
 wish.com##^div[class^="ProductGrid__FeedTileWidthWrapper-"]:has(div[class^="DesignSpec__TextSpecWrapper-"] + div[class^="DesignSpec__TextSpecWrapper-"])
@@ -90480,6 +90983,24 @@ flickr.com$$div[class^="main view"]:has(a[href$="&ref=sponsored"])
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 
 !#if cap_html_filtering
+walmart.ca##^div[data-automation="product"]:has(div[data-automation="sponsored-indicator-wrapper"])
+walmart.ca$$div[data-automation="product"]:has(div[data-automation="sponsored-indicator-wrapper"])
+!#endif
+walmart.ca##div[data-automation="product"]:has(div[data-automation="sponsored-indicator-wrapper"])
+
+!#if cap_html_filtering
+cargurus.com##^div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-badge"])
+cargurus.com$$div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-badge"])
+!#endif
+cargurus.com##div[data-cg-ft="car-blade"]:has(div[data-cg-ft="sponsored-listing-badge"])
+
+!#if cap_html_filtering
+rakuten.com##^div[data-productid]:has(div.productList_sponsoredAds_RUS)
+rakuten.com$$div[data-productid]:has(div.productList_sponsoredAds_RUS)
+!#endif
+rakuten.com##div[data-productid]:has(div.productList_sponsoredAds_RUS)
+
+!#if cap_html_filtering
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt##^div[data-test-id="pin"]:has(div[title^="Promoted"])
 pinterest.at,pinterest.ca,pinterest.ch,pinterest.co.uk,pinterest.com,pinterest.com.au,pinterest.com.mx,pinterest.de,pinterest.es,pinterest.fr,pinterest.it,pinterest.pt$$div[data-test-id="pin"]:has(div[title^="Promoted"])
 !#endif
@@ -90504,6 +91025,12 @@ twitter.com$$div[data-testid="placementTracking"]:has(div[data-testid$="-impress
 twitter.com##div[data-testid="placementTracking"]:has(div[data-testid$="-impression-pixel"])
 
 !#if cap_html_filtering
+booking.com##^div[data-testid="property-card"]:has(div[data-testid="new-ad-design-badge"])
+booking.com$$div[data-testid="property-card"]:has(div[data-testid="new-ad-design-badge"])
+!#endif
+booking.com##div[data-testid="property-card"]:has(div[data-testid="new-ad-design-badge"])
+
+!#if cap_html_filtering
 twitter.com##^div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com$$div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 !#endif
@@ -90522,16 +91049,106 @@ truthsocial.com$$div[item="[object Object]"]:has(path[d="M9.83333 1.83398H16.5M1
 truthsocial.com##div[item="[object Object]"]:has(path[d="M9.83333 1.83398H16.5M16.5 1.83398V8.50065M16.5 1.83398L9.83333 8.50065L6.5 5.16732L1.5 10.1673"])
 
 !#if cap_html_filtering
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##^div[style="max-width: 390px; min-width: 190px;"]:has(a[href^="/ads/"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion$$div[style="max-width: 390px; min-width: 190px;"]:has(a[href^="/ads/"])
+!#endif
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[style="max-width: 390px; min-width: 190px;"]:has(a[href^="/ads/"])
+
+!#if cap_html_filtering
+nex-software.com##^h4:has(a[href$="/reimage"])
+nex-software.com$$h4:has(a[href$="/reimage"])
+!#endif
+nex-software.com##h4:has(a[href$="/reimage"])
+
+!#if cap_html_filtering
+thebay.com##^li.ais-Hits-item:has(div.piq-sponsored)
+thebay.com$$li.ais-Hits-item:has(div.piq-sponsored)
+!#endif
+thebay.com##li.ais-Hits-item:has(div.piq-sponsored)
+
+!#if cap_html_filtering
+boots.com##^li.estore_product_container:has(.sponsored)
+boots.com$$li.estore_product_container:has(.sponsored)
+!#endif
+boots.com##li.estore_product_container:has(.sponsored)
+
+!#if cap_html_filtering
+walmart.com##^li.items-center:has(div[data-ad-component-type="wpa-tile"])
+walmart.com$$li.items-center:has(div[data-ad-component-type="wpa-tile"])
+!#endif
+walmart.com##li.items-center:has(div[data-ad-component-type="wpa-tile"])
+
+!#if cap_html_filtering
+macys.com##^li.productThumbnailItem:has(.sponsored-items-label)
+macys.com$$li.productThumbnailItem:has(.sponsored-items-label)
+!#endif
+macys.com##li.productThumbnailItem:has(.sponsored-items-label)
+
+!#if cap_html_filtering
+autotrader.co.uk##^li:has(section[data-testid="trader-seller-listing"] > span[data-testid="FEATURED_LISTING"])
+autotrader.co.uk$$li:has(section[data-testid="trader-seller-listing"] > span[data-testid="FEATURED_LISTING"])
+!#endif
+autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="FEATURED_LISTING"])
+
+!#if cap_html_filtering
+autotrader.co.uk##^li:has(section[data-testid="trader-seller-listing"] > span[data-testid="PROMOTED_LISTING"])
+autotrader.co.uk$$li:has(section[data-testid="trader-seller-listing"] > span[data-testid="PROMOTED_LISTING"])
+!#endif
+autotrader.co.uk##li:has(section[data-testid="trader-seller-listing"] > span[data-testid="PROMOTED_LISTING"])
+
+!#if cap_html_filtering
+bbc.com##^li[class*="-ListItem"]:has(div.dotcom-ad)
+bbc.com$$li[class*="-ListItem"]:has(div.dotcom-ad)
+!#endif
+bbc.com##li[class*="-ListItem"]:has(div.dotcom-ad)
+
+!#if cap_html_filtering
+dictionary.com,thesaurus.com##^main div[class]:has(> [data-type="ad-vertical"])
+dictionary.com,thesaurus.com$$main div[class]:has(> [data-type="ad-vertical"])
+!#endif
+dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
+
+!#if cap_html_filtering
 windowsreport.com##^section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 windowsreport.com$$section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 !#endif
 windowsreport.com##section.hide-mbl:has(a[href^="https://out.reflectormedia.com/"])
 
 !#if cap_html_filtering
+deadspin.com##^section:has(a[href^="https://theinventory.com"])
+deadspin.com$$section:has(a[href^="https://theinventory.com"])
+!#endif
+deadspin.com##section:has(a[href^="https://theinventory.com"])
+
+!#if cap_html_filtering
+homedepot.com##^section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
+homedepot.com$$section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
+!#endif
+homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
+
+!#if cap_html_filtering
 titantv.com##^tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 titantv.com$$tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
 !#endif
 titantv.com##tr:has(> td[align="center"][valign="middle"][colspan="2"][class="gC"])
+
+!#if cap_html_filtering
+opensubtitles.org##^tr[style]:has([src*="php"])
+opensubtitles.org$$tr[style]:has([src*="php"])
+!#endif
+opensubtitles.org##tr[style]:has([src*="php"])
+
+!#if cap_html_filtering
+oneindia.com##^ul > li:has(> div[class^="adg_"])
+oneindia.com$$ul > li:has(> div[class^="adg_"])
+!#endif
+oneindia.com##ul > li:has(> div[class^="adg_"])
+
+!#if cap_html_filtering
+filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##^ul > li:has(> div[id^="taboola-mid-home-stream"])
+filmibeat.com,gizbot.com,goodreturns.in,oneindia.com$$ul > li:has(> div[id^="taboola-mid-home-stream"])
+!#endif
+filmibeat.com,gizbot.com,goodreturns.in,oneindia.com##ul > li:has(> div[id^="taboola-mid-home-stream"])
 
 ! firework
 !#if cap_html_filtering
@@ -92344,191 +92961,70 @@ bing.com##div[class="ins_exp vsp"]
 
 
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
-1001tracklists.com#?#a[onclick^="lnkTrkG"]
-acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.master-product-carousel:-abp-has([data-carousel-driven="sponsored-products"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:-abp-contains(Sponsored)
 agoda.com#?#.PropertyCardItem:-abp-has(div:-abp-contains(Promoted))
-!#if cap_html_filtering
-aleteia.org#?##^root > div[class]:-abp-has(>.adslot)
-aleteia.org#?$$root > div[class]:-abp-has(>.adslot)
-!#endif
-aleteia.org#?##root > div[class]:-abp-has(>.adslot)
-
 alibaba.com#?#.J-offer-wrapper:-abp-contains(Top sponsor listing)
-aliexpress.com,aliexpress.us#?#a[class^="manhattan--container--"][class*="main--card--"]:-abp-has(span[style="background: rgba(0, 0, 0, 0.2); position: absolute; top: 8px; color: rgb(255, 255, 255); padding: 2px 5px; border-radius: 4px; right: 8px;"])
-aliexpress.com,aliexpress.us#?#a[class^="manhattan--container--"][class*="main--card--"]:-abp-has(span[style="background-color:rgba(0,0,0,0.20);position:absolute;top:8px;color:#fff;padding:2px 5px;background:rgba(0,0,0,0.20);border-radius:4px;right:8px"])
 app.daily.dev#?#article:-abp-contains(Promoted)
-asda.com#?#.co-item:-abp-has(.co-item__sponsored-label)
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.product-tile-group__list__item:-abp-contains(Sponsored)
-autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="FEATURED_LISTING"])
-autotrader.co.uk#?#li:-abp-has(section[data-testid="trader-seller-listing"]>span[data-testid="PROMOTED_LISTING"])
 backpack.tf,backpacktf.com#?#.panel:-abp-contains(createAd)
 infographicjournal.com#?#.et_pb_widget:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners)
 infographicjournal.com#?#.et_pb_module:-abp-contains(Partners) + .et_pb_module
-bailagentnetwork.com#?#div.box-bottom:-abp-has(a[rel="noopener nofollow"])
-!#if cap_html_filtering
-bbc.com#?##^sticky-mpu:-abp-has(.dotcom-ad-inner)
-bbc.com#?$$sticky-mpu:-abp-has(.dotcom-ad-inner)
-!#endif
-bbc.com#?##sticky-mpu:-abp-has(.dotcom-ad-inner)
-
-bbc.com#?#li[class*="-ListItem"]:-abp-has(div.dotcom-ad)
 telugupeople.com#?#table:-abp-has(>tbody >tr>td>a:-abp-contains(Advertisements))
-bestbuy.ca,bestbuy.com#?#[id^="atwb-ninja-carousel"]
-bestbuy.ca#?#div.x-productListItem:-abp-has([class^="sponsoredProduct"])
-bing.com#?#.slide:-abp-has(.rtb_ad_caritem_mvtr)
 yelp.at,yelp.be,yelp.ca,yelp.ch,yelp.cl,yelp.co.jp,yelp.co.nz,yelp.co.uk,yelp.com,yelp.com.ar,yelp.com.au,yelp.com.br,yelp.com.hk,yelp.com.mx,yelp.com.ph,yelp.com.sg,yelp.com.tr,yelp.cz,yelp.de,yelp.dk,yelp.es,yelp.fi,yelp.fr,yelp.ie,yelp.it,yelp.my,yelp.nl,yelp.no,yelp.pl,yelp.pt,yelp.se#?#main[class^="searchResultsContainer"] li h2:-abp-contains(Sponsored)
-blitz.gg#?#.aside-content-column:-abp-has(.display-ad)
-niagarathisweek.com#?#.polarBlock:-abp-has(.polarAds)
 bolnews.com#?#[style*="center"]:-abp-contains(Ad)
-svgrepo.com#?#[class^="style_native"]:-abp-has([href*="buysellads.com"])
-booking.com#?#div[data-testid="property-card"]:-abp-has(div[data-testid="new-ad-design-badge"])
 booking.com#?#div[data-testid="property-card"]:-abp-has(span:-abp-contains(Promoted))
-boots.com#?#li.estore_product_container:-abp-has(.sponsored)
-olx.com.pk#?#.react-swipeable-view-container:-abp-has([href*="http://onelink.to"])
-cargurus.com#?#div[data-cg-ft="car-blade"]:-abp-has(div[data-cg-ft="sponsored-listing-badge"])
-cargurus.com#?#[data-cg-ft="car-blade-link"]:-abp-has([data-cg-ft="srp-listing-blade-sponsored"])
-cheaptickets.com,expedia.com,ebookers.com,hotels.com,orbitz.com,travelocity.com,wotif.com#?#.uitk-card:-abp-has(.uitk-badge-sponsored)
-woolworths.com.au#?#.product-grid-v2--tile:-abp-has(.sponsored-text)
-chewy.com#?#.kib-carousel-item:-abp-has(.kib-product-sponsor)
 china.ahk.de#?#.b-main__section:-abp-has(h2.homepage-headline:-abp-contains(Advertisement))
 cleantechnica.com#?#.zox-side-widget:-abp-contains(/^Advertis/)
-9to5linux.com#?#.widget:-abp-has([href$=".php"])
 mapchart.net#?#.row:-abp-contains(Advertisement)
 coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(>h4.block-title>span:-abp-contains(Visit Our Sponsors))
-countdown.co.nz#?#cdx-card:-abp-has(product-badge-list)
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:-abp-contains(Sponsored)
-deadspin.com#?#section:-abp-has(a[href^="https://theinventory.com"])
-dearbornmarket.com,fairwaymarket.com,gourmetgarage.com,priceritemarketplace.com,shoprite.com,thefreshgrocer.com#?#div[class^="ColListing"]:-abp-has(div[data-testid^="Sponsored"])
 deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
 deccanherald.com#?#span.container-text:-abp-contains(ADVERTISEMENT)
 decrypt.co#?#span:-abp-contains(AD)
-dictionary.com,thesaurus.com#?#main div[class]:-abp-has(> [data-type="ad-vertical"])
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
 digg.com#?#article.relative:-abp-has(div:-abp-contains(SPONSORED))
-kayak.com#?#[role="tab"]:-abp-has([class*="sponsored"])
-kayak.com#?#[role="button"]:-abp-has([class*="ad-marking"])
 eztv.tf,eztv.yt,123unblock.bar#?#tbody:-abp-contains(WARNING! Use a)
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#._6y8t:-abp-has(a[href="/ads/about/?entry_product=ad_preferences"])
-facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#div[style="max-width: 390px; min-width: 190px;"]:-abp-has(a[href^="/ads/"])
 filehippo.com#?#article.card-article:-abp-has(span.card-article__author:-abp-contains(Sponsored Content))
-forexlive.com#?#.article-slot__wrapper:-abp-has(.article-header__sponsored)
-fortune.com#?#.homepage:-abp-has(> div[id^="InStream"])
-foxnews.com#?#article[class|="article story"]:-abp-has(.sponsored-by)
 freshdirect.com#?#.swiper-slide:-abp-contains(Sponsored)
 gamersnexus.net#?#.moduleContent:-abp-contains(Advertisement)
-goodreturns.in,gizbot.com,filmibeat.com,oneindia.com#?#ul>li:-abp-has(> div[id^="taboola-mid-home-stream"])
-!#if cap_html_filtering
-gtaforums.com#?##^ipsLayout_mainArea div:-abp-has(> #pwDeskLbAtf)
-gtaforums.com#?$$ipsLayout_mainArea div:-abp-has(> #pwDeskLbAtf)
-!#endif
-gtaforums.com#?##ipsLayout_mainArea div:-abp-has(> #pwDeskLbAtf)
-
 hannaford.com#?#.header-2:-abp-contains(Sponsored Suggestions)
-hannaford.com#?#.plp_thumb_wrap:-abp-has([data-citrusadimpressionid])
-haveibeenpwned.com#?#.actionsBar:-abp-has(.why1Password)
-haveibeenpwned.com#?#.bodyGradient>:-abp-has(.why1Password)
-healthyrex.com#?#div.textwidget:-abp-has(a[rel="nofollow sponsored"])
-heb.com#?#div:-abp-has(>div[id^="hrm-banner-shotgun"])
 heb.com#?#div[class^="sc-"]:-abp-has(>div[data-qe-id="productCard"]:-abp-contains(Promoted))
-homedepot.com#?#section[id^="browse-search-pods-"] > div.browse-search__pod:-abp-has(div.product-sponsored)
-imgur.com#?#.Grid-column > div[style^="height:"]:-abp-has(.AdHomeContainer)
-independent.co.uk,standard.co.uk#?#article > div[class^="sc-"]:-abp-has(> div[class^="sc-"] > div[data-ad-unit-path])
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership with ))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit; display: none !important;"]:-abp-has(span:-abp-contains(Paid partnership))
 instagram.com#?#div[style="max-height: inherit; max-width: inherit;"]:-abp-has(span:-abp-contains(Paid partnership with ))
-inverse.com#?#div > p + div:-abp-has(amp-ad)
-!#if cap_html_filtering
-klmanga.io#?##^movie-last-movie > li:-abp-has(> center > ins[data-width="300"])
-klmanga.io#?$$movie-last-movie > li:-abp-has(> center > ins[data-width="300"])
-!#endif
-klmanga.io#?##movie-last-movie > li:-abp-has(> center > ins[data-width="300"])
-
-kroger.com#?#.AutoGrid-cell:-abp-has(.ProductCard-tags>div>span[data-qa="featured-product-tag"])
-ksl.com#?#.queue:-abp-has(.sponsored)
-limetorrents.lol#?#.downloadareabig:-abp-has([title^="Anâ€Œonâ€Œymous Download"])
 linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 linkedin.com#?#div.feed-shared-update-v2:-abp-has(span.update-components-actor__sub-description:-abp-contains(/Anzeige|Sponsored|Promoted|Dipromosikan|Propagováno|Promoveret|Gesponsert|Promocionado|促銷內容|Post sponsorisé|프로모션|Post sponsorizzato|广告|プロモーション|Treść promowana|Patrocinado|Promovat|Продвигается|Marknadsfört|Nai-promote|ได้รับการโปรโมท|Öne çıkarılan içerik|Gepromoot|الترويج/))
 loblaws.ca,provigo.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-container:-abp-contains(Featured Items)
 lovenovels.net#?#center:-abp-contains(Advertisement)
-macys.com#?#li.productThumbnailItem:-abp-has(.sponsored-items-label)
-manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it#?#a[href^="/"][href*="?product_id="]:-abp-has(span[data-testid="product-card-sp-label"])
-meijer.com#?#.product-grid__product:-abp-has(.product-tile__sponsored)
-mg.co.za#?#article:-abp-has(.sponsored-single)
-nationalgeographic.com#?#.FrameBackgroundFull--grey:-abp-has(.ad-wrapper)
-neonheightsservers.com#?#.well:-abp-has(ins.adsbygoogle)
-nex-software.com#?#.toolinfo:-abp-has(a[href$="/reimage"])
-nex-software.com#?#h4:-abp-has(a[href$="/reimage"])
 noelleeming.co.nz#?#div.product-tile:-abp-has(span:-abp-contains(Sponsored))
 noon.com#?#span[class*="productContaine"]:-abp-has(div:-abp-contains(Sponsored))
 nordstrom.com#?#.ivm_G:-abp-contains(Sponsored)
-officedepot.com#?#.od-col:-abp-has(.od-product-card-region-colors-sponsored)
-oneindia.com#?#ul>li:-abp-has(> div[class^="adg_"])
-opensubtitles.org#?#tr[style]:-abp-has([src*="php"])
-outlook.live.com#?#div:-abp-has(> div > div.fbAdLink)
-outlook.live.com#?#div.customScrollBar > div > div[id][class]:-abp-has(img[src$="/images/ads-olk-icon.png"])
 petco.com#?#[class^="CitrusCatapult-styled__LeftContent"]:-abp-has(div:-abp-contains(Sponsored))
 petco.com#?#[class^="HorizontalWidget"]:-abp-has(div:-abp-contains(Sponsored))
 petco.com#?#li:-abp-contains(Sponsored)
-pigglywigglystores.com#?#.fp-item:-abp-has(.fp-tag-ad)
-playpilot.com#?#.search-preview .side:-abp-has(> .provider)
-pollunit.com#?#.owl-carousel:-abp-has(.carousel-ad)
 priceline.com#?#div[data-testid^="HTL_NEW_LISTING_CARD_"]:-abp-has(div:-abp-contains(Promoted))
-protrumpnews.com#?#.enhanced-text-widget:-abp-has(span.pre-announcement)
-psychcentral.com#?#aside:-abp-has([data-empty])
-!#if cap_html_filtering
-radio.at,radio.se,radio.pt,radio.pl,radio.it,radio.fr,radio.es,radio.de,radio.dk,radio.net#?##^headerTopBar ~ div > div:-abp-has(div#RAD_D_station_top)
-radio.at,radio.se,radio.pt,radio.pl,radio.it,radio.fr,radio.es,radio.de,radio.dk,radio.net#?$$headerTopBar ~ div > div:-abp-has(div#RAD_D_station_top)
-!#endif
-radio.at,radio.se,radio.pt,radio.pl,radio.it,radio.fr,radio.es,radio.de,radio.dk,radio.net#?##headerTopBar ~ div > div:-abp-has(div#RAD_D_station_top)
-
-radio.at,radio.se,radio.pt,radio.pl,radio.it,radio.fr,radio.es,radio.de,radio.dk,radio.net#?#div[class] > div[class]:-abp-has(> div[class] > div[id^="RAD_D_"])
-radioreference.com#?#.box.gradient:-abp-has(a[href*="&Click="])
-rakuten.com#?#div[data-productid]:-abp-has(div.productList_sponsoredAds_RUS)
 rawstory.com#?#.body-description > div:-abp-contains(ADVERTISEMENT)
 regex101.com#?#div > header + div > div + div:-abp-contains(Sponsors)
-rustlabs.com#?#.sub-info-block:-abp-has(#banner)
-sainsburys.co.uk#?#.pt-grid-item:-abp-has([data-test-id="citrus-label"])
 search.yahoo.com#?#div.mb-28:-abp-has(span:-abp-contains(Ads))
 seattleweekly.com#?#.marketplace-row:-abp-contains(Sponsored)
 sephora.com#?#div[class^="css-"]:-abp-has(>a:-abp-has(span:-abp-contains(Sponsored)))
 shipt.com#?#li[class$="eBAnBw"]:-abp-contains(Sponsored)
 shipt.com#?#div.swiper-slide:-abp-contains(Sponsored)
-skyscanner.com,skyscanner.net#?#div:-abp-has(>a[data-testid="inline-brand-banner"])
-skyscanner.com,skyscanner.net#?#div>a:-abp-has(div[class^="DefaultBanner_sponsorshipRow"])
 sprouts.com#?#li.product-wrapper:-abp-has(span:-abp-contains(Sponsored))
-stuff.co.nz#?#[itemprop]:-abp-has(.sponsored-flag)
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
-templateshub.net#?#.col-lg-4.col-md-6:-abp-has(>div.singel-course)
-theautopian.com#?#.code-block:-abp-has(.htlad-InContent)
-thebay.com#?#div.product:-abp-has(div.citrus-sponsored)
-thebay.com#?#li.ais-Hits-item:-abp-has(div.piq-sponsored)
-time.com#?#.article-small-sidebar > .sticky-container:-abp-has(div[id^="ad-"])
-timesnownews.com#?#div:-abp-has(> .bggrayAd)
 tossinggames.com#?#tbody:-abp-contains(Please visit our below advertisers)
 trends.gab.com#?#li.list-group-item:-abp-contains(Sponsored content)
 tripadvisor.com#?#.cAWGu:-abp-has(a:-abp-contains(Similar Sponsored Properties))
-tripadvisor.com#?#div:-abp-has(>div[class="ui_columns is-multiline "])
-tripsonabbeyroad.com#?#.e-con-inner:-abp-has(tp-cascoon)
-troyhunt.com#?#.sidebar-featured:-abp-has(a[href^="https://pluralsight.pxf.io/"])
 twitter.com#?#h2[role="heading"]:-abp-contains(/Promoted|Gesponsert|Promocionado|Sponsorisé|Sponsorizzato|Promowane|Promovido|Реклама|Uitgelicht|Sponsorlu|Promotert|Promoveret|Sponsrad|Mainostettu|Sponzorováno|Promovat|Ajánlott|Προωθημένο|Dipromosikan|Được quảng bá|推廣|推广|推薦|推荐|プロモーション|프로모션|ประชาสมพนธ|परचरत|বজঞপত|تشہیر شدہ|مروج|تبلیغی|מקודם/)
-tympanus.net#?#article:-abp-has(header:-abp-has(.ct-sponsored))
-vidplay.lol#?#body > div > div[class][style]:-abp-has(> div > div > a[target="_blank"])
 vofomovies.info#?#a13:-abp-contains( Ad)
-walmart.ca#?#div[data-automation="product"]:-abp-has(div[data-automation="sponsored-indicator-wrapper"])
-walmart.com#?#div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:-abp-has(div[data-ad-component-type="wpa-tile"])
-walmart.com#?#li.items-center:-abp-has(div[data-ad-component-type="wpa-tile"])
 wayfair.com#?#div[data-hb-id="Grid.Item"]:-abp-has(div.FeaturedProductFlag:-abp-contains(Sponsored))
-webtools.fineaty.com#?#div[class*=" hidden-"]:-abp-has(.adsbygoogle)
 winaero.com#?#p:-abp-contains(Advertisement)
-wowcher.co.uk#?#.two-by-two-deal:-abp-has(a[href*="src=sponsored_search_"])
 youtube.com#?#ytd-watch-info-text > #info-container > #info > span:-abp-contains(/\d+\s[pP]rod/)
-yovizag.com#?#.jeg_column:-abp-has(>.jeg_wrapper > .jeg_ad)
 
 ! *** easylist:easylist_adult/adult_specific_hide.txt ***
 !#if cap_html_filtering
@@ -96516,6 +97012,12 @@ jav321.com$$.row > .col-md-12 > ul
 jav321.com##.row > .col-md-12 > ul
 
 !#if cap_html_filtering
+erofus.com##^.row-content > .col-lg-2[style^="height"]
+erofus.com$$.row-content > .col-lg-2[style^="height"]
+!#endif
+erofus.com##.row-content > .col-lg-2[style^="height"]
+
+!#if cap_html_filtering
 elephanttube.world,pornid.xxx##^.rsidebar-spots-holder
 elephanttube.world,pornid.xxx$$.rsidebar-spots-holder
 !#endif
@@ -99010,7 +99512,6 @@ jav4tv.com##aside:has(.ads_300_250)
 4wank.com#?#.video-holder > center > :-abp-contains(/^Advertisement$/)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(Advertisement)
 crocotube.com#?#.ct-related-videos-title:-abp-contains(You may also like)
-erofus.com#?#div:-abp-has(> .ad)
 hdpornpics.net#?#.money:-abp-has(.century:-abp-contains(ADS))
 hentaicomics.pro#?#.single-portfolio:-abp-has(.xxx-banner)
 hotmovs.com#?#.block_label--last:-abp-contains(Advertisement)

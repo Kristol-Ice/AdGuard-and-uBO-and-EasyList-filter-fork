@@ -617,12 +617,6 @@ bg-gledai.*###casing > center
 
 ! https://github.com/NanoMeow/QuickReports/issues/3718
 @@||lesechos.fr^$ghide
-!#if cap_html_filtering
-lesechos.fr##^.adunitContainer:upward(1)
-lesechos.fr$$.adunitContainer:upward(1)
-!#endif
-lesechos.fr##.adunitContainer:upward(1)
-
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54722
 coinxfaucet.com##+js(aopr, adBlockDetected)
@@ -637,10 +631,10 @@ xnxxxvideos.co##+js(aopr, AaDetector)
 ! https://github.com/uBlockOrigin/uAssets/issues/7301
 beegsexxx.com##+js(aopr, document.dispatchEvent)
 !#if cap_html_filtering
-beegsexxx.com##^.prev-ave-nm:upward(1)
-beegsexxx.com$$.prev-ave-nm:upward(1)
+beegsexxx.com##^.preview:has(> .prev > script[data-ad_sub])
+beegsexxx.com$$.preview:has(> .prev > script[data-ad_sub])
 !#endif
-beegsexxx.com##.prev-ave-nm:upward(1)
+beegsexxx.com##.preview:has(> .prev > script[data-ad_sub])
 
 ||tds.pornvideotop.com/general/exoclick-
 
@@ -1214,14 +1208,6 @@ sms-anonyme.net##^ins.adsbygoogle
 sms-anonyme.net$$ins.adsbygoogle
 !#endif
 sms-anonyme.net##ins.adsbygoogle
-
-
-! https://github.com/NanoMeow/QuickReports/issues/3851
-!#if cap_html_filtering
-homeworklib.com##^.title:has-text(/^Ads$/):upward(1)
-homeworklib.com$$.title:has-text(/^Ads$/):upward(1)
-!#endif
-homeworklib.com##.title:has-text(/^Ads$/):upward(1)
 
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/55582
@@ -2740,10 +2726,10 @@ forumdz.com##+js(nostif, offsetHeight)
 ! https://momzr.com popups/ads
 ! https://www.reddit.com/r/uBlockOrigin/comments/1466pw5/
 !#if cap_html_filtering
-momzr.com##^.item > iframe:upward(1)
-momzr.com$$.item > iframe:upward(1)
+momzr.com##^.item:has(> iframe)
+momzr.com$$.item:has(> iframe)
 !#endif
-momzr.com##.item > iframe:upward(1)
+momzr.com##.item:has(> iframe)
 
 *$script,3p,denyallow=fluidplayer.com|google.com|gstatic.com|googleapis.com|recaptcha.net|hcaptcha.com|hwcdn.net,domain=momzr.com
 
@@ -2835,10 +2821,16 @@ tricksplit.io$$p:has-text(Advertisement)
 tricksplit.io##p:has-text(Advertisement)
 
 !#if cap_html_filtering
-tricksplit.io##^.adsbygoogle:upward(1)
-tricksplit.io$$.adsbygoogle:upward(1)
+tricksplit.io##^div:has(> .adsbygoogle)
+tricksplit.io$$div:has(> .adsbygoogle)
 !#endif
-tricksplit.io##.adsbygoogle:upward(1)
+tricksplit.io##div:has(> .adsbygoogle)
+
+!#if cap_html_filtering
+tricksplit.io##^div[class^="ads_longAd_"]
+tricksplit.io$$div[class^="ads_longAd_"]
+!#endif
+tricksplit.io##div[class^="ads_longAd_"]
 
 
 ! https://forums.lanik.us/viewtopic.php?f=62&t=44925
@@ -3451,12 +3443,6 @@ familyrenders.com##+js(aopr, adBlockDetected)
 hentaifreak.org##+js(aopr, decodeURI)
 hentaifreak.org##+js(aopw, onpopstate)
 hentaifreak.org##+js(nostif, popState)
-!#if cap_html_filtering
-hentaifreak.org##^.post-thumbnail-container:has-text(AD):upward(1)
-hentaifreak.org$$.post-thumbnail-container:has-text(AD):upward(1)
-!#endif
-hentaifreak.org##.post-thumbnail-container:has-text(AD):upward(1)
-
 *.gif$image,domain=hentaifreak.org
 
 ! moneycontrol.com ad interstitial
@@ -7233,10 +7219,10 @@ sanoybonito.club##+js(set, blurred, false)
 ! https://github.com/easylist/easylist/issues/6710
 @@||unilad.co.uk^$ghide
 !#if cap_html_filtering
-unilad.co.uk##^.dfp-ad-unit:upward(1)
-unilad.co.uk$$.dfp-ad-unit:upward(1)
+unilad.co.uk##^div:has(> .dfp-ad-unit)
+unilad.co.uk$$div:has(> .dfp-ad-unit)
 !#endif
-unilad.co.uk##.dfp-ad-unit:upward(1)
+unilad.co.uk##div:has(> .dfp-ad-unit)
 
 ||adsafeprotected.com/vans-adapter-google-ima.js^$redirect-rule=noopjs,script,domain=unilad.co.uk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110352

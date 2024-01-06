@@ -1,11 +1,11 @@
 ! URL: https://filters.adtidy.org/extension/ublock/filters/21.txt
 ![Adblock Plus 2.0]
-! Checksum: ZnqIt1lAQX2mOb1FXUBUHg
-! Diff-Path: ../patches/21/21-s-1704371931-3600.patch
+! Checksum: FzS9ucxiZOQwTNmE0xFOWQ
+! Diff-Path: ../patches/21/21-s-1704494162-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.38
-! TimeUpdated: 2024-01-04T12:32:39+00:00
+! Version: 2.0.18.40
+! TimeUpdated: 2024-01-05T22:32:21+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -618,7 +618,7 @@ forbes.ua$$.c-post-subscribe
 forbes.ua##.c-post-subscribe
 
 ! https://privatter.net/p/9889173
-twitter.com#?#section[aria-labelledby^="accessible-list"] div[style^="transform"]:has(div[data-testid="card.wrapper"] span[style]:contains(/^(asahsi\.com|bnc\.lt|eventlink\.to|fanlink\.to|gamerzz\.net|jp\.cookie-food\.com|jp\.cookicway\.com|keeping-healthy\.com|kinmirainews\.com|helpgive\.to|(n9oi1|mainichi|nhk|nikkei|sankei|sokuhou|tokyo-np|yomiuri|yytbe)\.app\.link|sancei\.com|sankeii\.com|sokuhou\.(cc|onelink\.me)|tongari-tent\.blue)$/))
+twitter.com#?#section[aria-labelledby^="accessible-list"] div[style^="transform"]:has(div[data-testid="card.wrapper"] + a:contains(/^(asahsi\.com|bnc\.lt|eventlink\.to|fanlink\.to|gamerzz\.net|jp\.cookie-food\.com|jp\.cookicway\.com|keeping-healthy\.com|kinmirainews\.com|helpgive\.to|(n9oi1|mainichi|nhk|nikkei|sankei|sokuhou|tokyo-np|yomiuri|yytbe)\.app\.link|sancei\.com|sankeii\.com|sokuhou\.(cc|onelink\.me)|tongari-tent\.blue)/))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/152867
 !#if cap_html_filtering
 posta.com.tr##^.content-box > a[href^="https://flipboard.com/"]
@@ -1682,6 +1682,7 @@ mel.fm##.special-group-card-wrapped
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120998
 blick.ch#?#header + div[class] > div[class]:has(> iframe[src^="https://php.blick.ch/static/"][src*="romandie/newsletter-signup-form"])
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120074
 !#if cap_html_filtering
 eurasianet.org##^.featured-news .top > .callout
@@ -2013,7 +2014,6 @@ roomie.jp,gizmodo.jp##fw-storyblock
 ||fireworkapi1.com/embed/v2/playlists/5m1wZ5/feeds?page_size=10
 ||fireworkapi1.com/embed/v2/channels/whats_trending
 ||fireworkapi.com/embed/v2/publisher_clients/
-
 ||fireworkapi1.com^$domain=jj-jj.net|mensnonno.jp|olive-hitomawashi.com|gizmodo.jp|final-inc.com|roomie.jp|gendai.media|as-web.jp|boldsky.com|blogto.com|getnews.jp|lp.p.pia.jp|fudge.jp|motor-fan.jp|madamefigaro.jp
 !#if cap_html_filtering
 madamefigaro.jp##^.firework_story_block_col
@@ -2046,6 +2046,7 @@ sunnylife.tw$$.bottom-side-menu > li > a:not([title="GOTOP"])
 !#endif
 sunnylife.tw##.bottom-side-menu > li > a:not([title="GOTOP"])
 
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/109332
 planetf1.com#$#.ciam-article-pf1 > div[id^="pp-"] { display: none !important; }
 planetf1.com#$#.ciam-article-pf1 > [style^="display: none;"] { display: block !important; }
@@ -2063,7 +2064,6 @@ leparisien.fr##^#dailymotion-pip-large-viewport
 leparisien.fr$$#dailymotion-pip-large-viewport
 !#endif
 leparisien.fr###dailymotion-pip-large-viewport
-
 
 !#if cap_html_filtering
 leparisien.fr##^#right_rail .dailymotion-cpe
@@ -2194,6 +2194,7 @@ entrepreneur.com##^#mainDomContainer > noscript + div.bg-gray-200
 entrepreneur.com$$#mainDomContainer > noscript + div.bg-gray-200
 !#endif
 entrepreneur.com###mainDomContainer > noscript + div.bg-gray-200
+
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/102956
 !#if cap_html_filtering
@@ -2498,7 +2499,6 @@ migalhas.com.br##.principal__side app-fomentadores
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98079
 ||mwcm.nytimes.com/capi/metered_assets/?plat=*&areas=welcomeAd
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98420
 !#if cap_html_filtering
 closermag.fr##^.sidebar-wrapper .dailymotion-player-wrapper#dailymotion-pip-large-viewport
@@ -2775,6 +2775,7 @@ rockmods.net$$#HTML1
 rockmods.net###HTML1
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92539
+
 freetutorialonline.com#?#.sidebar > div.widget:has(> div.textwidget span:contains(DISCLOSURE))
 ! https://github.com/AdguardTeam/AdguardFilters/issues/92527
 !#if cap_html_filtering
@@ -3265,7 +3266,6 @@ researchgate.net##.research-detail-signup-promo
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85771
 ||diets.ru/i/rb/start_to_lose_weight_*.jpg
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85648
 !#if cap_html_filtering
 smashingmagazine.com##^#sponsors-main-page + div.f-article-item
@@ -4668,7 +4668,6 @@ newyorker.com$$.cm-footer__failsafe
 !#endif
 newyorker.com##.cm-footer__failsafe
 
-
 newyorker.com#?#div[class^="PageSections__container"] > section[class^="SoloPromoSection__promoWrapper"]:has(> div[class^="SoloPromoSection__promoColumn"] > p[class^="SoloPromoSection__promo"] > span > a[href^="https://subscribe.condenastdigital.com"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/54648
 !#if cap_html_filtering
@@ -4984,7 +4983,6 @@ weather.com##^main > aside > div[id^="rail-Donation-"]
 weather.com$$main > aside > div[id^="rail-Donation-"]
 !#endif
 weather.com##main > aside > div[id^="rail-Donation-"]
-
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/66522
 ! https://github.com/AdguardTeam/AdguardFilters/issues/45328
@@ -5450,6 +5448,7 @@ filehippo.com##^a#avast-seal
 filehippo.com$$a#avast-seal
 !#endif
 filehippo.com##a#avast-seal
+
 
 !#if cap_html_filtering
 filehippo.com##^a.avast-promo[data-ua="avast-link-promo"]
@@ -7042,6 +7041,7 @@ last.fm$$.join-cta.link-block
 !#endif
 last.fm##.join-cta.link-block
 
+
 !#if cap_html_filtering
 last.fm##^.lazy-recs-bar-full-width-wrapper
 last.fm$$.lazy-recs-bar-full-width-wrapper
@@ -8109,7 +8109,6 @@ fitomarket.com.ua###socialLinksMain
 trickswire.com#$#.mts-cl-overlap-mode > .mts-cl-overlap-box { display: none!important; }
 trickswire.com#$#.mts-cl-overlap-mode > .mts-cl-blur-area { filter: none!important; }
 /pandalocker.$script,domain=lanka.ru
-
 !#if cap_html_filtering
 0lik.ru##^.onp-sl-outer-wrap
 0lik.ru$$.onp-sl-outer-wrap
@@ -9636,7 +9635,6 @@ patronlardunyasi.com$$div[style="width:320px; margin-bottom:20px;"] > a[href][cl
 !#endif
 patronlardunyasi.com##div[style="width:320px; margin-bottom:20px;"] > a[href][class^="social_"]
 
-
 !#if cap_html_filtering
 fxhome.com#$##^download > .steps > #step-claim { display: block!important; }
 fxhome.com#$$$download > .steps > #step-claim { display: block!important; }
@@ -10138,7 +10136,6 @@ pngtree.com##^a[data-huejs="enterprise_hours_left"]
 pngtree.com$$a[data-huejs="enterprise_hours_left"]
 !#endif
 pngtree.com##a[data-huejs="enterprise_hours_left"]
-
 
 !#if cap_html_filtering
 pngtree.com##^a[data-huejs="couponfixed-nologin-click"]
@@ -10748,7 +10745,6 @@ amazon.co.jp$$#mangaPromotionsBanner_feature_div
 !#endif
 amazon.co.jp###mangaPromotionsBanner_feature_div
 
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131839
 !#if cap_html_filtering
 dbook.docomo.ne.jp##^#js-fixed-banner
@@ -10968,6 +10964,7 @@ blog.jandi.com##.afc_popup
 
 ! https://github.com/Yuki2718/adblock/issues/65
 famitsu.com#?#.search-box--category + div.l-contents-block:has(.ad-native-campaign-leftout)
+
 ! https://github.com/uBlockOrigin/uAssets/issues/14550
 ||hbzb111.com/api/advert/
 ! https://pc.watch.impress.co.jp/docs/news/todays_sales/1435347.html
@@ -11499,7 +11496,6 @@ car-mo.jp##^.ad-carview
 car-mo.jp$$.ad-carview
 !#endif
 car-mo.jp##.ad-carview
-
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/110544
 ||nijiyome.jp/css/contents_pc/topjack.css
@@ -12170,7 +12166,6 @@ w3cschool.cn#$##header[style*="height:"] { height: 55px !important; }
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/116020#issuecomment-1137526324
 lenta.ru#$#.scroll-to-site { display: none !important; }
-
 m.lenta.ru##+js(addEventListener-defuser, scroll, getBoundingClientRect)
 lenta.ru##+js(addEventListener-defuser, scroll, window.history.pushState)
 ! self-promo (mobile)
@@ -12331,6 +12326,7 @@ dic.pixiv.net$$#d-sp-itemarticle0
 dic.pixiv.net###d-sp-itemarticle0
 
 ! forum.redfox.bz - buy license button at top
+
 !#if cap_html_filtering
 forum.redfox.bz##^button[onclick="location.href='https://www.redfox.bz/purchase.html'"]
 forum.redfox.bz$$button[onclick="location.href='https://www.redfox.bz/purchase.html'"]
@@ -13765,7 +13761,6 @@ kadrovik.ua$$a[class="global-link"][target="_blank"]
 kadrovik.ua##a[class="global-link"][target="_blank"]
 
 kadrovik.ua#$#body { background: none!important; }
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48972
 !#if cap_html_filtering
 zzz.com.ua##^body > div[style="text-align:center;font-size:11px;font-family:arial;background-color:black;color:white"]
@@ -14410,7 +14405,6 @@ xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5
 xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhwide8.com,xhamster3.com,xhplanet2.com,xhtab2.com,xhamster18.*,xhamster17.*,hamsterix.*,xhamster13.*,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com$$.cams-overlay
 !#endif
 xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhwide8.com,xhamster3.com,xhplanet2.com,xhtab2.com,xhamster18.*,xhamster17.*,hamsterix.*,xhamster13.*,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com##.cams-overlay
-
 
 !#if cap_html_filtering
 xhamster20.desi,xhwebsite2.com,xhamster18.desi,xhadult3.com,xhadult2.com,xhmoon5.com,xhwide1.com,xhwide8.com,xhamster3.com,xhplanet2.com,xhtab2.com,xhamster18.*,xhamster17.*,hamsterix.*,xhamster13.*,xhamster5.desi,xhamster9.com,xhamster.desi,xhamster.one,xhamster.com##^[class*="cams-widget"]
@@ -15165,7 +15159,6 @@ sakh.com$$.promo-popup
 sakh.com##.promo-popup
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/10455
-
 !#if cap_html_filtering
 hotline.ua##^.promo-product
 hotline.ua$$.promo-product
@@ -15485,6 +15478,12 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+!#if cap_html_filtering
+dlsoft.dmm.co.jp##^.dmm-c-banner-tags
+dlsoft.dmm.co.jp$$.dmm-c-banner-tags
+!#endif
+dlsoft.dmm.co.jp##.dmm-c-banner-tags
+
 ||fc2.com/video/css/u/pm/img/PC_bnr_
 !#if cap_html_filtering
 flickr.com##^.nav-banner-container
@@ -18643,7 +18642,6 @@ naked-science.ru$$.content > div.body > div.other-news-block
 !#endif
 naked-science.ru##.content > div.body > div.other-news-block
 
-
 !#if cap_html_filtering
 sunsky-online.com##^#divWelcome
 sunsky-online.com$$#divWelcome
@@ -20540,7 +20538,6 @@ tunelf.com$$.article-product-block
 !#endif
 tunelf.com##.article-product-block
 
-
 !#if cap_html_filtering
 wionews.com##^.zee-points-items
 wionews.com$$.zee-points-items
@@ -21011,12 +21008,12 @@ wacul-ai.com$$.single__contents-banner_bottom
 !#endif
 wacul-ai.com##.single__contents-banner_bottom
 
+
 !#if cap_html_filtering
 my-best.com##^.l-footer__bnr
 my-best.com$$.l-footer__bnr
 !#endif
 my-best.com##.l-footer__bnr
-
 
 !#if cap_html_filtering
 i.factor.ua##^#slogan
@@ -21370,6 +21367,7 @@ doremizone.com$$a[id^="headerAd"]
 !#endif
 doremizone.com##a[id^="headerAd"]
 
+
 !#if cap_html_filtering
 minitool.com##^a[href^="https://videoconvert.minitool.com/"][onclick^="gtag("]
 minitool.com$$a[href^="https://videoconvert.minitool.com/"][onclick^="gtag("]
@@ -21631,7 +21629,6 @@ shin5noblog.com##^.rank-guide
 shin5noblog.com$$.rank-guide
 !#endif
 shin5noblog.com##.rank-guide
-
 
 !#if cap_html_filtering
 yk.kz##^.main_carousel
@@ -25300,6 +25297,7 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#$#.s
 ! m.facebook.com#$#div { -moz-user-select: text !important; -webkit-user-select: text !important; }
 m.facebook.com#$#div[data-type] { -moz-user-select: text !important; -webkit-user-select: text !important; }
 m.facebook.com#$#div[dir="auto"] { -moz-user-select: text !important; -webkit-user-select: text !important; }
+
 m.facebook.com#$#.touch a[href*="story.php"] { position: relative !important; }
 m.facebook.com#$#div[dir="auto"] > span { -moz-user-select: text !important; -webkit-user-select: text !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115570
@@ -25952,7 +25950,6 @@ myotto.online#$$$makingdifferenttimer { display: block!important; }
 myotto.online#$##makingdifferenttimer { display: block!important; }
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/48741
-
 ixbt.com#$#.b-footer > div.block__describe { height: 100px!important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/47483
 dl.3dmodelshare.org,download.3dzip.org#$#.download_dem { display: block!important; }
@@ -26245,7 +26242,6 @@ thecustomrom.com##+js(adjust-setTimeout, window.location.href, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/161053
 165.22.246.130##+js(nano-setInterval-booster, /wpsafe|wait|timer/, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160927
-
 vstdrive.in##+js(nano-setInterval-booster, time--, *, 0.001)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/160924
 zeroupload.com##+js(nano-setInterval-booster, count, *, 0.001)
@@ -26584,7 +26580,6 @@ filemoon.sx##+js(nano-setInterval-booster, .download, , 0.02)
 uploadmaza.com##+js(adjust-setTimeout, Tick, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121539
 uptomega.me##+js(adjust-setTimeout, Tick, , 0.02)
-
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120819
 manga2day.com,sport4you.net##+js(set-constant, timer, 0)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/121236
@@ -26632,6 +26627,7 @@ sitecuatui.xyz,haonguyen.top##+js(nano-setInterval-booster, counter, *, 0.02)
 technicalatg.com##+js(nano-setInterval-booster, wpsafe-, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117646
 redirect.dafontvn.com##+js(nano-setInterval-booster, #countdown, , 0.02)
+
 redirect.dafontvn.com##+js(nano-setInterval-booster, progressbar, 30, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59858
 x86.co.kr##+js(set-constant, count, 0)
@@ -28026,7 +28022,6 @@ kusonime.com##+js(abort-on-property-read, mousedwn)
 kusonime.com##+js(abort-current-script, document.keypress)
 kusonime.com##+js(abort-current-script, EventTarget.prototype.addEventListener, keydown)
 emailfake.com##+js(addEventListener-defuser, copy, addLink)
-
 texte.work##+js(remove-attr, oncontextmenu|onkeydown, body)
 omgkpop.top##+js(addEventListener-defuser, /contextmenu|dragstart|keydown|keyup|keypress/, /event\.dispatch\.apply|trackEvent/)
 teepr.com##+js(abort-current-script, jQuery, document.oncontextmenu)
