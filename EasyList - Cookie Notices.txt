@@ -1,7 +1,7 @@
 ! URL: https://ublockorigin.github.io/uAssets/thirdparties/easylist-cookies.txt
 [Adblock Plus 2.0]
 ! Title: EasyList – Cookie Notices
-! Last modified: Sun, 07 Jan 2024 04:16:16 +0000
+! Last modified: Sun, 07 Jan 2024 13:21:27 +0000
 ! Expires: 7 days (update frequency)
 ! *** easylist:template_header.txt ***
 !
@@ -23850,6 +23850,12 @@ seikowatches.com$$.blk-Disclaimer
 seikowatches.com##.blk-Disclaimer
 
 !#if cap_html_filtering
+tnvacation.com##^.block-cookie-acceptance-block
+tnvacation.com$$.block-cookie-acceptance-block
+!#endif
+tnvacation.com##.block-cookie-acceptance-block
+
+!#if cap_html_filtering
 cvent.com##^.block-notifications-block
 cvent.com$$.block-notifications-block
 !#endif
@@ -24924,10 +24930,10 @@ lantower.com$$.containerv2--tracking-consent
 lantower.com##.containerv2--tracking-consent
 
 !#if cap_html_filtering
-visitflorida.com##^.contentRender_name_plugins_common_cookie_banner
-visitflorida.com$$.contentRender_name_plugins_common_cookie_banner
+gatlinburg.com,visitflorida.com##^.contentRender_name_plugins_common_cookie_banner
+gatlinburg.com,visitflorida.com$$.contentRender_name_plugins_common_cookie_banner
 !#endif
-visitflorida.com##.contentRender_name_plugins_common_cookie_banner
+gatlinburg.com,visitflorida.com##.contentRender_name_plugins_common_cookie_banner
 
 !#if cap_html_filtering
 chucklingcheese.co.uk##^.cookie-accept-bar-v2
