@@ -1,11 +1,11 @@
 ! URL: https://filters.adtidy.org/extension/ublock/filters/21.txt
 ![Adblock Plus 2.0]
-! Checksum: FzS9ucxiZOQwTNmE0xFOWQ
-! Diff-Path: ../patches/21/21-s-1704494162-3600.patch
+! Checksum: qz5t1QBZ9vjdYNF62bNU0g
+! Diff-Path: ../patches/21/21-s-1704573377-3600.patch
 ! Title: AdGuard Other Annoyances filter
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.18.40
-! TimeUpdated: 2024-01-05T22:32:21+00:00
+! Version: 2.0.18.41
+! TimeUpdated: 2024-01-06T20:32:29+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -15478,6 +15478,7 @@ theguardian.com##.contributions__adblock
 !
 ! SECTION: Self-promo - Regular rules
 !
+||special.pikabu.ru/*/embed/
 !#if cap_html_filtering
 dlsoft.dmm.co.jp##^.dmm-c-banner-tags
 dlsoft.dmm.co.jp$$.dmm-c-banner-tags
@@ -20306,6 +20307,7 @@ mein-gartenexperte.de$$div[id^="flowin-exit"]
 !#endif
 mein-gartenexperte.de##div[id^="flowin-exit"]
 
+
 !#if cap_html_filtering
 indianexpress.com##^.premium-story
 indianexpress.com$$.premium-story
@@ -21008,7 +21010,6 @@ wacul-ai.com$$.single__contents-banner_bottom
 !#endif
 wacul-ai.com##.single__contents-banner_bottom
 
-
 !#if cap_html_filtering
 my-best.com##^.l-footer__bnr
 my-best.com$$.l-footer__bnr
@@ -21366,7 +21367,6 @@ doremizone.com##^a[id^="headerAd"]
 doremizone.com$$a[id^="headerAd"]
 !#endif
 doremizone.com##a[id^="headerAd"]
-
 
 !#if cap_html_filtering
 minitool.com##^a[href^="https://videoconvert.minitool.com/"][onclick^="gtag("]
@@ -25297,7 +25297,6 @@ facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#$#.s
 ! m.facebook.com#$#div { -moz-user-select: text !important; -webkit-user-select: text !important; }
 m.facebook.com#$#div[data-type] { -moz-user-select: text !important; -webkit-user-select: text !important; }
 m.facebook.com#$#div[dir="auto"] { -moz-user-select: text !important; -webkit-user-select: text !important; }
-
 m.facebook.com#$#.touch a[href*="story.php"] { position: relative !important; }
 m.facebook.com#$#div[dir="auto"] > span { -moz-user-select: text !important; -webkit-user-select: text !important; }
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115570
@@ -25597,6 +25596,7 @@ yokugames.com#$##downloadbtn { display: block !important; }
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/97768
 tomshardware.com#$#.xenforo-comment-widget { height: auto !important; }
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/98371
 !#if cap_html_filtering
 garutexpress.id#$##^wpsafe-link { display: block !important; }
@@ -26487,6 +26487,7 @@ fmmods.com##+js(abort-current-script, document.createElement, counter.toString)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/132493
 listas.pro##+js(nano-setInterval-booster, counter, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131962
+
 kinemaster.cc##+js(adjust-setTimeout, /_0x|gotoo/, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/131583
 userload.co##+js(nano-setInterval-booster, secondsleft, *, 0.02)
@@ -26627,7 +26628,6 @@ sitecuatui.xyz,haonguyen.top##+js(nano-setInterval-booster, counter, *, 0.02)
 technicalatg.com##+js(nano-setInterval-booster, wpsafe-, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/117646
 redirect.dafontvn.com##+js(nano-setInterval-booster, #countdown, , 0.02)
-
 redirect.dafontvn.com##+js(nano-setInterval-booster, progressbar, 30, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/59858
 x86.co.kr##+js(set-constant, count, 0)
@@ -26770,6 +26770,7 @@ ac-illust.com,photo-ac.com##+js(set-constant, enable_dl_after_countdown, true)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104640
 appsmodz.com##+js(nano-setInterval-booster, startChecking, *, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104500
+
 filessrc.com,srcimdb.com##+js(nano-setInterval-booster, counter--, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/104336
 ! https://github.com/AdguardTeam/AdguardFilters/issues/105185
@@ -26869,6 +26870,7 @@ file.bospedia.com##+js(nano-setInterval-booster, Link, 550, 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95475
 fdocuments.in##+js(adjust-setTimeout, waitting_download, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95561
+
 animeuploader.com##+js(nano-setInterval-booster, mdtimer, , 0.02)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/95485
 tgsup.group##+js(adjust-setTimeout, CountBack, 990, 0.02)
@@ -27920,6 +27922,7 @@ inveglo.tistory.com#$$$waiting { display: none !important; }
 inveglo.tistory.com#$##waiting { display: none !important; }
 
 blog.naver.com##+js(set-constant, rightClickOpenYn, false)
+
 blog.naver.com##+js(set-constant, autoSourcingYn, false)
 r114.com##+js(addEventListener-defuser, selectstart)
 tezgoal.com##+js(abort-current-script, validateKey)
