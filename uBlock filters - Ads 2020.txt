@@ -4808,46 +4808,6 @@ androidtunado.com.br##+js(nosiif, visibility, 1000)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/64978
 wristreview.com##+js(aopw, ai_front)
 
-! https://github.com/AdguardTeam/AdguardFilters/issues/64979
-bitfly.io##+js(acs, addEventListener, nextFunction)
-bitfly.io##+js(aopr, app_vars.force_disable_adblock)
-bitfly.io##+js(aopr, open)
-bitfly.io##+js(noeval)
-bitfly.io##+js(set, blurred, false)
-!#if cap_html_filtering
-bitfly.io##^.banner
-bitfly.io$$.banner
-!#endif
-bitfly.io##.banner
-
-!#if cap_html_filtering
-bitfly.io##^.skip-ads
-bitfly.io$$.skip-ads
-!#endif
-bitfly.io##.skip-ads
-
-!#if cap_html_filtering
-bitfly.io##^#link-view > [href][target="_blank"]
-bitfly.io$$#link-view > [href][target="_blank"]
-!#endif
-bitfly.io###link-view > [href][target="_blank"]
-
-!#if cap_html_filtering
-bitfly.io##^#overlay
-bitfly.io$$#overlay
-!#endif
-bitfly.io###overlay
-
-!#if cap_html_filtering
-bitfly.io##^a[href][target="_blank"] > img
-bitfly.io$$a[href][target="_blank"] > img
-!#endif
-bitfly.io##a[href][target="_blank"] > img
-
-||bitfly.io/sw.js$script,1p
-*$image,redirect-rule=32x32.png,domain=bitfly.io
-*$frame,script,3p,denyallow=google.com|gstatic.com|recaptcha.net,domain=bitfly.io
-
 ! https://github.com/uBlockOrigin/uAssets/issues/7998
 standardmedia.co.ke##+js(aopr, canRunAds)
 
@@ -4858,17 +4818,6 @@ downloadrepack.com##^#footer-widgets > .container-inner > .group.hu-pad
 downloadrepack.com$$#footer-widgets > .container-inner > .group.hu-pad
 !#endif
 downloadrepack.com###footer-widgets > .container-inner > .group.hu-pad
-
-
-! https://www.reddit.com/r/uBlockOrigin/comments/j51md6/annoying_popup_embeded_in_stream/
-hdstreamss.club##+js(aeld, , 0x)
-hdstreamss.club##+js(aopr, LieDetector)
-hdstreamss.club##+js(aopr, open)
-!#if cap_html_filtering
-hdstreamss.club##^[href^="http://www.streamshd.club/"]
-hdstreamss.club$$[href^="http://www.streamshd.club/"]
-!#endif
-hdstreamss.club##[href^="http://www.streamshd.club/"]
 
 
 ! https://github.com/uBlockOrigin/uAssets/issues/8001
@@ -4991,18 +4940,6 @@ epidemia-koronawirus.pl##^.sgpb-popup-overlay
 epidemia-koronawirus.pl$$.sgpb-popup-overlay
 !#endif
 epidemia-koronawirus.pl##.sgpb-popup-overlay
-
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/65379
-*$script,redirect-rule=noopjs,domain=danc.uk
-danc.uk##+js(noeval-if, fab_alert)
-danc.uk##+js(aopr, app_vars.force_disable_adblock)
-danc.uk##+js(aopr, open)
-!#if cap_html_filtering
-danc.uk##^[href^="https://inidekil.com"]
-danc.uk$$[href^="https://inidekil.com"]
-!#endif
-danc.uk##[href^="https://inidekil.com"]
 
 
 ! https://github.com/NanoMeow/QuickReports/issues/4812
@@ -5139,17 +5076,6 @@ shrinkhere.xyz##+js(aopr, app_vars.force_disable_adblock)
 ! https://github.com/uBlockOrigin/uAssets/issues/8042
 javfull.net##+js(nosiif, _0x)
 javfull.net###wrapfabtest:style(height:1px !important;width:1px !important)
-
-! javout.co in-player ads, popup
-javout.co##+js(aeld, getexoloader)
-||javout.net/fo6.js
-||javout.net/videojs/anyhtm2.js
-!#if cap_html_filtering
-javout.co##^#custom_html-2
-javout.co$$#custom_html-2
-!#endif
-javout.co###custom_html-2
-
 
 ! nsfw xxgasm .com popups ads
 xxgasm.com##+js(aopr, decodeURI)
