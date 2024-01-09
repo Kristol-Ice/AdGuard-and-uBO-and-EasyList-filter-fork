@@ -1,11 +1,11 @@
 ! URL: https://filters.adtidy.org/extension/ublock/filters/19.txt
 ![Adblock Plus 2.0]
-! Checksum: b84wWqMG6XiDsg3sZTUjXA
-! Diff-Path: ../patches/19/19-s-1704569780-3600.patch
+! Checksum: oICfGdNWchDDNikDBxY01Q
+! Diff-Path: ../patches/19/19-s-1704749769-3600.patch
 ! Title: AdGuard Popups filter
 ! Description: Blocks all kinds of pop-ups that are not necessary for websites' operation according to our Filter policy.
-! Version: 2.0.29.57
-! TimeUpdated: 2024-01-06T19:32:25+00:00
+! Version: 2.0.29.62
+! TimeUpdated: 2024-01-08T21:32:06+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -34823,6 +34823,8 @@ auto.ru#?#body > div:has(> div.Modal > div.Modal__container > div[class*="Admins
 !
 ! END: Yandex
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/169531#issuecomment-1877526044
+||smetrics.telegraph.co.uk^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166762#issuecomment-1820750011
 ! https://github.com/AdguardTeam/AdguardFilters/issues/155513
 !+ PLATFORM(ext_ublock)
@@ -34952,13 +34954,13 @@ roscontrol.com#$#html { overflow: auto!important; }
 ! NOTE[id=sharingcaring]: 'Sharing is caring' popup
 ! LINK: SocialFilter/sections/popups.txt#sharingcaring
 ! Sync with the rules in Social filter
-moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#body { overflow: auto !important; padding-right: 0 !important; }
-moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#.modal-backdrop { display: none !important; }
+primewire.mx,moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#body { overflow: auto !important; padding-right: 0 !important; }
+primewire.mx,moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$#.modal-backdrop { display: none !important; }
 !#if cap_html_filtering
-moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$##^modalshare { display: none !important; }
-moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$$$modalshare { display: none !important; }
+primewire.mx,moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$##^modalshare { display: none !important; }
+primewire.mx,moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$$$modalshare { display: none !important; }
 !#endif
-moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$##modalshare { display: none !important; }
+primewire.mx,moviesjoyhd.to,fmoviesz.to,123moviesto.pw,123movieshd.top,ev01.cc,myflixerz.to,zoechip.cc,ev01.sx,123moviesgo.ac,tinyzonetv.se,showboxmovies.net,gomovies.sx,himovies.sx,putlocker.gy,zoechip.com,dopebox.se,pressplay.top,flixhd.cc,bflix.gg,moviestowatch.tv,123moviestv.net,123-movies.vc,attacker.tv,movie4kto.net,theflixer.tv,sflix.se,2kmovie.cc,musichq.net,swatchseries.*,1movieshd.com,fmoviesto.*,solarmovie.pe,cineb.rs,myflixerhd.ru,hdtoday.*,yesmovies.mn,divicast.com,seriestv.watch,freemoviesfull.com,dopebox.to,fmovies.hn,fmovies.*,sflix.to,myflixer.to,movies2watch.tv,ev01.to,ummagurau.com,6movies.net,tinyzonetv.to,myflixertv.to,f2movies.to,moviesjoy.*,moviesjoy.*,myflixerhd.ru,soap2day.*,solarmovie.pe,cineb.net#$##modalshare { display: none !important; }
 
 !
 ! https://github.com/uBlockOrigin/uAssets/issues/15883
@@ -35091,6 +35093,7 @@ medium.com##.screenContent > .u-zIndexMetabar
 
 medium.com#$#html { overflow-y: visible!important; }
 !
+
 !#if cap_html_filtering
 codeburst.io##^#lo-meter-banner-background-color
 codeburst.io$$#lo-meter-banner-background-color
@@ -36157,6 +36160,7 @@ epaper.thehindu.com,h5.g123.jp,accounts.binance.com,zlavomat.sk,id.rambler.ru,pi
 .name/?pus=$script,third-party
 .site/?pus=$script,third-party
 !
+||pushouse.com^$third-party
 ||dpns-notifications.com^
 ||cdn-server.live^$third-party
 ||potisni.me^$third-party
@@ -37253,6 +37257,7 @@ sport24.ua,24tv.ua$$app-notification-popup
 !#endif
 sport24.ua,24tv.ua##app-notification-popup
 
+
 !#if cap_html_filtering
 insider.com##^.notification-prompt-wrapper
 insider.com$$.notification-prompt-wrapper
@@ -37479,7 +37484,6 @@ flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motor
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com$$#notifications-alert-wrapper
 !#endif
 flashscore.*,horseracing24.com,darts24.com,handball24.com,volleyball24.com,motorsport24.com,golflive24.com,baseball24.com,cricket24.com,icehockey24.com,basketball24.com,tennis24.com,diretta.it,livescore.in,soccer24.com,soccerstand.com,livesport.com,scoreboard.com###notifications-alert-wrapper
-
 
 ||sport.ru/app/web/push.js
 ||cdn.lentainform.com/js/push/subscribe.js
@@ -37718,7 +37722,6 @@ news.biglobe.ne.jp##^.push-area-btn
 news.biglobe.ne.jp$$.push-area-btn
 !#endif
 news.biglobe.ne.jp##.push-area-btn
-
 
 !#if cap_html_filtering
 news.biglobe.ne.jp##^.push-bx
@@ -38615,6 +38618,7 @@ m.gadgetsnow.com##^.ntfc_popup.notify_alert
 m.gadgetsnow.com$$.ntfc_popup.notify_alert
 !#endif
 m.gadgetsnow.com##.ntfc_popup.notify_alert
+
 
 !#if cap_html_filtering
 starhit.ru,championat.com##^.push-popup
@@ -41225,6 +41229,7 @@ trafficcardinal.com##.footer-block_form
 dailyvoice.com#$?#body > div.b-dialog:has(> div.m-email-unsubscribe-modal) { display: none !important; }
 dailyvoice.com#$#body { overflow: auto !important; }
 ||static.ctctcdn.com/js/signup-form-widget/current/signup-form-widget.min.js
+
 !#if cap_html_filtering
 news-gazette.com#?##^tncms-region-global-side-secondary > .tncms-block:contains(News in your Inbox)
 news-gazette.com#?$$tncms-region-global-side-secondary > .tncms-block:contains(News in your Inbox)
@@ -43151,6 +43156,7 @@ cosmopolitan.fr$$.NewsletterBox
 !#endif
 cosmopolitan.fr##.NewsletterBox
 
+
 !#if cap_html_filtering
 loom.com##^div[class^="signup-overlay_card_"]
 loom.com$$div[class^="signup-overlay_card_"]
@@ -43175,7 +43181,6 @@ blogs.webmd.com##^.blogs-basenewsletter
 blogs.webmd.com$$.blogs-basenewsletter
 !#endif
 blogs.webmd.com##.blogs-basenewsletter
-
 
 !#if cap_html_filtering
 yapokupayu.ru##^.js-floating-banner
@@ -43744,7 +43749,6 @@ lifo.gr##^#newsletter_form_rep
 lifo.gr$$#newsletter_form_rep
 !#endif
 lifo.gr###newsletter_form_rep
-
 
 !#if cap_html_filtering
 lequipe.fr##^.stickyBanner
@@ -44338,6 +44342,7 @@ theinformation.com$$#read-this-article-banner-container-hero
 !#endif
 theinformation.com###read-this-article-banner-container-hero
 
+
 glavred.info#?#.newsfeed > div.newsfeed__item:has(> div.newsfeed__tg)
 !#if cap_html_filtering
 nbcnewyork.com##^section[id^="nbc_newsletter"]
@@ -44664,7 +44669,6 @@ tproger.ru##^.widget-telegram-feed__type-sobesyabr
 tproger.ru$$.widget-telegram-feed__type-sobesyabr
 !#endif
 tproger.ru##.widget-telegram-feed__type-sobesyabr
-
 
 !#if cap_html_filtering
 sportskeeda.com##^.follow-action
@@ -47372,6 +47376,7 @@ tvtonight.com.au$$#footer_subscribe
 !#endif
 tvtonight.com.au###footer_subscribe
 
+
 smartpress.by#?#.art-content > div:has(> a.subscribe_btn)
 !#if cap_html_filtering
 levif.be##^.c-subscribe-block
@@ -48212,7 +48217,6 @@ news.mydrivers.com$$#news_guanzhu
 !#endif
 news.mydrivers.com###news_guanzhu
 
-
 !#if cap_html_filtering
 part.shufu-job.jp##^.footerResistBanner
 part.shufu-job.jp$$.footerResistBanner
@@ -48243,6 +48247,7 @@ linktr.ee##^div[data-testid="SubscribeCta"]
 linktr.ee$$div[data-testid="SubscribeCta"]
 !#endif
 linktr.ee##div[data-testid="SubscribeCta"]
+
 
 !#if cap_html_filtering
 linktr.ee##^div[data-testid="TopBar"]
@@ -49798,7 +49803,6 @@ novinhastop.com$$.telegram-call-to-action
 !#endif
 novinhastop.com##.telegram-call-to-action
 
-
 !#if cap_html_filtering
 apptractor.ru##^#custom_html-30
 apptractor.ru$$#custom_html-30
@@ -50168,7 +50172,6 @@ news.finance.ua##^div[aria-label*="subscription"]
 news.finance.ua$$div[aria-label*="subscription"]
 !#endif
 news.finance.ua##div[aria-label*="subscription"]
-
 
 !#if cap_html_filtering
 root-nation.com##^.widget_easysocialbuttons
@@ -50767,7 +50770,6 @@ inews.zoombangla.com$$.code-block + div[class]:has(> blockquote > strong > a[hre
 !#endif
 inews.zoombangla.com##.code-block + div[class]:has(> blockquote > strong > a[href^="https://news.google.com/publications/"])
 
-
 !#if cap_html_filtering
 mvdmedia.ru##^.sharing + div[style^="margin-bottom:"]
 mvdmedia.ru$$.sharing + div[style^="margin-bottom:"]
@@ -51127,6 +51129,7 @@ androidinsider.ru##^a[href="https://zen.yandex.ru/androidinsider.ru"]
 androidinsider.ru$$a[href="https://zen.yandex.ru/androidinsider.ru"]
 !#endif
 androidinsider.ru##a[href="https://zen.yandex.ru/androidinsider.ru"]
+
 
 !#if cap_html_filtering
 maidenhead-advertiser.co.uk##^#popuptest
@@ -53154,6 +53157,7 @@ semnasem.org##^.article__footer-row-tags-subscription-form
 semnasem.org$$.article__footer-row-tags-subscription-form
 !#endif
 semnasem.org##.article__footer-row-tags-subscription-form
+
 
 !#if cap_html_filtering
 semnasem.org##^.article__footer-row-rating-social-share + div.article__footer-row-delimiter
@@ -60167,7 +60171,6 @@ opentools.ai,edureka.co,damemagazine.com$$.newsletter_section
 !#endif
 opentools.ai,edureka.co,damemagazine.com##.newsletter_section
 
-
 foxsports.com#?#.tune-in-list > li.tune-in-item:has(> div[class] > div[class] > div:contains(Newsletter))
 !#if cap_html_filtering
 blackbelt.analyticsvidhya.com##^#main-popup-Modal
@@ -62293,7 +62296,6 @@ theregister.com#?$$index_page > .srow > .faux-article > .newsletter_signup_unit:
 !#endif
 theregister.com#?##index_page > .srow > .faux-article > .newsletter_signup_unit:upward(1)
 
-
 !#if cap_html_filtering
 lvz.de,sn-online.de,goettinger-tageblatt.de,waz-online.de,maz-online.de,ostsee-zeitung.de,dnn.de,ln-online.de,neuepresse.de,haz.de##^.pdb-newsletter
 lvz.de,sn-online.de,goettinger-tageblatt.de,waz-online.de,maz-online.de,ostsee-zeitung.de,dnn.de,ln-online.de,neuepresse.de,haz.de$$.pdb-newsletter
@@ -62667,7 +62669,6 @@ rockstargames.su$$#wpdiscuz_hidden_secondary_form
 !#endif
 rockstargames.su###wpdiscuz_hidden_secondary_form
 
-
 !#if cap_html_filtering
 rockstargames.su##^.zenlink
 rockstargames.su$$.zenlink
@@ -62922,7 +62923,6 @@ washingtonpost.com##div[data-qa="newsletter"]
 300gospodarka.pl$$#mc4wp-form-1[data-name*="newsletter"]
 !#endif
 300gospodarka.pl###mc4wp-form-1[data-name*="newsletter"]
-
 
 !#if cap_html_filtering
 pets.mail.ru##^.root-block-for-BlockSubscription
@@ -64723,6 +64723,7 @@ playboyrussia.com$$.sidebar-panel > form[id^="form-subscribe_"]
 !#endif
 playboyrussia.com##.sidebar-panel > form[id^="form-subscribe_"]
 
+
 !#if cap_html_filtering
 latimes.com##^.NewsletterModule
 latimes.com$$.NewsletterModule
@@ -64740,7 +64741,6 @@ technologywindow.com##^.widget_feedburnerformwidget
 technologywindow.com$$.widget_feedburnerformwidget
 !#endif
 technologywindow.com##.widget_feedburnerformwidget
-
 
 !#if cap_html_filtering
 marinij.com##^iframe[src^="https://apps.mercurynews.com/newsletters-signup/"]
@@ -65805,6 +65805,7 @@ hollywoodreporter.com$$.email-subscribe-holder
 !#endif
 hollywoodreporter.com##.email-subscribe-holder
 
+
 !#if cap_html_filtering
 remontka.pro##^.rem-linkdiv + aside > div.uk-panel-box-primary
 remontka.pro$$.rem-linkdiv + aside > div.uk-panel-box-primary
@@ -65871,6 +65872,7 @@ portativ.ua##^.yt-channel-container
 portativ.ua$$.yt-channel-container
 !#endif
 portativ.ua##.yt-channel-container
+
 
 !#if cap_html_filtering
 vc.ru,dtf.ru##^.email_subscribe
@@ -66522,6 +66524,7 @@ muyinteresante.es$$#content_newsletter
 !#endif
 muyinteresante.es###content_newsletter
 
+
 !#if cap_html_filtering
 bournemouthecho.co.uk##^#cta1
 bournemouthecho.co.uk$$#cta1
@@ -66623,7 +66626,6 @@ patch.com##^#in-article-sub-button
 patch.com$$#in-article-sub-button
 !#endif
 patch.com###in-article-sub-button
-
 
 !#if cap_html_filtering
 audiofanzine.com##^#index-newsletter
@@ -66984,7 +66986,6 @@ iguides.ru##^#sender-subscribe
 iguides.ru$$#sender-subscribe
 !#endif
 iguides.ru###sender-subscribe
-
 
 !#if cap_html_filtering
 sport-express.ru##^#sendsay_form
@@ -68552,6 +68553,7 @@ motorpage.ru$$.news-subscr
 !#endif
 motorpage.ru##.news-subscr
 
+
 !#if cap_html_filtering
 pravda.ru,wmtransfer.com,news.ru,ain.ua##^.news-subscribe
 pravda.ru,wmtransfer.com,news.ru,ain.ua$$.news-subscribe
@@ -69368,7 +69370,6 @@ buyon.ru$$.subscribe-b
 !#endif
 buyon.ru##.subscribe-b
 
-
 !#if cap_html_filtering
 rabota.ru##^.subscribe-block__inner
 rabota.ru$$.subscribe-block__inner
@@ -69681,6 +69682,7 @@ m.pln24.ru,freesoft.ru$$.telegramim_button
 !#endif
 m.pln24.ru,freesoft.ru##.telegramim_button
 
+
 !#if cap_html_filtering
 detstrana.ru##^.tell_friends_subscription
 detstrana.ru$$.tell_friends_subscription
@@ -69740,6 +69742,7 @@ tageskarte.io##^.tx-registeraddress
 tageskarte.io$$.tx-registeraddress
 !#endif
 tageskarte.io##.tx-registeraddress
+
 
 !#if cap_html_filtering
 dtf.ru,vc.ru##^.vacancies_widget
